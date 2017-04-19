@@ -1,0 +1,12 @@
+[running at reduced cpu priority]
+Job ModelCatalyst-8BindtoN-4-TS-fine-grid-uf-acc-sol started on tethys at Fri Jan 27 20:52:22 2017
+jobid: tethys-0-588bb305 
+Jaguar version 8.4, release  16
+Molecular Point Group: C1      
+Point Group used: C1
+pre (input checking) done.
+onee (1-electron integrals) done.
+hfig (HF initial guess) done.
+probe (project orbitals) done.
+Received termination signal at Fri Jan 27 20:53:36 2017
+Job ModelCatalyst-8BindtoN-4-TS-fine-grid-uf-acc-sol halted prematurely on tethys at Fri Jan 27 20:53:36 2017
