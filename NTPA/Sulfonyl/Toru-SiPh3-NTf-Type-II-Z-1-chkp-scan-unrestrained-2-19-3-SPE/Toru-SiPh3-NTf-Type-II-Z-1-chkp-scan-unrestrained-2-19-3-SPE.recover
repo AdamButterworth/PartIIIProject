@@ -1,0 +1,9 @@
+Name: Toru-SiPh3-NTf-Type-II-Z-1-chkp-scan-unrestrained-2-19-3-SPE
+JobId: tethys-0-58c81a73
+Commandline: /usr/local/shared/schrodinger/current/jaguar run -jobname=Toru-SiPh3-NTf-Type-II-Z-1-chkp-scan-unrestrained-2-19-3-SPE Toru-SiPh3-NTf-Type-II-Z-1-chkp-scan-unrestrained-2-19-3-SPE.in -HOST localhost:1 -PROJ "/home/ab2144/Toru Files/Toru-Catalyst-Conformation_new.prj" -DISP append -VIEWNAME jaguar_gui_dir.single_point_energy.SinglePointEnergy -TMPLAUNCHDIR -ATTACHED
+Outfiles:
+- Toru-SiPh3-NTf-Type-II-Z-1-chkp-scan-unrestrained-2-19-3-SPE.01.in
+- Toru-SiPh3-NTf-Type-II-Z-1-chkp-scan-unrestrained-2-19-3-SPE.out
+- Toru-SiPh3-NTf-Type-II-Z-1-chkp-scan-unrestrained-2-19-3-SPE.recover
+- Toru-SiPh3-NTf-Type-II-Z-1-chkp-scan-unrestrained-2-19-3-SPE.log
+- Toru-SiPh3-NTf-Type-II-Z-1-chkp-scan-unrestrained-2-19-3-SPE.01.mae

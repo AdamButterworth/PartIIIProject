@@ -1,0 +1,35 @@
+Command:    jaguar run jexec.py -jobname Toru-SiPh3-NTf-Type-I-E-Sulfonyl-5-scan-unrestrained-SPE -nsubjobs 1 Toru-SiPh3-NTf-Type-I-E-Sulfonyl-5-scan-unrestrained-SPE.in
+[running at reduced cpu priority]
+Release:    2017-1
+Exec:       /usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64
+Host:       tethys
+JobId:      tethys-0-58b41c28
+JobDir:     /scratch/ab2144/Toru-SiPh3-NTf-Type-I-E-Sulfonyl-5-scan-unrestrained-SPE
+Date:       Mon Feb 27 12:31:41 2017
+
+Contents of /scratch/ab2144/Toru-SiPh3-NTf-Type-I-E-Sulfonyl-5-scan-unrestrained-SPE:
+/scratch/ab2144/Toru-SiPh3-NTf-Type-I-E-Sulfonyl-5-scan-unrestrained-SPE/Toru-SiPh3-NTf-Type-I-E-Sulfonyl-5-scan-unrestrained-SPE.log
+/scratch/ab2144/Toru-SiPh3-NTf-Type-I-E-Sulfonyl-5-scan-unrestrained-SPE/tethys-0-58b41c28.nodes
+/scratch/ab2144/Toru-SiPh3-NTf-Type-I-E-Sulfonyl-5-scan-unrestrained-SPE/Toru-SiPh3-NTf-Type-I-E-Sulfonyl-5-scan-unrestrained-SPE.in
+/scratch/ab2144/Toru-SiPh3-NTf-Type-I-E-Sulfonyl-5-scan-unrestrained-SPE/Toru-SiPh3-NTf-Type-I-E-Sulfonyl-5-scan-unrestrained-SPE.recover
+/scratch/ab2144/Toru-SiPh3-NTf-Type-I-E-Sulfonyl-5-scan-unrestrained-SPE/Toru-SiPh3-NTf-Type-I-E-Sulfonyl-5-scan-unrestrained-SPE.mae
+/scratch/ab2144/Toru-SiPh3-NTf-Type-I-E-Sulfonyl-5-scan-unrestrained-SPE/tethys-0-58b41c28.recover
+/scratch/ab2144/Toru-SiPh3-NTf-Type-I-E-Sulfonyl-5-scan-unrestrained-SPE/tethys-0-58b41c28
+
+Executing subprocess:
+/usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64/jexec Toru-SiPh3-NTf-Type-I-E-Sulfonyl-5-scan-unrestrained-SPE.in -cwd -out /scratch/ab2144/Toru-SiPh3-NTf-Type-I-E-Sulfonyl-5-scan-unrestrained-SPE
+
+[running at reduced cpu priority]
+[running at reduced cpu priority]
+Job Toru-SiPh3-NTf-Type-I-E-Sulfonyl-5-scan-unrestrained-SPE started on tethys at Mon Feb 27 12:31:41 2017
+jobid: tethys-0-58b41c28 
+Jaguar version 9.5, release  11
+Molecular Point Group: C1      
+Point Group used: C1
+pre (input checking) done.
+onee (1-electron integrals) done.
+hfig (HF initial guess) done.
+** Stopping job prematurely at user request **
+Job Toru-SiPh3-NTf-Type-I-E-Sulfonyl-5-scan-unrestrained-SPE halted prematurely on tethys at Mon Feb 27 12:32:02 2017
+Timer (jaguar_backend.py) : 20.92 secs
+Finished:   Mon Feb 27 12:32:02 2017

@@ -1,0 +1,9 @@
+Name: Toru-NTf-Sulfonyl-1-chkp-unrestrained-IRC-min-disp-SPE
+JobId: tethys-0-58d522e7
+Commandline: /usr/local/shared/schrodinger/current/jaguar run -jobname=Toru-NTf-Sulfonyl-1-chkp-unrestrained-IRC-min-disp-SPE Toru-NTf-Sulfonyl-1-chkp-unrestrained-IRC-min-disp-SPE.in -HOST localhost:1 -PROJ "/home/ab2144/Toru Files/Toru-Catalyst-Conformation_new.prj" -DISP append -VIEWNAME jaguar_gui_dir.single_point_energy.SinglePointEnergy -TMPLAUNCHDIR -ATTACHED
+Outfiles:
+- Toru-NTf-Sulfonyl-1-chkp-unrestrained-IRC-min-disp-SPE.out
+- Toru-NTf-Sulfonyl-1-chkp-unrestrained-IRC-min-disp-SPE.01.in
+- Toru-NTf-Sulfonyl-1-chkp-unrestrained-IRC-min-disp-SPE.recover
+- Toru-NTf-Sulfonyl-1-chkp-unrestrained-IRC-min-disp-SPE.log
+- Toru-NTf-Sulfonyl-1-chkp-unrestrained-IRC-min-disp-SPE.01.mae

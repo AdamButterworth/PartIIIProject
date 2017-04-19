@@ -1,0 +1,9 @@
+Name: Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-IRC-max-disp-SPE
+JobId: tethys-0-58c81a4d
+Commandline: /usr/local/shared/schrodinger/current/jaguar run -jobname=Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-IRC-max-disp-SPE Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-IRC-max-disp-SPE.in -HOST localhost:1 -PROJ "/home/ab2144/Toru Files/Toru-Catalyst-Conformation_new.prj" -DISP append -VIEWNAME jaguar_gui_dir.single_point_energy.SinglePointEnergy -TMPLAUNCHDIR -ATTACHED
+Outfiles:
+- Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-IRC-max-disp-SPE.01.in
+- Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-IRC-max-disp-SPE.01.mae
+- Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-IRC-max-disp-SPE.recover
+- Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-IRC-max-disp-SPE.log
+- Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-IRC-max-disp-SPE.out

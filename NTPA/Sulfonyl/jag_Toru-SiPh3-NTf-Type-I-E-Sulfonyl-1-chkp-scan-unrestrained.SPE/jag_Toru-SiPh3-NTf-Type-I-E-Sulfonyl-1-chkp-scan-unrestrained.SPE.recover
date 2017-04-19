@@ -1,0 +1,9 @@
+Name: jag_Toru-SiPh3-NTf-Type-I-E-Sulfonyl-1-chkp-scan-unrestrained.SPE
+JobId: tethys-0-58aee507
+Commandline: /usr/local/shared/schrodinger/current/jaguar run -jobname=jag_Toru-SiPh3-NTf-Type-I-E-Sulfonyl-1-chkp-scan-unrestrained.SPE jag_Toru-SiPh3-NTf-Type-I-E-Sulfonyl-1-chkp-scan-unrestrained.SPE.in -HOST localhost:1 -PROJ /home/ab2144/Toru-Catalyst-Conformation_new.prj -DISP append -VIEWNAME jaguar_gui_dir.single_point_energy.SinglePointEnergy -TMPLAUNCHDIR -ATTACHED
+Outfiles:
+- jag_Toru-SiPh3-NTf-Type-I-E-Sulfonyl-1-chkp-scan-unrestrained.SPE.01.in
+- jag_Toru-SiPh3-NTf-Type-I-E-Sulfonyl-1-chkp-scan-unrestrained.SPE.01.mae
+- jag_Toru-SiPh3-NTf-Type-I-E-Sulfonyl-1-chkp-scan-unrestrained.SPE.recover
+- jag_Toru-SiPh3-NTf-Type-I-E-Sulfonyl-1-chkp-scan-unrestrained.SPE.log
+- jag_Toru-SiPh3-NTf-Type-I-E-Sulfonyl-1-chkp-scan-unrestrained.SPE.out

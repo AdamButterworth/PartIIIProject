@@ -1,0 +1,57 @@
+[running at reduced cpu priority]
+
+JobId: tethys-0-588f2484
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       2
+Max retries per job:  0
+Max allowed failures: unlimited
+Run with -LOCAL:      False
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 1 | launched  tethys-0-588f248b ModelCatalyst-10Sulfonyl-2-TS-fine-grid-uf-acc-sol_1_co localhost [tethys]
+1 0 1 | finished  tethys-0-588f248b ModelCatalyst-10Sulfonyl-2-TS-fine-grid-uf-acc-sol_1_co localhost [tethys]
+1 1 0 | launched  tethys-0-588f249f ModelCatalyst-10Sulfonyl-2-TS-fine-grid-uf-acc-sol_2_co localhost [tethys]
+2 0 0 | finished  tethys-0-588f249f ModelCatalyst-10Sulfonyl-2-TS-fine-grid-uf-acc-sol_2_co localhost [tethys]
+
+All jobs are done.
+
+
+JobId: tethys-0-588f2484
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       2
+Max retries per job:  0
+Max allowed failures: unlimited
+Run with -LOCAL:      False
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 1 | launched  tethys-0-588f24b3 ModelCatalyst-10Sulfonyl-2-TS-fine-grid-uf-acc-sol_1 localhost [tethys]
+1 0 1 | finished  tethys-0-588f24b3 ModelCatalyst-10Sulfonyl-2-TS-fine-grid-uf-acc-sol_1 localhost [tethys]
+1 1 0 | launched  tethys-0-588f6459 ModelCatalyst-10Sulfonyl-2-TS-fine-grid-uf-acc-sol_2 localhost [tethys]
+2 0 0 | finished  tethys-0-588f6459 ModelCatalyst-10Sulfonyl-2-TS-fine-grid-uf-acc-sol_2 localhost [tethys]
+
+All jobs are done.
+

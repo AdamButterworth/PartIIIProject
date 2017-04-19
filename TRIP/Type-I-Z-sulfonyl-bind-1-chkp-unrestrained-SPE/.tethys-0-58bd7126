@@ -1,0 +1,66 @@
+filesize: 4067
+JobId: tethys-0-58bd7126
+Name: Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE
+Program: Jaguar
+Project: /home/ab2144/Toru-Catalyst-Conformation_new.prj
+Processors: 1
+ViewName: jaguar_gui_dir.single_point_energy.SinglePointEnergy
+OrigLaunchHost: tethys.ch.private.cam.ac.uk
+OrigLaunchDir: /home/ab2144/Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE
+Host: tethys.ch.private.cam.ac.uk
+User: ab2144
+Dir: /home/ab2144/Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE
+HostsFile: /usr/local/shared/schrodinger/current/schrodinger.hosts
+HostEntry: localhost
+Commandline: /usr/local/shared/schrodinger/current/jaguar run -jobname=Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE.in -HOST localhost:1 -PROJ /home/ab2144/Toru-Catalyst-Conformation_new.prj -DISP append -VIEWNAME jaguar_gui_dir.single_point_energy.SinglePointEnergy -TMPLAUNCHDIR -ATTACHED
+MmshareExec: /usr/local/shared/schrodinger/current/mmshare-v3.7/bin/Linux-x86_64
+JobHost: tethys.ch.private.cam.ac.uk
+JobUser: ab2144
+JobDir: :tmpdir:
+TmpDir: /scratch
+JobDB: /home/ab2144/.schrodinger/.jobdb2
+JobMmshareExec: /usr/local/shared/schrodinger/current/mmshare-v3.7/bin/Linux-x86_64
+JobPort: 46665
+JobPid: 28654
+Status: started
+LastStatus: launched
+Disposition: append
+Summary: The job directory has been created on tethys.ch.private.cam.ac.uk.
+Command: BASE64 ICIlU0NIUk9ESU5HRVIlL3J1biIgIi1GUk9NIiAiamFndWFyIiAicnVuX2phZ3Vhcl9iYWNrZW5kLnB5IiAicnVuIiAiamV4ZWMucHkiICItam9ibmFtZSIgIlR5cGUtSS1aLXN1bGZvbnlsLWJpbmQtMS1jaGtwLXVucmVzdHJhaW5lZC1TUEUiICItbnN1YmpvYnMiICIxIiAiVHlwZS1JLVotc3VsZm9ueWwtYmluZC0xLWNoa3AtdW5yZXN0cmFpbmVkLVNQRS5pbiIgPiAiVHlwZS1JLVotc3VsZm9ueWwtYmluZC0xLWNoa3AtdW5yZXN0cmFpbmVkLVNQRS5sb2ciICAyPiYxIA==
+Home: /home/ab2144
+Timezone: +0000
+LaunchTime: 2017-03-06-14:24:38
+StatusTime: 2017-03-06-14:24:38
+LogInterval: 60
+SaveJobDir: 0
+TmpLaunchDir: 1
+AutoCleanup: 0
+LogFiles[1]:	Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE.out
+LogFiles[2]:	Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE.recover
+LogFiles[3]:	Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE.log
+Transfers[1]:	'/home/ab2144/Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE/Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE.mae' > 'Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE.mae'
+Transfers[2]:	'/home/ab2144/Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE/Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE.in' > 'Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE.in'
+Transfers[3]:	'/home/ab2144/.schrodinger/.jobdb2/files/tethys-58bd7/tethys-0-58bd7126.nodes' > 'tethys-0-58bd7126.nodes'
+Licenses[1]:	JAGUAR_MAIN:2
+Envs[1]:	FLEXLM_TIMEOUT=3000000
+Envs[2]:	HOME_MMSHARE_EXEC=/usr/local/shared/schrodinger/current/mmshare-v3.7/bin/Linux-x86_64
+Envs[3]:	JAGUAR_EXEC=/usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64
+Envs[4]:	MMSHARE_EXEC=/usr/local/shared/schrodinger/current/mmshare-v3.7/bin/Linux-x86_64
+Envs[5]:	SCHRODINGER=/usr/local/shared/schrodinger/current
+Envs[6]:	SCHRODINGER_APP_EXEC=JAGUAR_EXEC
+Envs[7]:	SCHRODINGER_COMMANDLINE="/usr/local/shared/schrodinger/current/jaguar run -jobname=Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE.in -HOST localhost:1 -PROJ /home/ab2144/Toru-Catalyst-Conformation_new.prj -DISP append -VIEWNAME jaguar_gui_dir.single_point_energy.SinglePointEnergy -TMPLAUNCHDIR -ATTACHED"
+Envs[8]:	SCHRODINGER_FEATURE_FLAGS=0
+Envs[9]:	SCHRODINGER_GL=on
+Envs[10]:	SCHRODINGER_JOBID=tethys-0-58bd7126
+Envs[11]:	SCHRODINGER_JOB_DEBUG=0
+Envs[12]:	SCHRODINGER_MPI_NODEFILE=%JOBDIR%/tethys-0-58bd7126.nodes
+Envs[13]:	SCHRODINGER_NICE=local
+Envs[14]:	SCHRODINGER_NODEFILE=%JOBDIR%/tethys-0-58bd7126.nodes
+Envs[15]:	SCHRODINGER_PERL_FEATURE_FLAGS_ENABLED=AUTOMATIC_JOB_RECOVERY
+Envs[16]:	SCHRODINGER_PRODUCT=jaguar
+Envs[17]:	SCHRODINGER_PROJECT=/home/ab2144/Toru-Catalyst-Conformation_new.prj
+Envs[18]:	SCHRODINGER_SAVE_JOBDIR=0
+Envs[19]:	SCHRODINGER_TMP_LAUNCHDIR=yes
+Envs[20]:	SCHRODINGER_TPP=
+Envs[21]:	SCHRODINGER_UMASK=18
+Envs[22]:	SCHRODINGER_VIEWNAME=jaguar_gui_dir.single_point_energy.SinglePointEnergy

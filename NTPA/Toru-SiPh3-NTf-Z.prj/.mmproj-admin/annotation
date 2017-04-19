@@ -1,0 +1,38 @@
+--- This project was created on Mon Nov 14 11:53:50 2016
+
+-----
+Mon Nov 14 14:00:01 2016
+Starting MacroModel Conformational Search
+Job name: Toru-SiPh3-NTf-Type-I-Z_conformation
+Job ID: tethys-0-5829c361
+Using Workspace
+-----
+Tue Nov 15 09:44:55 2016
+Starting MacroModel Conformational Search
+Job name: Toru-SiPh3-NTf-Z_conformation
+Job ID: tethys-0-582ad917
+Using Workspace
+-----
+Tue Nov 15 12:09:29 2016
+Starting MacroModel Conformational Search
+Job name: Toru-SiPh3-NTf-Z-conformations-boundedtophosphoryl
+Job ID: tethys-0-582afaf9
+Using Workspace
+-----
+Thu Nov 17 15:49:50 2016
+Starting MacroModel Conformational Search
+Job name: Mechanism1-Sulfonyl10member
+Job ID: tethys-0-582dd19e
+Using Workspace
+-----
+Thu Nov 17 15:51:16 2016
+Starting MacroModel Conformational Search
+Job name: Mechanism2-Amide-8ring
+Job ID: tethys-0-582dd1f4
+Using Workspace
+-----
+Thu Nov 17 16:43:15 2016
+Starting MacroModel Conformational Search
+Job name: ModelCatalyt-BindtoN-8
+Job ID: tethys-0-582dde23
+Using Workspace

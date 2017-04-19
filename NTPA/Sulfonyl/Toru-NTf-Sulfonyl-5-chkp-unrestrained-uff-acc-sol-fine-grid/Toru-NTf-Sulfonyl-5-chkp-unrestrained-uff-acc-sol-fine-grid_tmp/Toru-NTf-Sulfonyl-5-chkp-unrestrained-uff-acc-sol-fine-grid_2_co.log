@@ -1,0 +1,9 @@
+[running at reduced cpu priority]
+Job Toru-NTf-Sulfonyl-5-chkp-unrestrained-uff-acc-sol-fine-grid_2_co started on tethys at Tue Feb 14 12:16:27 2017
+jobid: tethys-0-58a2f51a 
+Jaguar version 8.4, release  16
+Molecular Point Group: C1      
+Point Group used: C1
+pre (input checking) done.
+onee (1-electron integrals) done.
+Job Toru-NTf-Sulfonyl-5-chkp-unrestrained-uff-acc-sol-fine-grid_2_co completed on tethys at Tue Feb 14 12:17:06 2017

@@ -1,0 +1,9 @@
+Name: Toru-SiPh3-NTf-Type-I-E-4-scan-TS--SPE
+JobId: tethys-0-58b98e24
+Commandline: /usr/local/shared/schrodinger/current/jaguar run -jobname=Toru-SiPh3-NTf-Type-I-E-4-scan-TS--SPE Toru-SiPh3-NTf-Type-I-E-4-scan-TS--SPE.in -HOST localhost:1 -PROJ /home/ab2144/Toru-NTf-Sulfonyl_new.prj -DISP append -VIEWNAME jaguar_gui_dir.single_point_energy.SinglePointEnergy -TMPLAUNCHDIR -ATTACHED
+Outfiles:
+- Toru-SiPh3-NTf-Type-I-E-4-scan-TS--SPE.01.in
+- Toru-SiPh3-NTf-Type-I-E-4-scan-TS--SPE.01.mae
+- Toru-SiPh3-NTf-Type-I-E-4-scan-TS--SPE.out
+- Toru-SiPh3-NTf-Type-I-E-4-scan-TS--SPE.log
+- Toru-SiPh3-NTf-Type-I-E-4-scan-TS--SPE.recover

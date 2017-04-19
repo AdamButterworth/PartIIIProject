@@ -1,0 +1,31 @@
+Command:    jaguar run jexec.py -jobname Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-SPE -nsubjobs 1 Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-SPE.in
+[running at reduced cpu priority]
+Release:    2017-1
+Exec:       /usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64
+Host:       tethys
+JobId:      tethys-0-58c81a21
+JobDir:     /scratch/ab2144/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-SPE
+Date:       Tue Mar 14 16:28:20 2017
+
+Contents of /scratch/ab2144/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-SPE:
+/scratch/ab2144/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-SPE/tethys-0-58c81a21.recover
+/scratch/ab2144/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-SPE/tethys-0-58c81a21
+/scratch/ab2144/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-SPE/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-SPE.in
+/scratch/ab2144/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-SPE/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-SPE.mae
+/scratch/ab2144/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-SPE/tethys-0-58c81a21.nodes
+/scratch/ab2144/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-SPE/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-SPE.log
+/scratch/ab2144/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-SPE/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-SPE.recover
+
+Executing subprocess:
+/usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64/jexec Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-SPE.in -cwd -out /scratch/ab2144/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-SPE
+
+[running at reduced cpu priority]
+[running at reduced cpu priority]
+Job Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-SPE started on tethys at Tue Mar 14 16:28:20 2017
+jobid: tethys-0-58c81a21 
+Jaguar version 9.5, release  11
+Molecular Point Group: C1      
+Point Group used: C1
+pre (input checking) done.
+Received termination signal at Tue Mar 14 16:28:34 2017
+Job Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-SPE halted prematurely on tethys at Tue Mar 14 16:28:34 2017

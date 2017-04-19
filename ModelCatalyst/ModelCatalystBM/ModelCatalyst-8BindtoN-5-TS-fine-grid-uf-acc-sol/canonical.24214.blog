@@ -1,0 +1,65 @@
+[running at reduced cpu priority]
+
+JobId: tethys-0-588883ab
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       4
+Max retries per job:  0
+Max allowed failures: unlimited
+Run with -LOCAL:      False
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 3 | launched  tethys-0-588883b0 ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_1_co localhost [tethys]
+1 0 3 | finished  tethys-0-588883b0 ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_1_co localhost [tethys]
+1 1 2 | launched  tethys-0-588883c4 ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_2_co localhost [tethys]
+2 0 2 | finished  tethys-0-588883c4 ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_2_co localhost [tethys]
+2 1 1 | launched  tethys-0-588883d2 ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_3_co localhost [tethys]
+3 0 1 | finished  tethys-0-588883d2 ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_3_co localhost [tethys]
+3 1 0 | launched  tethys-0-588883dd ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_4_co localhost [tethys]
+4 0 0 | finished  tethys-0-588883dd ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_4_co localhost [tethys]
+
+All jobs are done.
+
+
+JobId: tethys-0-588883ab
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       4
+Max retries per job:  0
+Max allowed failures: unlimited
+Run with -LOCAL:      False
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 3 | launched  tethys-0-588883eb ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_1 localhost [tethys]
+1 0 3 | finished  tethys-0-588883eb ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_1 localhost [tethys]
+1 1 2 | launched  tethys-0-5888cce6 ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_2 localhost [tethys]
+2 0 2 | finished  tethys-0-5888cce6 ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_2 localhost [tethys]
+2 1 1 | launched  tethys-0-58891840 ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_3 localhost [tethys]
+3 0 1 | finished  tethys-0-58891840 ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_3 localhost [tethys]
+3 1 0 | launched  tethys-0-58896359 ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_4 localhost [tethys]
+4 0 0 | finished  tethys-0-58896359 ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_4 localhost [tethys]
+
+All jobs are done.
+

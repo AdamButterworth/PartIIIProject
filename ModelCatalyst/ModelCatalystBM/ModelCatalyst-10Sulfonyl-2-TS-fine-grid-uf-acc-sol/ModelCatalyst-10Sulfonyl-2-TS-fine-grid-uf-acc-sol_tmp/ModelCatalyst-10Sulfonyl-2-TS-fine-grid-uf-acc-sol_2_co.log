@@ -1,0 +1,9 @@
+[running at reduced cpu priority]
+Job ModelCatalyst-10Sulfonyl-2-TS-fine-grid-uf-acc-sol_2_co started on tethys at Mon Jan 30 11:33:52 2017
+jobid: tethys-0-588f249f 
+Jaguar version 8.4, release  16
+Molecular Point Group: C1      
+Point Group used: C1
+pre (input checking) done.
+onee (1-electron integrals) done.
+Job ModelCatalyst-10Sulfonyl-2-TS-fine-grid-uf-acc-sol_2_co completed on tethys at Mon Jan 30 11:34:03 2017

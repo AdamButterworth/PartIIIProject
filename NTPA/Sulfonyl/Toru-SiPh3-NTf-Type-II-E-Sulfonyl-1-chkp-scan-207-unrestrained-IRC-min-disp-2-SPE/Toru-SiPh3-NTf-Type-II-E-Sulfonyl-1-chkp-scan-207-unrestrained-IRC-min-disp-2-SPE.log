@@ -1,0 +1,156 @@
+Command:    jaguar run jexec.py -jobname Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE -nsubjobs 1 Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE.in
+[running at reduced cpu priority]
+Release:    2017-1
+Exec:       /usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64
+Host:       tethys
+JobId:      tethys-0-58e23d1b
+JobDir:     /scratch/ab2144/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE
+Date:       Mon Apr  3 13:16:29 2017
+
+Contents of /scratch/ab2144/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE:
+/scratch/ab2144/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE/tethys-0-58e23d1b.nodes
+/scratch/ab2144/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE/tethys-0-58e23d1b
+/scratch/ab2144/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE.in
+/scratch/ab2144/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE.log
+/scratch/ab2144/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE.recover
+/scratch/ab2144/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE.mae
+/scratch/ab2144/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE/tethys-0-58e23d1b.recover
+
+Executing subprocess:
+/usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64/jexec Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE.in -cwd -out /scratch/ab2144/Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE
+
+[running at reduced cpu priority]
+[running at reduced cpu priority]
+Job Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE started on tethys at Mon Apr  3 13:16:29 2017
+jobid: tethys-0-58e23d1b 
+Jaguar version 9.5, release  11
+Molecular Point Group: C1      
+Point Group used: C1
+pre (input checking) done.
+onee (1-electron integrals) done.
+hfig (HF initial guess) done.
+probe (project orbitals) done.
+grid (grid generation) done.
+rwr (Q operators) done.
+scf type: DFT=M06-2X
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5562.66802276555           4.0E-03  1.1E-01
+etot    2  N  Y  1  U   -5527.07956065388 -3.6E+01  2.1E-02  1.5E-01
+etot    3  N  Y  1  U   -5278.13051983442 -2.5E+02  2.0E-02  3.5E-01
+etot    4  N  Y  1  U   -5568.36393103687  2.9E+02  2.6E-03  1.2E-01
+etot    5  N  Y  1  U   -5570.84806592964  2.5E+00  2.3E-03  6.4E-02
+etot    6  N  Y  1  U   -5563.65040047353 -7.2E+00  1.7E-03  9.6E-02
+etot    7  N  Y  1  U   -5575.36830834342  1.2E+01  4.1E-04  2.2E-02
+etot    8  N  Y  1  U   -5575.51816521410  1.5E-01  1.6E-04  1.5E-02
+etot    9  N  Y  1  U   -5575.56040990889  4.2E-02  5.2E-05  2.2E-03
+etot   10  N  Y  1  U   -5575.56477554907  4.4E-03  2.3E-05  1.3E-03
+etot   11  N  Y  1  U   -5575.56566269601  8.9E-04  1.2E-05  8.1E-04
+etot   12  N  Y  1  U   -5575.56595457126  2.9E-04  5.8E-06  3.7E-04
+etot   13  N  Y  1  U   -5575.56603591022  8.1E-05  4.1E-06  2.2E-04
+etot   14  N  N  1  U   -5575.56606465910  2.9E-05  0.0E+00  0.0E+00
+scf (DFT) done.
+--------gas phase calculation complete----------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.60859690170           6.2E-05  1.5E-03
+etot    2  N  Y  1  U   -5575.60962220453  1.0E-03  1.9E-05  1.1E-03
+etot    3  N  Y  1  U   -5575.60997747949  3.6E-04  5.6E-06  5.5E-04
+etot    4  N  Y  1  U   -5575.61004151222  6.4E-05  2.3E-06  1.1E-04
+etot    5  N  N  1  U   -5575.61004758714  6.1E-06  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  1 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.61354822880           7.6E-06  2.1E-04
+etot    2  N  N  1  U   -5575.61355401932  5.8E-06  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  2 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.61404330795           5.6E-06  2.0E-04
+etot    2  N  N  1  U   -5575.61402883421 -1.4E-05  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  3 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.61386025237           8.0E-06  3.1E-04
+etot    2  N  N  1  U   -5575.61381445378 -4.6E-05  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  4 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.61408272363           1.3E-05  4.7E-04
+etot    2  N  Y  1  U   -5575.61397317250 -1.1E-04  8.3E-06  8.0E-04
+etot    3  N  Y  1  U   -5575.61414520646  1.7E-04  3.5E-07  1.3E-05
+etot    4  N  N  1  U   -5575.61414545392  2.5E-07  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  5 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.61402808621           8.2E-07  2.6E-05
+etot    2  N  N  1  U   -5575.61402813268  4.6E-08  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----final solvation iteration  6 complete------------------
+post (output conversion) done.
+Job Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE completed on tethys at Tue Apr  4 05:43:25 2017
+Timer (jaguar_backend.py) : 59215.93 secs (16 hrs, 26 mins, 55 secs)
+Finished:   Tue Apr  4 05:43:25 2017

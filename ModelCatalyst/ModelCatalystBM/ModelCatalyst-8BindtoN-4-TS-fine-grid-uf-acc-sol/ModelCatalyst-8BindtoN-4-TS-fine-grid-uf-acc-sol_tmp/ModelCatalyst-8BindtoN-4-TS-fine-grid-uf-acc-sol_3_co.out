@@ -1,0 +1,255 @@
+Job ModelCatalyst-8BindtoN-4-TS-fine-grid-uf-acc-sol_3_co started on tethys at Wed Jan 25 10:53:50 2017
+jobid: tethys-0-588883bd
+
+  +--------------------------------------------------------------------+
+  |  Jaguar version 8.4, release  16                                   |
+  |                                                                    |
+  |  Copyright Schrodinger, Inc.                                       |
+  |  All Rights Reserved.                                              |
+  |                                                                    |
+  |  The following have contributed to Jaguar (listed alphabetically): |
+  |  Mike Beachy, Art Bochevarov, Dale Braden, Yixiang Cao,            |
+  |  Chris Cortis, Rich Friesner, Bill Goddard, Hod Greeley,           |
+  |  Tom Hughes, Jean-Marc Langlois, Daniel Mainz, Rob Murphy,         |
+  |  Dean Philipp, Tom Pollard, Murco Ringnalda.                       |
+  |                                                                    |
+  |  Use of this program should be acknowledged in publications as:    |
+  |                                                                    |
+  |  Jaguar, version 8.4, Schrodinger, Inc., New York, NY, 2013.       |
+  |                                                                    |
+  |  A. D. Bochevarov, E. Harder, T. F. Hughes, J. R. Greenwood,       |
+  |  D. A. Braden, D. M. Philipp, D. Rinaldo, M. D. Halls,             |
+  |  J. Zhang, R. A. Friesner, "Jaguar: A High-Performance Quantum     |
+  |  Chemistry Software Program with Strengths in Life and Materials   |
+  |  Sciences", Int. J. Quantum Chem., 2013, 113(18), 2110-2142.       |
+  +--------------------------------------------------------------------+
+  
+  start of program pre
+  
+  Job name: ModelCatalyst-8BindtoN-4-TS-fine-grid-uf-acc-sol_3_co
+  Executables used: /usr/local/shared/schrodinger/current/jaguar-v84016/bin/Linux-x86_64
+  Temporary files : /home/ab2144/.schrodinger/tmp/ModelCatalyst-8BindtoN-4-TS-fine-grid-uf-acc-sol_3_co
+  Maestro file (input):  ModelCatalyst-8BindtoN-4-TS-fine-grid-uf-acc-sol_3_co.mae
+  Maestro file (output): ModelCatalyst-8BindtoN-4-TS-fine-grid-uf-acc-sol_3_co.01.mae
+  
+  
+  basis set:             6-31g**         
+  net molecular charge:    0
+  multiplicity:            1
+  
+  keygrid settings 
+    wispc.....   7.500E-01
+    ldens.....   0
+    denspc....   7.500E-01
+  
+   grid     daf set  nls  grid set  Q type
+  ------    -------  ---  --------  ------
+  coarse       1      1       1        1
+  medium       2      2       2        1
+  fine         3      2       3        0
+  ultrafine    4      2       4        1
+  charge       0      1      -1        1
+  gradient     5      2       4        1
+  density      0      1       0        0
+  DFT-fine     0      1     -13        0
+  DFT-med.     0      1     -13        0
+  DFT-grad     0      1     -13        0
+  DFT-der2     0      1       0        0
+  DFT-cphf     0      1       0        0
+  LMP2-enrg    4      2       4        1
+  LMP2-grad    5      2       2        1
+  DFT-cphf2    0      1       0        0
+  PBF-dens     0      1       0        0
+  plotting     0      1       0        0
+  
+  idftgrdm  100
+  ndftgrdm   50    0    0
+  idftgrdf  111
+  ndftgrdf   85    0    0
+  idftgrdg  111
+  ndftgrdg   80    3    0
+  idftgrdu  433
+  ndftgrdu  105    0    0
+  idftgrdd  433
+  ndftgrdd  105    0    0
+  idftgrdc  433
+  ndftgrdc   26    0    0
+  idftgrdp  433
+  ndftgrdp   18    0    0
+  
+  number of basis functions....          682
+  
+ Input geometry:
+                                   angstroms
+  atom               x                 y                 z
+  C1            4.9927000000     -1.6171000000      0.0893000000 
+  C2            5.8200000000     -0.5768000000     -0.1297000000 
+  C3            5.1066000000      0.5663000000     -0.7173000000 
+  C4            4.4289000000      0.2014000000     -1.8159000000 
+  H5            6.8294000000     -0.6029000000      0.2700000000 
+  H6            5.2837000000     -2.5231000000      0.6120000000 
+  H7            4.8080000000     -0.5332000000     -2.5232000000 
+  H8            4.6965000000      1.3210000000     -0.0514000000 
+  O9            3.6461000000     -1.7078000000     -0.2469000000 
+  P10           2.4108000000     -0.8099000000     -0.8745000000 
+  O11           3.0372000000      0.3509000000     -1.8731000000 
+  O12           1.5987000000     -1.7657000000     -1.7110000000 
+  N13           1.4995000000     -0.1695000000      0.3013000000 
+  S14           1.9542000000      0.6097000000      1.6352000000 
+  O15           0.9488000000      0.3909000000      2.6787000000 
+  O16           3.3798000000      0.4726000000      1.9658000000 
+  C17           1.7474000000      2.4095000000      1.1675000000 
+  F18           2.0584000000      3.1786000000      2.2163000000 
+  F19           2.5529000000      2.7276000000      0.1453000000 
+  F20           0.4796000000      2.6645000000      0.8121000000 
+  H21          -0.4336000000     -0.0803000000     -0.1985000000 
+  C22          -2.3044000000     -1.1847000000     -0.4119000000 
+  N23          -1.3977000000     -0.0626000000     -0.5645000000 
+  S24          -1.6606000000      1.0767000000     -1.7471000000 
+  O25          -0.3748000000      1.6983000000     -2.0570000000 
+  O26          -2.4888000000      0.4507000000     -2.7900000000 
+  C27          -4.2780000000      4.1337000000      0.2951000000 
+  C28          -4.6607000000      2.8068000000      0.0829000000 
+  N29          -3.8776000000      1.9093000000     -0.5249000000 
+  C30          -2.6830000000      2.3323000000     -0.9287000000 
+  C31          -2.1843000000      3.6216000000     -0.7670000000 
+  C32          -3.0183000000      4.5452000000     -0.1356000000 
+  H33          -4.9545000000      4.8215000000      0.7915000000 
+  H34          -5.6331000000      2.4500000000      0.4140000000 
+  H35          -1.1885000000      3.8696000000     -1.1119000000 
+  H36          -2.6856000000      5.5669000000      0.0191000000 
+  C37          -2.5557000000     -2.8185000000      3.5855000000 
+  C38          -1.3207000000     -2.4025000000      3.0894000000 
+  C39          -1.2168000000     -1.8713000000      1.8025000000 
+  C40          -2.3569000000     -1.7380000000      1.0031000000 
+  C41          -3.5983000000     -2.1418000000      1.5151000000 
+  C42          -3.6986000000     -2.6851000000      2.7949000000 
+  H43          -2.6316000000     -3.2285000000      4.5884000000 
+  H44          -0.4295000000     -2.4699000000      3.7050000000 
+  H45          -0.2486000000     -1.5291000000      1.4559000000 
+  H46          -4.4962000000     -2.0148000000      0.9144000000 
+  H47          -4.6688000000     -2.9870000000      3.1788000000 
+  H48          -3.3027000000     -0.8290000000     -0.6774000000 
+  C49          -0.7171000000     -4.1531000000     -1.2614000000 
+  C50          -2.0838000000     -4.6172000000     -1.2856000000 
+  C51          -2.8598000000     -3.5166000000     -1.4361000000 
+  C52          -1.9967000000     -2.3071000000     -1.4984000000 
+  H53           0.1869000000     -4.7458000000     -1.1716000000 
+  H54          -2.3932000000     -5.6492000000     -1.1981000000 
+  H55          -3.9399000000     -3.4824000000     -1.4938000000 
+  H56          -2.0902000000     -1.7836000000     -2.4612000000 
+  N57          -0.6564000000     -2.8599000000     -1.3841000000 
+  H58           0.2915000000     -2.3042000000     -1.4718000000 
+   
+  principal moments of inertia:
+        amu*angstrom^2:     4512.84456     6148.66844     7646.64879
+                g*cm^2: 7.49375377E-37 1.02101029E-36 1.26975575E-36
+   
+  rotational constants:
+               cm^(-1):      0.00373548      0.00274167      0.00220458
+                   GHz:      0.11198680      0.08219324      0.06609157
+   
+  Molecular weight:     592.05 amu
+   
+  Stoichiometry: C21PN4H20S2O7F3
+  Molecular Point Group: C1      
+  Point Group used: C1
+  
+  nuclear repulsion energy.......    5609.982862500 hartrees
+ 
+ Non-default options chosen:
+   SCF calculation type: DFT(m06-2x)                 
+   DFT=M06-2X
+   Solvation energy will be computed using PBF
+     -solute cavity energy will not be included
+     -surface area terms will not be included
+   Highest accuracy cutoffs used in SCF
+   Solvent: other                                                           
+   Internal dielectric constant:    1.000
+   Continuum dielectric constant:   2.380
+   Solvent probe molecule radius:   2.760
+  
+ Temporary integer options set:
+     73=  2
+  
+  atom       vdw   vdw2    cov     mass  grid  daf  charge   basis
+  C1        1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C2        1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C3        1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C4        1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  H5        1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H6        1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H7        1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H8        1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  O9        1.702  1.600  0.730   15.995    Y    Y      Y    6-31g**
+  P10       2.147  2.074  1.060   30.974    Y    Y      Y    6-31g**
+  O11       1.702  1.600  0.730   15.995    Y    Y      Y    6-31g**
+  O12       1.702  1.600  0.730   15.995    Y    Y      Y    6-31g**
+  N13       1.831  1.600  0.750   14.003    Y    Y      Y    6-31g**
+  S14       2.070  1.900  1.020   31.972    Y    Y      Y    6-31g**
+  O15       1.702  1.600  0.730   15.995    Y    Y      Y    6-31g**
+  O16       1.702  1.600  0.730   15.995    Y    Y      Y    6-31g**
+  C17       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  F18       1.736  1.682  0.720   18.998    Y    Y      Y    6-31g**
+  F19       1.736  1.682  0.720   18.998    Y    Y      Y    6-31g**
+  F20       1.736  1.682  0.720   18.998    Y    Y      Y    6-31g**
+  H21       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  C22       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  N23       1.831  1.600  0.750   14.003    Y    Y      Y    6-31g**
+  S24       2.070  1.900  1.020   31.972    Y    Y      Y    6-31g**
+  O25       1.702  1.600  0.730   15.995    Y    Y      Y    6-31g**
+  O26       1.702  1.600  0.730   15.995    Y    Y      Y    6-31g**
+  C27       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C28       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  N29       1.831  1.600  0.750   14.003    Y    Y      Y    6-31g**
+  C30       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C31       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C32       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  H33       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H34       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H35       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H36       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  C37       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C38       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C39       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C40       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C41       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C42       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  H43       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H44       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H45       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H46       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H47       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H48       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  C49       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C50       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C51       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C52       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  H53       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H54       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H55       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H56       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  N57       1.831  1.600  0.750   14.003    Y    Y      Y    6-31g**
+  H58       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  
+  Peak memory usage:    514 Mb
+  
+  end of program pre
+   
+ Time(pre)  user:        0.0  user+sys:        0.0  wallclock:        0.4
+  
+  start of program onee
+  
+  smallest eigenvalue of S:    4.345E-04
+  number of canonical orbitals.....          681
+  Peak memory usage:    658 Mb
+  
+  end of program onee
+   
+ Time(onee)  user:        2.0  user+sys:        2.0  wallclock:        3.1
+
+ Total cpu seconds     user:       2.000   user+sys:       2.000
+  
+ Total elapsed time:    6 seconds
+
+Job ModelCatalyst-8BindtoN-4-TS-fine-grid-uf-acc-sol_3_co completed on tethys at Wed Jan 25 10:53:56 2017

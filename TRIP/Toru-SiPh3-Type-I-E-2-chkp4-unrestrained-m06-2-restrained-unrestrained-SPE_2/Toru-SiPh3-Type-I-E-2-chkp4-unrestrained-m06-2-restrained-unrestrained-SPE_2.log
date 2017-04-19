@@ -1,0 +1,31 @@
+Command:    jaguar run jexec.py -jobname Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-m06-2-restrained-unrestrained-SPE_2 -nsubjobs 1 Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-m06-2-restrained-unrestrained-SPE_2.in
+[running at reduced cpu priority]
+Release:    2017-1
+Exec:       /usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64
+Host:       tethys
+JobId:      tethys-0-58bfe65c
+JobDir:     /scratch/ab2144/Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-m06-2-restrained-unrestrained-SPE_2
+Date:       Wed Mar  8 11:09:19 2017
+
+Contents of /scratch/ab2144/Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-m06-2-restrained-unrestrained-SPE_2:
+/scratch/ab2144/Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-m06-2-restrained-unrestrained-SPE_2/Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-m06-2-restrained-unrestrained-SPE_2.mae
+/scratch/ab2144/Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-m06-2-restrained-unrestrained-SPE_2/Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-m06-2-restrained-unrestrained-SPE_2.log
+/scratch/ab2144/Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-m06-2-restrained-unrestrained-SPE_2/tethys-0-58bfe65c.nodes
+/scratch/ab2144/Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-m06-2-restrained-unrestrained-SPE_2/tethys-0-58bfe65c.recover
+/scratch/ab2144/Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-m06-2-restrained-unrestrained-SPE_2/tethys-0-58bfe65c
+/scratch/ab2144/Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-m06-2-restrained-unrestrained-SPE_2/Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-m06-2-restrained-unrestrained-SPE_2.recover
+/scratch/ab2144/Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-m06-2-restrained-unrestrained-SPE_2/Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-m06-2-restrained-unrestrained-SPE_2.in
+
+Executing subprocess:
+/usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64/jexec Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-m06-2-restrained-unrestrained-SPE_2.in -cwd -out /scratch/ab2144/Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-m06-2-restrained-unrestrained-SPE_2
+
+[running at reduced cpu priority]
+[running at reduced cpu priority]
+Job Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-m06-2-restrained-unrestrained-SPE_2 started on tethys at Wed Mar  8 11:09:19 2017
+jobid: tethys-0-58bfe65c 
+Jaguar version 9.5, release  11
+Molecular Point Group: C1      
+Point Group used: C1
+pre (input checking) done.
+Received termination signal at Wed Mar  8 11:09:24 2017
+Job Toru-SiPh3-Type-I-E-2-chkp4-unrestrained-m06-2-restrained-unrestrained-SPE_2 halted prematurely on tethys at Wed Mar  8 11:09:24 2017

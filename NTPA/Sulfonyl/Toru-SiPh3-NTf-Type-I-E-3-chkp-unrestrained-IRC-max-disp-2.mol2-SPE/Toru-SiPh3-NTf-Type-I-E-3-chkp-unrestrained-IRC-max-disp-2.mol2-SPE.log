@@ -1,0 +1,107 @@
+Command:    jaguar run jexec.py -jobname Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-max-disp-2.mol2-SPE -nsubjobs 1 Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-max-disp-2.mol2-SPE.in
+[running at reduced cpu priority]
+Release:    2017-1
+Exec:       /usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64
+Host:       tethys
+JobId:      tethys-0-58d25435
+JobDir:     /scratch/ab2144/Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-max-disp-2.mol2-SPE
+Date:       Wed Mar 22 10:38:47 2017
+
+Contents of /scratch/ab2144/Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-max-disp-2.mol2-SPE:
+/scratch/ab2144/Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-max-disp-2.mol2-SPE/tethys-0-58d25435.nodes
+/scratch/ab2144/Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-max-disp-2.mol2-SPE/Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-max-disp-2.mol2-SPE.recover
+/scratch/ab2144/Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-max-disp-2.mol2-SPE/Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-max-disp-2.mol2-SPE.mae
+/scratch/ab2144/Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-max-disp-2.mol2-SPE/Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-max-disp-2.mol2-SPE.log
+/scratch/ab2144/Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-max-disp-2.mol2-SPE/Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-max-disp-2.mol2-SPE.in
+/scratch/ab2144/Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-max-disp-2.mol2-SPE/tethys-0-58d25435.recover
+/scratch/ab2144/Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-max-disp-2.mol2-SPE/tethys-0-58d25435
+
+Executing subprocess:
+/usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64/jexec Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-max-disp-2.mol2-SPE.in -cwd -out /scratch/ab2144/Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-max-disp-2.mol2-SPE
+
+[running at reduced cpu priority]
+[running at reduced cpu priority]
+Job Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-max-disp-2.mol2-SPE started on tethys at Wed Mar 22 10:38:47 2017
+jobid: tethys-0-58d25435 
+Jaguar version 9.5, release  11
+Molecular Point Group: C1      
+Point Group used: C1
+pre (input checking) done.
+onee (1-electron integrals) done.
+hfig (HF initial guess) done.
+probe (project orbitals) done.
+grid (grid generation) done.
+rwr (Q operators) done.
+scf type: DFT=M06-2X
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5562.76544578706           3.8E-03  1.3E-01
+etot    2  N  Y  1  U   -5531.73413150131 -3.1E+01  1.5E-02  1.4E-01
+etot    3  N  Y  1  U   -5269.03864851500 -2.6E+02  1.4E-02  4.3E-01
+etot    4  N  Y  1  U   -5566.76380650889  3.0E+02  3.2E-03  8.9E-02
+etot    5  N  Y  1  U   -5567.05280050075  2.9E-01  2.5E-03  6.4E-02
+etot    6  N  Y  1  U   -5565.58606723434 -1.5E+00  1.6E-03  7.7E-02
+etot    7  N  Y  1  U   -5575.37953646709  9.8E+00  3.9E-04  1.7E-02
+etot    8  N  Y  1  U   -5575.53257043517  1.5E-01  1.5E-04  6.1E-03
+etot    9  N  Y  1  U   -5575.55419198002  2.2E-02  6.2E-05  2.7E-03
+etot   10  N  Y  1  U   -5575.56119216899  7.0E-03  1.8E-05  6.7E-04
+etot   11  N  Y  1  U   -5575.56159350491  4.0E-04  8.0E-06  3.0E-04
+etot   12  N  Y  1  U   -5575.56168485773  9.1E-05  4.0E-06  1.5E-04
+etot   13  N  N  1  U   -5575.56171040526  2.6E-05  0.0E+00  0.0E+00
+scf (DFT) done.
+--------gas phase calculation complete----------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.59735394034           4.8E-05  8.0E-04
+etot    2  N  Y  1  U   -5575.59810926316  7.6E-04  1.5E-05  6.1E-04
+etot    3  N  Y  1  U   -5575.59829615197  1.9E-04  4.9E-06  2.8E-04
+etot    4  N  N  1  U   -5575.59833663253  4.0E-05  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  1 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.60078020083           5.8E-06  1.0E-04
+etot    2  N  N  1  U   -5575.60078934554  9.1E-06  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  2 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.60108461706           4.4E-06  1.1E-04
+etot    2  N  N  1  U   -5575.60107229108 -1.2E-05  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----final solvation iteration  3 complete------------------
+post (output conversion) done.
+Job Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-max-disp-2.mol2-SPE completed on tethys at Wed Mar 22 22:34:51 2017
+Timer (jaguar_backend.py) : 42964.21 secs (11 hrs, 56 mins, 04 secs)
+Finished:   Wed Mar 22 22:34:51 2017

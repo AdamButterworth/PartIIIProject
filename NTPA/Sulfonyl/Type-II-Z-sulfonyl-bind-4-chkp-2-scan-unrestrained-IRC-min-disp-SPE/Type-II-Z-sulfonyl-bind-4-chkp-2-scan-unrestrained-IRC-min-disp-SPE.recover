@@ -1,0 +1,9 @@
+Name: Type-II-Z-sulfonyl-bind-4-chkp-2-scan-unrestrained-IRC-min-disp-SPE
+JobId: tethys-0-58d51dcd
+Commandline: /usr/local/shared/schrodinger/current/jaguar run -jobname=Type-II-Z-sulfonyl-bind-4-chkp-2-scan-unrestrained-IRC-min-disp-SPE Type-II-Z-sulfonyl-bind-4-chkp-2-scan-unrestrained-IRC-min-disp-SPE.in -HOST localhost:1 -PROJ "/home/ab2144/Toru Files/Toru-Catalyst-Conformation_new.prj" -DISP append -VIEWNAME jaguar_gui_dir.single_point_energy.SinglePointEnergy -TMPLAUNCHDIR -ATTACHED
+Outfiles:
+- Type-II-Z-sulfonyl-bind-4-chkp-2-scan-unrestrained-IRC-min-disp-SPE.01.in
+- Type-II-Z-sulfonyl-bind-4-chkp-2-scan-unrestrained-IRC-min-disp-SPE.01.mae
+- Type-II-Z-sulfonyl-bind-4-chkp-2-scan-unrestrained-IRC-min-disp-SPE.out
+- Type-II-Z-sulfonyl-bind-4-chkp-2-scan-unrestrained-IRC-min-disp-SPE.log
+- Type-II-Z-sulfonyl-bind-4-chkp-2-scan-unrestrained-IRC-min-disp-SPE.recover

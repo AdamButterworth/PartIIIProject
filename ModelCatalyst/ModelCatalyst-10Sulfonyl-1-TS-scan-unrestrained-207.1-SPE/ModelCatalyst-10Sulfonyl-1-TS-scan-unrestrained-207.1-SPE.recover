@@ -1,0 +1,9 @@
+Name: ModelCatalyst-10Sulfonyl-1-TS-scan-unrestrained-207.1-SPE
+JobId: tethys-0-58bff499
+Commandline: /usr/local/shared/schrodinger/current/jaguar run -jobname=ModelCatalyst-10Sulfonyl-1-TS-scan-unrestrained-207.1-SPE ModelCatalyst-10Sulfonyl-1-TS-scan-unrestrained-207.1-SPE.in -HOST localhost:1 -PROJ "/home/ab2144/Toru Files/Toru-Catalyst-Conformation_new.prj" -DISP append -VIEWNAME jaguar_gui_dir.single_point_energy.SinglePointEnergy -TMPLAUNCHDIR -ATTACHED
+Outfiles:
+- ModelCatalyst-10Sulfonyl-1-TS-scan-unrestrained-207.1-SPE.out
+- ModelCatalyst-10Sulfonyl-1-TS-scan-unrestrained-207.1-SPE.recover
+- ModelCatalyst-10Sulfonyl-1-TS-scan-unrestrained-207.1-SPE.01.mae
+- ModelCatalyst-10Sulfonyl-1-TS-scan-unrestrained-207.1-SPE.log
+- ModelCatalyst-10Sulfonyl-1-TS-scan-unrestrained-207.1-SPE.01.in

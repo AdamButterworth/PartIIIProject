@@ -1,0 +1,9 @@
+Name: Type-I-Z-sulfonyl-bind-5-unrestrained-SPE
+JobId: tethys-0-58b97700
+Commandline: /usr/local/shared/schrodinger/current/jaguar run -jobname=Type-I-Z-sulfonyl-bind-5-unrestrained-SPE Type-I-Z-sulfonyl-bind-5-unrestrained-SPE.in -HOST localhost:1 -PROJ /home/ab2144/Toru-Catalyst-Conformation_new.prj -DISP append -VIEWNAME jaguar_gui_dir.single_point_energy.SinglePointEnergy -TMPLAUNCHDIR -ATTACHED
+Outfiles:
+- Type-I-Z-sulfonyl-bind-5-unrestrained-SPE.recover
+- Type-I-Z-sulfonyl-bind-5-unrestrained-SPE.log
+- Type-I-Z-sulfonyl-bind-5-unrestrained-SPE.01.mae
+- Type-I-Z-sulfonyl-bind-5-unrestrained-SPE.out
+- Type-I-Z-sulfonyl-bind-5-unrestrained-SPE.01.in

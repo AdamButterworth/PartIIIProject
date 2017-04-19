@@ -1,0 +1,155 @@
+Command:    jaguar run jexec.py -jobname Type-II-Z-sulfonyl-bind-1-scan-unrestrained-SPE -nsubjobs 1 Type-II-Z-sulfonyl-bind-1-scan-unrestrained-SPE.in
+[running at reduced cpu priority]
+Release:    2017-1
+Exec:       /usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64
+Host:       tethys
+JobId:      tethys-0-58c81b61
+JobDir:     /scratch/ab2144/Type-II-Z-sulfonyl-bind-1-scan-unrestrained-SPE
+Date:       Tue Mar 14 16:33:39 2017
+
+Contents of /scratch/ab2144/Type-II-Z-sulfonyl-bind-1-scan-unrestrained-SPE:
+/scratch/ab2144/Type-II-Z-sulfonyl-bind-1-scan-unrestrained-SPE/tethys-0-58c81b61.nodes
+/scratch/ab2144/Type-II-Z-sulfonyl-bind-1-scan-unrestrained-SPE/tethys-0-58c81b61
+/scratch/ab2144/Type-II-Z-sulfonyl-bind-1-scan-unrestrained-SPE/Type-II-Z-sulfonyl-bind-1-scan-unrestrained-SPE.log
+/scratch/ab2144/Type-II-Z-sulfonyl-bind-1-scan-unrestrained-SPE/Type-II-Z-sulfonyl-bind-1-scan-unrestrained-SPE.in
+/scratch/ab2144/Type-II-Z-sulfonyl-bind-1-scan-unrestrained-SPE/tethys-0-58c81b61.recover
+/scratch/ab2144/Type-II-Z-sulfonyl-bind-1-scan-unrestrained-SPE/Type-II-Z-sulfonyl-bind-1-scan-unrestrained-SPE.mae
+/scratch/ab2144/Type-II-Z-sulfonyl-bind-1-scan-unrestrained-SPE/Type-II-Z-sulfonyl-bind-1-scan-unrestrained-SPE.recover
+
+Executing subprocess:
+/usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64/jexec Type-II-Z-sulfonyl-bind-1-scan-unrestrained-SPE.in -cwd -out /scratch/ab2144/Type-II-Z-sulfonyl-bind-1-scan-unrestrained-SPE
+
+[running at reduced cpu priority]
+[running at reduced cpu priority]
+Job Type-II-Z-sulfonyl-bind-1-scan-unrestrained-SPE started on tethys at Tue Mar 14 16:33:40 2017
+jobid: tethys-0-58c81b61 
+Jaguar version 9.5, release  11
+Molecular Point Group: C1      
+Point Group used: C1
+pre (input checking) done.
+onee (1-electron integrals) done.
+hfig (HF initial guess) done.
+probe (project orbitals) done.
+grid (grid generation) done.
+rwr (Q operators) done.
+scf type: DFT=M06-2X
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5562.72953029974           3.6E-03  1.2E-01
+etot    2  N  Y  1  U   -5537.90170645500 -2.5E+01  1.6E-02  1.2E-01
+etot    3  N  Y  1  U   -5320.79679316812 -2.2E+02  1.5E-02  3.8E-01
+etot    4  N  Y  1  U   -5561.43112220194  2.4E+02  3.4E-03  1.1E-01
+etot    5  N  Y  1  U   -5571.06938171058  9.6E+00  2.5E-03  4.1E-02
+etot    6  N  Y  1  U   -5558.63308273675 -1.2E+01  1.9E-03  9.3E-02
+etot    7  N  Y  1  U   -5575.29644117168  1.7E+01  4.5E-04  2.4E-02
+etot    8  N  Y  1  U   -5575.49928845446  2.0E-01  1.6E-04  1.5E-02
+etot    9  N  Y  1  U   -5575.54054344157  4.1E-02  5.4E-05  3.6E-03
+etot   10  N  Y  1  U   -5575.54627835908  5.7E-03  2.1E-05  9.5E-04
+etot   11  N  Y  1  U   -5575.54675667526  4.8E-04  1.1E-05  7.0E-04
+etot   12  N  Y  1  U   -5575.54696423310  2.1E-04  4.9E-06  1.5E-04
+etot   13  N  N  1  U   -5575.54699281502  2.9E-05  0.0E+00  0.0E+00
+scf (DFT) done.
+--------gas phase calculation complete----------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.58299695310           5.0E-05  1.2E-03
+etot    2  N  Y  1  U   -5575.58374164274  7.4E-04  1.7E-05  1.1E-03
+etot    3  N  Y  1  U   -5575.58399392585  2.5E-04  5.8E-06  5.1E-04
+etot    4  N  Y  1  U   -5575.58404978474  5.6E-05  2.5E-06  1.1E-04
+etot    5  N  N  1  U   -5575.58405650180  6.7E-06  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  1 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.58666619490           5.6E-06  1.4E-04
+etot    2  N  N  1  U   -5575.58666904770  2.9E-06  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  2 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.58698053642           5.2E-06  1.4E-04
+etot    2  N  N  1  U   -5575.58696745686 -1.3E-05  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  3 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.58687565825           8.0E-06  2.4E-04
+etot    2  N  N  1  U   -5575.58683092647 -4.5E-05  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  4 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.58699489792           1.4E-05  4.1E-04
+etot    2  N  Y  1  U   -5575.58686952508 -1.3E-04  9.0E-06  7.4E-04
+etot    3  N  Y  1  U   -5575.58705472622  1.9E-04  2.2E-07  1.1E-05
+etot    4  N  N  1  U   -5575.58705483147  1.1E-07  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  5 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.58697930648           6.8E-07  1.8E-05
+etot    2  N  N  1  U   -5575.58697913641 -1.7E-07  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----final solvation iteration  6 complete------------------
+post (output conversion) done.
+Job Type-II-Z-sulfonyl-bind-1-scan-unrestrained-SPE completed on tethys at Fri Mar 17 13:43:09 2017
+Timer (jaguar_backend.py) : 248970.04 secs (2 days, 21 hrs, 09 mins, 30 secs)
+Finished:   Fri Mar 17 13:43:09 2017

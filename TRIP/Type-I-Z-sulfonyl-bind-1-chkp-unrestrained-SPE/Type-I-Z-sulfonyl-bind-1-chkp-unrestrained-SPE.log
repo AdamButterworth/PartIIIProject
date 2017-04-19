@@ -1,0 +1,42 @@
+Command:    jaguar run jexec.py -jobname Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE -nsubjobs 1 Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE.in
+[running at reduced cpu priority]
+Release:    2017-1
+Exec:       /usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64
+Host:       tethys
+JobId:      tethys-0-58bd7126
+JobDir:     /scratch/ab2144/Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE
+Date:       Mon Mar  6 14:24:41 2017
+
+Contents of /scratch/ab2144/Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE:
+/scratch/ab2144/Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE/Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE.mae
+/scratch/ab2144/Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE/tethys-0-58bd7126.nodes
+/scratch/ab2144/Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE/tethys-0-58bd7126
+/scratch/ab2144/Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE/Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE.in
+/scratch/ab2144/Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE/Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE.recover
+/scratch/ab2144/Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE/tethys-0-58bd7126.recover
+/scratch/ab2144/Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE/Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE.log
+
+Executing subprocess:
+/usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64/jexec Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE.in -cwd -out /scratch/ab2144/Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE
+
+[running at reduced cpu priority]
+[running at reduced cpu priority]
+Job Type-I-Z-sulfonyl-bind-1-chkp-unrestrained-SPE started on tethys at Mon Mar  6 14:24:42 2017
+jobid: tethys-0-58bd7126 
+Jaguar version 9.5, release  11
+Molecular Point Group: C1      
+Point Group used: C1
+pre (input checking) done.
+onee (1-electron integrals) done.
+hfig (HF initial guess) done.
+probe (project orbitals) done.
+grid (grid generation) done.
+rwr (Q operators) done.
+scf type: DFT=M06-2X
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5562.77611367150           3.5E-03  1.0E-01

@@ -1,0 +1,9 @@
+Name: Toru-SiPh3-Type-I-E-9-chkp-2-scan-TS.mol-SPE
+JobId: tethys-0-58a7280c
+Commandline: /usr/local/shared/schrodinger/current/jaguar run -HOST localhost Toru-SiPh3-Type-I-E-9-chkp-2-scan-TS.mol-SPE.in -PROJ /home/ab2144/Toru-Type-I-Z.prj -DISP append -VIEWNAME jaguar_gui_dir.single_point_energy.SinglePointEnergy
+Outfiles:
+- Toru-SiPh3-Type-I-E-9-chkp-2-scan-TS.mol-SPE.out
+- Toru-SiPh3-Type-I-E-9-chkp-2-scan-TS.mol-SPE.01.in
+- Toru-SiPh3-Type-I-E-9-chkp-2-scan-TS.mol-SPE.recover
+- Toru-SiPh3-Type-I-E-9-chkp-2-scan-TS.mol-SPE.log
+- Toru-SiPh3-Type-I-E-9-chkp-2-scan-TS.mol-SPE.01.mae

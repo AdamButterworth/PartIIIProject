@@ -1,0 +1,122 @@
+Command:    jaguar run jexec.py -jobname Type-I-Z-sulfonyl-bind-3-chkp-unrestrained-IRC-max-disp-SPE -nsubjobs 1 Type-I-Z-sulfonyl-bind-3-chkp-unrestrained-IRC-max-disp-SPE.in
+[running at reduced cpu priority]
+Release:    2017-1
+Exec:       /usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64
+Host:       tethys
+JobId:      tethys-0-58d51df3
+JobDir:     /scratch/ab2144/Type-I-Z-sulfonyl-bind-3-chkp-unrestrained-IRC-max-disp-SPE
+Date:       Fri Mar 24 13:24:06 2017
+
+Contents of /scratch/ab2144/Type-I-Z-sulfonyl-bind-3-chkp-unrestrained-IRC-max-disp-SPE:
+/scratch/ab2144/Type-I-Z-sulfonyl-bind-3-chkp-unrestrained-IRC-max-disp-SPE/Type-I-Z-sulfonyl-bind-3-chkp-unrestrained-IRC-max-disp-SPE.log
+/scratch/ab2144/Type-I-Z-sulfonyl-bind-3-chkp-unrestrained-IRC-max-disp-SPE/tethys-0-58d51df3
+/scratch/ab2144/Type-I-Z-sulfonyl-bind-3-chkp-unrestrained-IRC-max-disp-SPE/Type-I-Z-sulfonyl-bind-3-chkp-unrestrained-IRC-max-disp-SPE.in
+/scratch/ab2144/Type-I-Z-sulfonyl-bind-3-chkp-unrestrained-IRC-max-disp-SPE/tethys-0-58d51df3.nodes
+/scratch/ab2144/Type-I-Z-sulfonyl-bind-3-chkp-unrestrained-IRC-max-disp-SPE/Type-I-Z-sulfonyl-bind-3-chkp-unrestrained-IRC-max-disp-SPE.recover
+/scratch/ab2144/Type-I-Z-sulfonyl-bind-3-chkp-unrestrained-IRC-max-disp-SPE/tethys-0-58d51df3.recover
+/scratch/ab2144/Type-I-Z-sulfonyl-bind-3-chkp-unrestrained-IRC-max-disp-SPE/Type-I-Z-sulfonyl-bind-3-chkp-unrestrained-IRC-max-disp-SPE.mae
+
+Executing subprocess:
+/usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64/jexec Type-I-Z-sulfonyl-bind-3-chkp-unrestrained-IRC-max-disp-SPE.in -cwd -out /scratch/ab2144/Type-I-Z-sulfonyl-bind-3-chkp-unrestrained-IRC-max-disp-SPE
+
+[running at reduced cpu priority]
+[running at reduced cpu priority]
+Job Type-I-Z-sulfonyl-bind-3-chkp-unrestrained-IRC-max-disp-SPE started on tethys at Fri Mar 24 13:24:06 2017
+jobid: tethys-0-58d51df3 
+Jaguar version 9.5, release  11
+Molecular Point Group: C1      
+Point Group used: C1
+pre (input checking) done.
+onee (1-electron integrals) done.
+hfig (HF initial guess) done.
+probe (project orbitals) done.
+grid (grid generation) done.
+rwr (Q operators) done.
+scf type: DFT=M06-2X
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5562.80506415303           3.4E-03  1.3E-01
+etot    2  N  Y  1  U   -5539.83506336555 -2.3E+01  1.6E-02  1.1E-01
+etot    3  N  Y  1  U   -5315.10141355760 -2.2E+02  1.6E-02  3.9E-01
+etot    4  N  Y  1  U   -5566.97548235263  2.5E+02  2.6E-03  8.5E-02
+etot    5  N  Y  1  U   -5573.72462913553  6.7E+00  1.5E-03  3.6E-02
+etot    6  N  Y  1  U   -5572.48784549766 -1.2E+00  9.7E-04  6.0E-02
+etot    7  N  Y  1  U   -5575.48101582818  3.0E+00  2.3E-04  1.5E-02
+etot    8  N  Y  1  U   -5575.54333752469  6.2E-02  9.0E-05  7.0E-03
+etot    9  N  Y  1  U   -5575.55686122593  1.4E-02  3.5E-05  1.3E-03
+etot   10  N  Y  1  U   -5575.55880310193  1.9E-03  1.4E-05  7.8E-04
+etot   11  N  Y  1  U   -5575.55908999784  2.9E-04  7.7E-06  3.7E-04
+etot   12  N  Y  1  U   -5575.55918070099  9.1E-05  2.8E-06  9.7E-05
+etot   13  N  N  1  U   -5575.55919121550  1.1E-05  0.0E+00  0.0E+00
+scf (DFT) done.
+--------gas phase calculation complete----------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.59263448786           4.9E-05  8.2E-04
+etot    2  N  Y  1  U   -5575.59332389370  6.9E-04  1.6E-05  7.6E-04
+etot    3  N  Y  1  U   -5575.59355128361  2.3E-04  5.2E-06  3.7E-04
+etot    4  N  N  1  U   -5575.59360020039  4.9E-05  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  1 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.59598065270           5.8E-06  1.0E-04
+etot    2  N  N  1  U   -5575.59599028179  9.6E-06  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  2 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.59629909028           4.0E-06  1.3E-04
+etot    2  N  N  1  U   -5575.59629098715 -8.1E-06  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  3 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.59626298648           6.2E-06  1.9E-04
+etot    2  N  N  1  U   -5575.59624137733 -2.2E-05  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----final solvation iteration  4 complete------------------
+post (output conversion) done.
+Job Type-I-Z-sulfonyl-bind-3-chkp-unrestrained-IRC-max-disp-SPE completed on tethys at Sun Mar 26 13:36:47 2017
+Timer (jaguar_backend.py) : 169961.29 secs (1 day, 23 hrs, 12 mins, 41 secs)
+Finished:   Sun Mar 26 13:36:47 2017

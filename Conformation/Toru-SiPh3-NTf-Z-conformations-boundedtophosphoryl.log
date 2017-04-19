@@ -1,0 +1,1426 @@
+bmin_driver. Copyright (c) Schrodinger, LLC.
+
+[running at reduced cpu priority]
+Job id: tethys-0-582afaf9
+Launch directory: /home/ab2144
+Job directory: /home/ab2144/.schrodinger/tmp/Toru-SiPh3-NTf-Z-conformations-boundedtophosphoryl
+Running locally: False
+======================================
+Running bmin_driver
+Tue, 15 Nov 2016 12:09:31.066824
+Version: 104016
+Command: /usr/local/shared/schrodinger/current/macromodel-v104016/bin/Linux-x86_64/bmin_driver.py -imae Toru-SiPh3-NTf-Z-conformations-boundedtophosphoryl.mae -omae Toru-SiPh3-NTf-Z-conformations-boundedtophosphoryl-out.maegz -NJOBS 2
+.....................................
+
+All output structures will be stored in one file called 'Toru-SiPh3-NTf-Z-conformations-boundedtophosphoryl-out.maegz'
+Number of structures to process                     : 1
+More jobs requested (2) than number of structures to process (1).
+Number of jobs set to 1.
+Generated 1 jobs
+Preparing subjobs...
+ subjobinfo subjobname Toru-SiPh3-NTf-Z-conformations-boundedtophosphoryl-out_subjob_1
+ subjobinfo input      Toru-SiPh3-NTf-Z-conformations-boundedtophosphoryl_subjob_1.mae
+ subjobinfo output     Toru-SiPh3-NTf-Z-conformations-boundedtophosphoryl-out_subjob_1.maegz
+ subjobinfo log        Toru-SiPh3-NTf-Z-conformations-boundedtophosphoryl-out_subjob_1.log
+Copied data file Toru-SiPh3-NTf-Z-conformations-boundedtophosphoryl-out_subjob_1.com
+Running subjobs...
+
+Running subjobs on hosts:
+  localhost (Max: 2)
+Number of jobs:       1
+Max retries per job:  2
+Max allowed failures: unlimited
+Run with -LOCAL:      False
+Verbosity:            verbose
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 0 | launched  tethys-0-582afafc Toru-SiPh3-NTf-Z-conformations-boundedtophosphoryl-out_subjob_1 localhost [tethys]
+1 0 0 | finished  tethys-0-582afafc Toru-SiPh3-NTf-Z-conformations-boundedtophosphoryl-out_subjob_1 localhost [tethys]
+
+All jobs are done.
+
+###########################################
+###########################################
+ Organizing Output Files:                  
+...........................................
+ Collecting Results from Job: Toru-SiPh3-NTf-Z-conformations-boundedtophosphoryl-out_subjob_1           
+   -------------------------------------   
+
+ 
+[running at reduced cpu priority]
+ JobID: tethys-0-582afafc
+ BatchMin V10.4    Build  104016  Starting Time 15-Nov-2016 12:09:33
+ MacroModel. Copyright Schrodinger, LLC.
+ All rights reserved.
+
+ Input filename:  Toru-SiPh3-NTf-Z-conformations-boundedtophosphoryl_subjob_1.mae
+ Output filename: Toru-SiPh3-NTf-Z-conformations-boundedtophosphoryl-out_subjob_1.maegz
+ Turning on debug switch          55
+ Atom-type file: /usr/local/shared/schrodinger/current/mmshare-v26016/bin/Linux-x86_64/../../data/atom.typ
+ Force field: /usr/local/shared/schrodinger/current/macromodel-v104016/bin/Linux-x86_64/../../data/OPLS_2005.fld
+ Read   148 atoms. Structure name, if any, appears on next line: 
+ Type-I
+Low-frequency-Mode Conformational Search.
+ Probability of TORS/MOLS steps:   0.5000000    
+ Non-conformer Serial Search requested
+ Number of steps set to :        1000
+ Quality of Force Field Parameters in Use:
+   Numbers of high, medium and low quality stretch parameters =  159    0    0
+   Numbers of high, medium and low quality bend parameters    =  259    3    0
+   Numbers of high, medium and low quality torsion parameters =  367   15   12
+   Interactions examined:        815 of        815 total, including unused params.
+ WARNING - Conformational Energies May Not Be Accurate
+      Stretch total=      162   constrained=        3
+         Bend total=      262   constrained=        0        linear=        0
+      Torsion total=      468   constrained=        0  out-of-plane=       74
+    Nonbonded total=     8549      H-bonded=        0      ordinary=     8549
+  Nonbonded cutoffs: CutVdw=   7.00    ;  CutEs=   12.0    
+ Starting conjugate gradient minimization.
+          Step     1 New global minimum.  E (kJ/mol) =      122.99
+ Conf     1 E =   122.99 (  0.001) is unique and stored as structure     1
+ Conf     2 E =   130.26 (  0.001) is unique and stored as structure     2
+ Conf     3 E =   130.32 (  0.001) rejected by structure     2
+          Step     4 New global minimum.  E (kJ/mol) =      122.97
+ Conf     4 E =   122.97 (  0.001) replaces structure     1
+ Conf     5 E =   138.33 (  0.001) is unique and stored as structure     3
+ Conf     6 E =   138.36 (  0.001) rejected by structure     3
+ Conf     7 E =   138.33 (  0.001) replaces structure     3
+ Conf     8 E =   123.02 (  0.001) rejected by structure     1
+ Conf     9 E =   137.76 (  0.001) is unique and stored as structure     4
+ Conf    10 E =   137.67 (  0.001) replaces structure     4
+ Conf    11 E =   137.75 (  0.001) rejected by structure     4
+ Conf    12 E =   137.76 (  0.001) rejected by structure     4
+ Conf    13 E =   138.35 (  0.001) rejected by structure     3
+ Conf    14 E =   123.03 (  0.001) rejected by structure     1
+ Conf    15 E =   130.26 (  0.001) rejected by structure     2
+ Conf    16 E =   137.75 (  0.001) rejected by structure     4
+ Conf    17 E =   130.43 (  0.001) is unique and stored as structure     5
+ Conf    18 E =   130.39 (  0.001) replaces structure     5
+ Conf    19 E =   130.26 (  0.001) replaces structure     2
+ Conf    20 E =   130.31 (  0.001) rejected by structure     2
+          Step    21 New global minimum.  E (kJ/mol) =      113.73
+ Conf    21 E =   113.73 (  0.001) is unique and stored as structure     6
+ Conf    22 E =   113.74 (  0.001) rejected by structure     6
+ Conf    23 E =   115.81 (  0.001) is unique and stored as structure     7
+          Step    24 New global minimum.  E (kJ/mol) =      108.29
+ Conf    24 E =   108.29 (  0.001) is unique and stored as structure     8
+          Step    25 New global minimum.  E (kJ/mol) =       94.26
+ Conf    25 E =    94.26 (  0.001) is unique and stored as structure     9
+          Step    26 New global minimum.  E (kJ/mol) =       92.42
+ Conf    26 E =    92.42 (  0.001) is unique and stored as structure    10
+          Step    27 New global minimum.  E (kJ/mol) =       88.99
+ Conf    27 E =    88.99 (  0.001) is unique and stored as structure    11
+ Conf    28 E =    89.01 (  0.001) rejected by structure    11
+ Conf    29 E =    89.01 (  0.001) rejected by structure    11
+ Conf    30 E =    95.88 (  0.001) is unique and stored as structure    12
+ Conf    31 E =   129.61 (  0.001) rejected by energy
+ Conf    32 E =    89.37 (  0.001) is unique and stored as structure    13
+ Conf    33 E =    99.11 (  0.001) is unique and stored as structure    14
+ Conf    34 E =   119.66 (  0.001) rejected by energy
+ Conf    35 E =    89.22 (  0.001) replaces structure    13
+ Conf    36 E =    95.90 (  0.001) rejected by structure    12
+ Conf    37 E =    99.10 (  0.001) replaces structure    14
+ Conf    38 E =    99.89 (  0.001) is unique and stored as structure    15
+          Step    39 New global minimum.  E (kJ/mol) =       85.65
+ Conf    39 E =    85.65 (  0.001) is unique and stored as structure    16
+          Step    40 New global minimum.  E (kJ/mol) =       85.65
+ Conf    40 E =    85.65 (  0.001) replaces structure    16
+ Conf    41 E =    85.77 (  0.001) rejected by structure    16
+ Conf    42 E =   100.02 (  0.001) rejected by structure    15
+ Conf    43 E =    85.66 (  0.001) rejected by structure    16
+ Conf    44 E =    88.88 (  0.001) replaces structure    11
+ Conf    45 E =    88.88 (  0.001) replaces structure    11
+ Conf    46 E =    92.42 (  0.001) replaces structure    10
+ Conf    47 E =    94.31 (  0.001) rejected by structure     9
+ Conf    48 E =    95.86 (  0.001) replaces structure    12
+ Conf    49 E =    98.95 (  0.001) is unique and stored as structure    17
+ Conf    50 E =    96.40 (  0.001) is unique and stored as structure    18
+ Conf    51 E =    96.40 (  0.001) rejected by structure    18
+ Conf    52 E =    96.50 (  0.001) rejected by structure    18
+ Conf    53 E =    98.94 (  0.001) replaces structure    17
+ Conf    54 E =    98.50 (  0.001) is unique and stored as structure    19
+ Conf    55 E =    98.52 (  0.001) rejected by structure    19
+ Conf    56 E =    98.49 (  0.001) replaces structure    19
+ Conf    57 E =    96.41 (  0.001) rejected by structure    18
+ Conf    58 E =    98.93 (  0.001) replaces structure    17
+ Conf    59 E =    99.63 (  0.001) is unique and stored as structure    20
+ Conf    60 E =   100.02 (  0.001) rejected by structure    15
+ Conf    61 E =    99.71 (  0.001) rejected by structure    20
+ Conf    62 E =    99.73 (  0.001) rejected by structure    20
+ Conf    63 E =    99.06 (  0.001) is unique and stored as structure    21
+ Conf    64 E =    99.07 (  0.001) rejected by structure    21
+ Conf    65 E =    88.26 (  0.001) is unique and stored as structure    22
+ Conf    66 E =    85.66 (  0.001) rejected by TORC     71    70    69    65
+ Conf    67 E =    88.29 (  0.001) rejected by structure    22
+ Conf    68 E =    88.31 (  0.001) rejected by structure    22
+ Conf    69 E =   101.96 (  0.001) is unique and stored as structure    23
+ Conf    70 E =   102.03 (  0.001) rejected by structure    23
+ Conf    71 E =   102.07 (  0.001) rejected by structure    23
+ Conf    72 E =   102.04 (  0.001) rejected by structure    23
+ Conf    73 E =   113.85 (  0.001) is unique and stored as structure    24
+ Conf    74 E =   124.84 (  0.001) rejected by energy
+ Conf    75 E =    95.37 (  0.001) is unique and stored as structure    25
+ Conf    76 E =    95.42 (  0.001) rejected by structure    25
+ Conf    77 E =   124.35 (  0.001) rejected by energy
+ Conf    78 E =    95.37 (  0.001) rejected by structure    25
+          Step    79 New global minimum.  E (kJ/mol) =       76.13
+ Conf    79 E =    76.13 (  0.001) is unique and stored as structure    26
+ Conf    80 E =    76.15 (  0.001) rejected by structure    26
+ Conf    81 E =    76.14 (  0.001) rejected by structure    26
+ Conf    82 E =    85.07 (  0.001) is unique and stored as structure    27
+ Conf    83 E =    86.69 (  0.001) is unique and stored as structure    28
+ Conf    84 E =    85.12 (  0.001) is unique and stored as structure    29
+ Conf    85 E =    85.42 (  0.001) rejected by structure    29
+ Conf    86 E =    85.08 (  0.001) rejected by structure    27
+ Conf    87 E =    85.43 (  0.001) rejected by structure    29
+ Conf    88 E =    86.55 (  0.001) replaces structure    28
+ Conf    89 E =    85.09 (  0.001) rejected by structure    27
+ Conf    90 E =    85.43 (  0.001) rejected by structure    29
+ Conf    91 E =    86.58 (  0.001) rejected by structure    28
+ Conf    92 E =    76.16 (  0.001) rejected by structure    26
+ Conf    93 E =    85.09 (  0.001) rejected by structure    27
+ Conf    94 E =    86.58 (  0.001) rejected by structure    28
+ Conf    95 E =    85.65 (  0.001) rejected by structure    16
+ Conf    96 E =    86.58 (  0.001) rejected by structure    28
+ Conf    97 E =    88.28 (  0.001) rejected by structure    22
+ Conf    98 E =    97.28 (  0.001) is unique and stored as structure    30
+ Conf    99 E =   109.37 (  0.001) rejected by energy
+ Conf   100 E =    95.80 (  0.001) is unique and stored as structure    31
+ 
+Interim report; processing .tmp file:
+   22 unique conformations found so far
+   22 minimized with good convergence
+Found     1 confs within  1.00 kcal/mol ( 4.18 kJ/mol) of glob. min.
+Found     6 confs within  3.00 kcal/mol (12.55 kJ/mol) of glob. min.
+Found    14 confs within  5.00 kcal/mol (20.92 kJ/mol) of glob. min.
+Found    22 confs within 10.00 kcal/mol (41.84 kJ/mol) of glob. min.
+Global minimum E =     76.13 found   336 times.
+  100 steps performed so far, out of  1000
+ E of low-energy structures above global min [kJ/mol],  and no. times found:
+    E:  0.00  8.94  8.99  9.52 10.42 12.13 12.75 13.09 16.29 18.13 19.24 19.67
+  No.:   336   336   336   420   420   336   420   168   168   168   252    84
+ 
+ Conf   101 E =   102.04 (  0.001) rejected by structure    22
+ Conf   102 E =    88.88 (  0.001) rejected by structure     7
+ Conf   103 E =    88.90 (  0.001) rejected by structure     7
+ Conf   104 E =    88.30 (  0.001) rejected by structure     6
+ Conf   105 E =    88.88 (  0.001) rejected by structure     7
+ Conf   106 E =    90.19 (  0.001) is unique and stored as structure    23
+ Conf   107 E =    96.98 (  0.001) replaces structure    15
+ Conf   108 E =    92.43 (  0.001) rejected by structure     9
+ Conf   109 E =    94.31 (  0.001) rejected by structure    10
+ Conf   110 E =    92.44 (  0.001) is unique and stored as structure    24
+ Conf   111 E =    84.26 (  0.001) is unique and stored as structure    25
+ Conf   112 E =    84.35 (  0.001) rejected by structure    25
+ Conf   113 E =    95.89 (  0.001) rejected by structure    13
+ Conf   114 E =    96.39 (  0.001) replaces structure    14
+ Conf   115 E =   131.42 (  0.001) rejected by energy
+ Conf   116 E =    97.21 (  0.001) is unique and stored as structure    26
+ Conf   117 E =   106.98 (  0.001) rejected by energy
+ Conf   118 E =    93.81 (  0.001) is unique and stored as structure    27
+ Conf   119 E =   104.08 (  0.001) is unique and stored as structure    28
+ Conf   120 E =    99.88 (  0.001) is unique and stored as structure    29
+ Conf   121 E =    76.14 (  0.001) rejected by structure     1
+ Conf   122 E =    78.45 (  0.001) is unique and stored as structure    30
+ Conf   123 E =    78.45 (  0.001) rejected by structure    30
+ Conf   124 E =   108.99 (  0.001) rejected by energy
+ Conf   125 E =    78.46 (  0.001) rejected by structure    30
+ Conf   126 E =    87.63 (  0.001) is unique and stored as structure    31
+ Conf   127 E =   100.40 (  0.001) is unique and stored as structure    32
+ Conf   128 E =   100.49 (  0.001) rejected by structure    32
+ Conf   129 E =    78.31 (  0.001) is unique and stored as structure    33
+ Conf   130 E =    92.59 (  0.001) is unique and stored as structure    34
+ Conf   131 E =    92.43 (  0.001) is unique and stored as structure    35
+ Conf   132 E =    92.57 (  0.001) replaces structure    34
+ Conf   133 E =    78.32 (  0.001) rejected by structure    33
+ Conf   134 E =    92.57 (  0.001) rejected by structure    34
+ Conf   135 E =   106.94 (  0.001) rejected by energy
+ Conf   136 E =    78.35 (  0.001) rejected by structure    33
+ Conf   137 E =    87.63 (  0.001) replaces structure    31
+ Conf   138 E =    92.42 (  0.001) replaces structure    35
+ Conf   139 E =    93.01 (  0.001) is unique and stored as structure    36
+ Conf   140 E =    93.06 (  0.001) rejected by structure    36
+ Conf   141 E =    89.96 (  0.001) is unique and stored as structure    37
+ Conf   142 E =   113.92 (  0.001) rejected by energy
+ Conf   143 E =    89.97 (  0.001) rejected by structure    37
+ Conf   144 E =    89.97 (  0.001) rejected by structure    37
+ Conf   145 E =   111.06 (  0.001) rejected by energy
+ Conf   146 E =   100.48 (  0.001) rejected by structure    32
+ Conf   147 E =    78.25 (  0.001) is unique and stored as structure    38
+ Conf   148 E =    78.24 (  0.001) replaces structure    38
+ Conf   149 E =    78.24 (  0.001) replaces structure    38
+ Conf   150 E =    78.24 (  0.001) rejected by structure    38
+ Conf   151 E =    78.25 (  0.001) rejected by structure    38
+ Conf   152 E =    87.65 (  0.001) rejected by structure    31
+ Conf   153 E =    89.97 (  0.001) rejected by structure    37
+ Conf   154 E =   102.07 (  0.001) is unique and stored as structure    39
+ Conf   155 E =   102.08 (  0.001) rejected by structure    39
+ Conf   156 E =    91.44 (  0.001) is unique and stored as structure    40
+ Conf   157 E =    91.44 (  0.001) replaces structure    40
+ Conf   158 E =    91.44 (  0.001) rejected by structure    40
+ Conf   159 E =   112.62 (  0.001) rejected by energy
+ Conf   160 E =    92.41 (  0.001) replaces structure    35
+ Conf   161 E =    91.43 (  0.001) replaces structure    40
+ Conf   162 E =    98.16 (  0.001) is unique and stored as structure    41
+ Conf   163 E =    99.88 (  0.001) is unique and stored as structure    42
+ Conf   164 E =    79.65 (  0.001) is unique and stored as structure    43
+ Conf   165 E =    79.67 (  0.001) rejected by structure    43
+ Conf   166 E =    79.65 (  0.001) replaces structure    43
+ Conf   167 E =    98.16 (  0.001) replaces structure    41
+ Conf   168 E =    99.88 (  0.001) replaces structure    42
+ Conf   169 E =    79.66 (  0.001) rejected by structure    43
+ Conf   170 E =    98.15 (  0.001) replaces structure    41
+ Conf   171 E =   115.30 (  0.001) rejected by energy
+ Conf   172 E =   107.80 (  0.001) rejected by energy
+ Conf   173 E =   104.21 (  0.001) is unique and stored as structure    44
+ Conf   174 E =   114.30 (  0.001) rejected by energy
+ Conf   175 E =   104.20 (  0.001) replaces structure    44
+ Conf   176 E =   106.35 (  0.001) rejected by energy
+ Conf   177 E =    98.16 (  0.001) rejected by structure    41
+ Conf   178 E =    99.88 (  0.001) rejected by structure    42
+ Conf   179 E =    79.23 (  0.001) is unique and stored as structure    45
+ Conf   180 E =    76.13 (  0.001) rejected by structure     1
+ Conf   181 E =    78.33 (  0.001) rejected by structure    33
+ Conf   182 E =    79.22 (  0.001) replaces structure    45
+ Conf   183 E =    78.32 (  0.001) rejected by structure    33
+ Conf   184 E =   102.08 (  0.001) rejected by structure    39
+ Conf   185 E =   104.20 (  0.001) rejected by structure    44
+ Conf   186 E =    78.24 (  0.001) rejected by structure    38
+ Conf   187 E =    78.32 (  0.000) rejected by structure    33
+ Conf   188 E =    79.22 (  0.001) replaces structure    45
+ Conf   189 E =    79.65 (  0.001) rejected by structure    43
+ Conf   190 E =    85.53 (  0.001) is unique and stored as structure    46
+ Conf   191 E =   106.64 (  0.001) rejected by energy
+ Conf   192 E =    85.53 (  0.001) replaces structure    46
+ Conf   193 E =    85.55 (  0.001) rejected by structure    46
+ Conf   194 E =    85.51 (  0.001) replaces structure    46
+ Conf   195 E =    85.53 (  0.001) rejected by structure    46
+ Conf   196 E =    88.90 (  0.001) rejected by structure     7
+ Conf   197 E =    86.56 (  0.001) rejected by structure     5
+ Conf   198 E =   119.47 (  0.001) rejected by energy
+ Conf   199 E =    88.28 (  0.001) rejected by structure     6
+ Conf   200 E =    88.85 (  0.001) replaces structure     7
+ 
+Interim report; processing .tmp file:
+   46 unique conformations found so far
+   46 minimized with good convergence
+Found     6 confs within  1.00 kcal/mol ( 4.18 kJ/mol) of glob. min.
+Found     7 confs within  2.00 kcal/mol ( 8.37 kJ/mol) of glob. min.
+Found    14 confs within  3.00 kcal/mol (12.55 kJ/mol) of glob. min.
+Found    31 confs within  5.00 kcal/mol (20.92 kJ/mol) of glob. min.
+Found    46 confs within 10.00 kcal/mol (41.84 kJ/mol) of glob. min.
+Global minimum E =     76.13 found   504 times.
+  200 steps performed so far, out of  1000
+ E of low-energy structures above global min [kJ/mol],  and no. times found:
+    E:  0.00  2.11  2.18  2.32  3.09  3.51  8.13  8.94  8.99  9.38  9.52 10.42
+  No.:   504   504   504   252   252   420   168   336   336   420   420   504
+ 
+ Conf   201 E =   104.20 (  0.001) rejected by structure    46
+ Conf   202 E =    85.44 (  0.001) rejected by structure     9
+ Conf   203 E =    85.52 (  0.001) rejected by structure    10
+ Conf   204 E =    95.17 (  0.001) is unique and stored as structure    47
+ Conf   205 E =    88.20 (  0.001) is unique and stored as structure    48
+ Conf   206 E =    94.62 (  0.001) rejected by TORC     71    70    69    65
+ Conf   207 E =    88.21 (  0.001) rejected by structure    48
+ Conf   208 E =    95.18 (  0.001) rejected by structure    47
+ Conf   209 E =    88.12 (  0.001) replaces structure    48
+ Conf   210 E =    93.75 (  0.001) is unique and stored as structure    49
+ Conf   211 E =    87.37 (  0.001) is unique and stored as structure    50
+ Conf   212 E =    87.37 (  0.001) replaces structure    50
+ Conf   213 E =    87.38 (  0.001) rejected by structure    50
+ Conf   214 E =    93.77 (  0.001) rejected by structure    49
+ Conf   215 E =    86.71 (  0.001) is unique and stored as structure    51
+ Conf   216 E =    86.71 (  0.001) rejected by structure    51
+ Conf   217 E =    90.32 (  0.001) is unique and stored as structure    52
+ Conf   218 E =    86.71 (  0.001) rejected by structure    51
+ Conf   219 E =    89.94 (  0.001) is unique and stored as structure    53
+ Conf   220 E =    89.93 (  0.001) replaces structure    53
+ Conf   221 E =    89.91 (  0.001) replaces structure    53
+ Conf   222 E =    86.71 (  0.001) rejected by structure    51
+ Conf   223 E =    89.92 (  0.001) rejected by structure    53
+ Conf   224 E =    90.31 (  0.001) replaces structure    52
+ Conf   225 E =    88.73 (  0.001) is unique and stored as structure    54
+ Conf   226 E =    87.37 (  0.001) rejected by structure    50
+ Conf   227 E =    95.16 (  0.001) replaces structure    47
+ Conf   228 E =    88.74 (  0.001) rejected by structure    54
+ Conf   229 E =    86.71 (  0.001) replaces structure    51
+ Conf   230 E =    87.37 (  0.001) rejected by structure    50
+ Conf   231 E =    88.20 (  0.001) rejected by structure    48
+ Conf   232 E =    87.35 (  0.001) replaces structure    50
+ Conf   233 E =    89.93 (  0.001) rejected by structure    53
+ Conf   234 E =    89.94 (  0.001) rejected by structure    53
+ Conf   235 E =    93.82 (  0.001) rejected by structure    49
+ Conf   236 E =    95.17 (  0.001) rejected by structure    47
+ Conf   237 E =    86.66 (  0.001) rejected by structure    12
+ Conf   238 E =    86.71 (  0.001) rejected by structure    51
+ Conf   239 E =   128.75 (  0.001) rejected by energy
+ Conf   240 E =    87.64 (  0.001) rejected by structure    13
+ Conf   241 E =    88.21 (  0.001) rejected by structure    48
+ Conf   242 E =    88.88 (  0.001) is unique and stored as structure    55
+ Conf   243 E =   122.70 (  0.001) rejected by energy
+ Conf   244 E =   103.76 (  0.001) is unique and stored as structure    56
+ Conf   245 E =   103.72 (  0.001) replaces structure    56
+ Conf   246 E =    99.02 (  0.001) is unique and stored as structure    57
+ Conf   247 E =    99.01 (  0.001) replaces structure    57
+ Conf   248 E =    97.53 (  0.001) is unique and stored as structure    58
+ Conf   249 E =    97.55 (  0.001) rejected by structure    58
+ Conf   250 E =    97.54 (  0.001) rejected by structure    58
+ Conf   251 E =    99.36 (  0.001) is unique and stored as structure    59
+ Conf   252 E =    99.35 (  0.001) replaces structure    59
+ Conf   253 E =    72.58 (  0.001) rejected by TORC     71    70    69    65
+ Conf   254 E =   105.05 (  0.001) is unique and stored as structure    60
+ Conf   255 E =    97.54 (  0.001) rejected by structure    58
+ Conf   256 E =    93.98 (  0.001) is unique and stored as structure    61
+ Conf   257 E =   177.88 (  0.001) rejected by energy
+ Conf   258 E =    93.98 (  0.001) replaces structure    61
+ Conf   259 E =    93.98 (  0.001) replaces structure    61
+ Conf   260 E =    97.54 (  0.001) rejected by structure    58
+ Conf   261 E =   135.21 (  0.001) rejected by energy
+ Conf   262 E =    99.36 (  0.001) rejected by structure    59
+ Conf   263 E =    99.49 (  0.001) is unique and stored as structure    62
+ Conf   264 E =    99.50 (  0.001) rejected by structure    62
+ Conf   265 E =    91.42 (  0.001) replaces structure    19
+ Conf   266 E =    85.98 (  0.001) is unique and stored as structure    63
+ Conf   267 E =    85.98 (  0.001) rejected by structure    63
+ Conf   268 E =   125.11 (  0.001) rejected by energy
+ Conf   269 E =    84.28 (  0.001) is unique and stored as structure    64
+ Conf   270 E =    84.28 (  0.001) replaces structure    64
+ Conf   271 E =    84.28 (  0.001) rejected by structure    64
+ Conf   272 E =    84.28 (  0.001) rejected by structure    64
+ Conf   273 E =    84.28 (  0.001) rejected by structure    64
+ Conf   274 E =   101.52 (  0.001) is unique and stored as structure    65
+ Conf   275 E =    88.84 (  0.001) is unique and stored as structure    66
+ Conf   276 E =    88.85 (  0.001) rejected by structure    66
+ Conf   277 E =    88.82 (  0.001) replaces structure    66
+ Conf   278 E =   109.89 (  0.001) rejected by energy
+ Conf   279 E =    88.84 (  0.001) rejected by structure    66
+ Conf   280 E =    98.04 (  0.001) is unique and stored as structure    67
+ Conf   281 E =    84.31 (  0.001) rejected by structure    64
+ Conf   282 E =    98.04 (  0.001) replaces structure    67
+ Conf   283 E =    84.28 (  0.001) rejected by structure    64
+ Conf   284 E =    93.30 (  0.001) is unique and stored as structure    68
+ Conf   285 E =    93.31 (  0.001) rejected by structure    68
+ Conf   286 E =    93.31 (  0.001) rejected by structure    68
+ Conf   287 E =    98.82 (  0.001) is unique and stored as structure    69
+ Conf   288 E =    88.82 (  0.001) replaces structure    66
+ Conf   289 E =    98.84 (  0.001) rejected by structure    69
+ Conf   290 E =   102.35 (  0.001) is unique and stored as structure    70
+ Conf   291 E =   102.35 (  0.001) rejected by structure    70
+ Conf   292 E =   102.35 (  0.001) rejected by structure    70
+ Conf   293 E =   102.35 (  0.001) replaces structure    70
+ Conf   294 E =    88.88 (  0.001) replaces structure    55
+ Conf   295 E =    94.02 (  0.001) is unique and stored as structure    71
+ Conf   296 E =    94.02 (  0.001) rejected by structure    71
+ Conf   297 E =    94.03 (  0.001) rejected by structure    71
+ Conf   298 E =    93.05 (  0.001) is unique and stored as structure    72
+ Conf   299 E =    94.38 (  0.001) is unique and stored as structure    73
+ Conf   300 E =    97.41 (  0.001) is unique and stored as structure    74
+ 
+Interim report; processing .tmp file:
+   74 unique conformations found so far
+   74 minimized with good convergence
+Found     6 confs within  1.00 kcal/mol ( 4.18 kJ/mol) of glob. min.
+Found     8 confs within  2.00 kcal/mol ( 8.37 kJ/mol) of glob. min.
+Found    19 confs within  3.00 kcal/mol (12.55 kJ/mol) of glob. min.
+Found    48 confs within  5.00 kcal/mol (20.92 kJ/mol) of glob. min.
+Found    74 confs within 10.00 kcal/mol (41.84 kJ/mol) of glob. min.
+Global minimum E =     76.13 found   504 times.
+  300 steps performed so far, out of  1000
+ E of low-energy structures above global min [kJ/mol],  and no. times found:
+    E:  0.00  2.11  2.18  2.32  3.09  3.51  8.13  8.14  8.94  8.99  9.38  9.52
+  No.:   504   504   504   252   252   420   168   588   336   420   504   420
+ 
+ Conf   301 E =   105.04 (  0.001) replaces structure    74
+ Conf   302 E =   104.08 (  0.001) replaces structure    72
+ Conf   303 E =    93.05 (  0.001) rejected by structure    34
+ Conf   304 E =    94.03 (  0.001) rejected by structure    39
+ Conf   305 E =    53.88 (  0.001) rejected by TORC     71    70    69    65
+ Conf   306 E =   102.18 (  0.001) is unique and stored as structure    75
+ Conf   307 E =    97.66 (  0.001) is unique and stored as structure    76
+ Conf   308 E =    97.66 (  0.001) rejected by structure    76
+ Conf   309 E =    97.66 (  0.001) replaces structure    76
+ Conf   310 E =    97.66 (  0.001) rejected by structure    76
+ Conf   311 E =    97.72 (  0.001) rejected by structure    76
+ Conf   312 E =   102.17 (  0.001) replaces structure    75
+ Conf   313 E =   119.25 (  0.001) rejected by energy
+ Conf   314 E =    97.72 (  0.001) rejected by structure    76
+ Conf   315 E =    98.93 (  0.001) replaces structure    56
+ Conf   316 E =   148.63 (  0.021) rejected by energy
+ Conf   317 E =    99.06 (  0.001) rejected by structure    58
+ Conf   318 E =    99.11 (  0.001) rejected by structure    59
+ Conf   319 E =    99.35 (  0.001) replaces structure    60
+ Conf   320 E =    87.89 (  0.001) is unique and stored as structure    77
+ Conf   321 E =    87.87 (  0.001) replaces structure    77
+ Conf   322 E =   113.19 (  0.001) rejected by energy
+ Conf   323 E =    87.89 (  0.001) rejected by structure    77
+ Conf   324 E =    87.87 (  0.001) rejected by structure    77
+ Conf   325 E =    99.63 (  0.001) replaces structure    62
+ Conf   326 E =   107.57 (  0.001) rejected by energy
+ Conf   327 E =   101.52 (  0.001) replaces structure    67
+ Conf   328 E =    93.06 (  0.001) rejected by structure    34
+ Conf   329 E =   102.19 (  0.001) rejected by structure    75
+ Conf   330 E =   102.34 (  0.001) replaces structure    70
+ Conf   331 E =   102.88 (  0.001) is unique and stored as structure    78
+ Conf   332 E =    81.52 (  0.001) is unique and stored as structure    79
+ Conf   333 E =    81.52 (  0.001) replaces structure    79
+ Conf   334 E =    81.52 (  0.001) rejected by structure    79
+ Conf   335 E =    90.39 (  0.001) is unique and stored as structure    80
+ Conf   336 E =    93.32 (  0.001) is unique and stored as structure    81
+ Conf   337 E =    99.97 (  0.001) is unique and stored as structure    82
+ Conf   338 E =    92.73 (  0.001) is unique and stored as structure    83
+ Conf   339 E =    92.72 (  0.001) replaces structure    83
+ Conf   340 E =    90.40 (  0.001) rejected by structure    80
+ Conf   341 E =    92.73 (  0.001) rejected by structure    83
+ Conf   342 E =    93.29 (  0.001) replaces structure    81
+ Conf   343 E =    99.98 (  0.001) rejected by structure    82
+ Conf   344 E =    81.52 (  0.001) rejected by structure    79
+ Conf   345 E =    90.39 (  0.001) rejected by structure    80
+ Conf   346 E =    96.27 (  0.001) is unique and stored as structure    84
+ Conf   347 E =    96.26 (  0.001) replaces structure    84
+ Conf   348 E =    92.72 (  0.001) replaces structure    83
+ Conf   349 E =    99.97 (  0.001) rejected by structure    82
+ Conf   350 E =    95.47 (  0.001) is unique and stored as structure    85
+ Conf   351 E =    93.15 (  0.001) is unique and stored as structure    86
+ Conf   352 E =  6700.45 (  0.001) rejected by energy
+ Conf   353 E =    63.16 (  0.001) rejected by TORC     71    70    69    65
+ Conf   354 E =   102.77 (  0.001) is unique and stored as structure    87
+ Conf   355 E =   102.82 (  0.001) rejected by structure    87
+ Conf   356 E =   102.77 (  0.001) rejected by structure    87
+ Conf   357 E =    87.55 (  0.001) is unique and stored as structure    88
+ Conf   358 E =    90.35 (  0.001) is unique and stored as structure    89
+ Conf   359 E =    90.47 (  0.001) rejected by structure    89
+ Conf   360 E =   129.06 (  0.001) rejected by energy
+ Conf   361 E =    90.51 (  0.001) rejected by structure    89
+ Conf   362 E =    89.06 (  0.001) is unique and stored as structure    90
+ Conf   363 E =    89.13 (  0.001) rejected by structure    90
+ Conf   364 E =    89.11 (  0.001) rejected by structure    90
+ Conf   365 E =    89.11 (  0.001) rejected by structure    90
+ Conf   366 E =    90.51 (  0.001) rejected by structure    89
+ Conf   367 E =    62.39 (  0.001) rejected by TORC     71    70    69    65
+ Conf   368 E =    88.74 (  0.001) is unique and stored as structure    91
+ Conf   369 E =    90.39 (  0.001) rejected by structure    80
+ Conf   370 E =    88.67 (  0.001) replaces structure    91
+ Conf   371 E =    88.73 (  0.001) rejected by structure    91
+ Conf   372 E =   102.79 (  0.001) is unique and stored as structure    92
+ Conf   373 E =   102.81 (  0.001) rejected by structure    92
+ Conf   374 E =   102.79 (  0.001) rejected by structure    92
+ Conf   375 E =   102.83 (  0.001) rejected by structure    92
+ Conf   376 E =   103.72 (  0.001) replaces structure    71
+ Conf   377 E =    81.52 (  0.001) rejected by structure    79
+ Conf   378 E =    85.53 (  0.001) is unique and stored as structure    93
+ Conf   379 E =    93.44 (  0.001) is unique and stored as structure    94
+ Conf   380 E =    85.53 (  0.001) replaces structure    93
+ Conf   381 E =    87.54 (  0.001) replaces structure    88
+ Conf   382 E =    91.97 (  0.001) is unique and stored as structure    95
+ Conf   383 E =    91.96 (  0.001) replaces structure    95
+ Conf   384 E =    87.35 (  0.001) rejected by structure    16
+ Conf   385 E =    96.05 (  0.001) is unique and stored as structure    96
+ Conf   386 E =    96.03 (  0.001) replaces structure    96
+ Conf   387 E =    96.07 (  0.001) rejected by structure    96
+ Conf   388 E =    91.95 (  0.001) replaces structure    95
+ Conf   389 E =    93.44 (  0.001) replaces structure    94
+ Conf   390 E =    96.11 (  0.001) rejected by structure    96
+ Conf   391 E =    87.54 (  0.001) rejected by structure    88
+ Conf   392 E =    93.31 (  0.001) rejected by structure    81
+ Conf   393 E =    89.12 (  0.001) rejected by structure    90
+ Conf   394 E =    90.50 (  0.001) rejected by structure    89
+ Conf   395 E =    90.38 (  0.001) replaces structure    80
+ Conf   396 E =    95.13 (  0.001) is unique and stored as structure    97
+ Conf   397 E =    95.12 (  0.001) replaces structure    97
+ Conf   398 E =    93.63 (  0.001) is unique and stored as structure    98
+ Conf   399 E =    93.69 (  0.001) rejected by structure    98
+ Conf   400 E =    93.69 (  0.001) rejected by structure    98
+ 
+Interim report; processing .tmp file:
+   98 unique conformations found so far
+   98 minimized with good convergence
+Found     6 confs within  1.00 kcal/mol ( 4.18 kJ/mol) of glob. min.
+Found     9 confs within  2.00 kcal/mol ( 8.37 kJ/mol) of glob. min.
+Found    24 confs within  3.00 kcal/mol (12.55 kJ/mol) of glob. min.
+Found    66 confs within  5.00 kcal/mol (20.92 kJ/mol) of glob. min.
+Found    98 confs within 10.00 kcal/mol (41.84 kJ/mol) of glob. min.
+Global minimum E =     76.13 found   504 times.
+  400 steps performed so far, out of  1000
+ E of low-energy structures above global min [kJ/mol],  and no. times found:
+    E:  0.00  2.11  2.18  2.32  3.09  3.51  5.39  8.13  8.14  8.94  8.99  9.38
+  No.:   504   504   504   252   252   420   420   168   588   336   420   504
+ 
+ Conf   401 E =   105.04 (  0.001) replaces structure    98
+ Conf   402 E =   103.10 (  0.001) is unique and stored as structure    99
+ Conf   403 E =    92.99 (  0.001) is unique and stored as structure   100
+ Conf   404 E =    93.03 (  0.001) rejected by structure   100
+ Conf   405 E =    92.94 (  0.001) replaces structure   100
+ Conf   406 E =   103.12 (  0.001) rejected by structure    99
+ Conf   407 E =    93.86 (  0.001) is unique and stored as structure   101
+ Conf   408 E =    93.91 (  0.001) rejected by structure   101
+ Conf   409 E =   100.36 (  0.001) is unique and stored as structure   102
+ Conf   410 E =    86.73 (  0.001) rejected by structure    16
+ Conf   411 E =   102.01 (  0.001) is unique and stored as structure   103
+ Conf   412 E =   102.10 (  0.001) rejected by structure   103
+ Conf   413 E =   102.04 (  0.001) rejected by structure   103
+ Conf   414 E =    92.99 (  0.001) rejected by structure   100
+ Conf   415 E =    90.81 (  0.001) is unique and stored as structure   104
+ Conf   416 E =    90.81 (  0.001) rejected by structure   104
+ Conf   417 E =    88.89 (  0.001) is unique and stored as structure   105
+ Conf   418 E =   102.84 (  0.001) is unique and stored as structure   106
+ Conf   419 E =    92.38 (  0.001) is unique and stored as structure   107
+ Conf   420 E =   110.04 (  0.001) rejected by energy
+ Conf   421 E =    88.89 (  0.001) rejected by structure   105
+ Conf   422 E =   110.04 (  0.001) rejected by energy
+ Conf   423 E =   102.84 (  0.001) replaces structure   106
+ Conf   424 E =    88.92 (  0.001) rejected by structure   105
+ Conf   425 E =    93.07 (  0.001) rejected by structure    45
+ Conf   426 E =    92.37 (  0.001) replaces structure   107
+ Conf   427 E =    86.60 (  0.001) rejected by structure    16
+ Conf   428 E =   102.84 (  0.001) replaces structure   106
+ Conf   429 E =    92.44 (  0.001) rejected by structure    39
+ Conf   430 E =    87.40 (  0.001) is unique and stored as structure   108
+ Conf   431 E =    86.95 (  0.001) is unique and stored as structure   109
+ Conf   432 E =   110.45 (  0.001) rejected by energy
+ Conf   433 E =    86.95 (  0.001) rejected by structure   109
+ Conf   434 E =    86.95 (  0.001) rejected by structure   109
+ Conf   435 E =    86.95 (  0.001) rejected by structure   109
+ Conf   436 E =    87.35 (  0.001) replaces structure   108
+ Conf   437 E =    86.95 (  0.001) rejected by structure   109
+ Conf   438 E =    86.95 (  0.001) replaces structure   109
+ Conf   439 E =    95.09 (  0.001) is unique and stored as structure   110
+ Conf   440 E =    95.75 (  0.001) is unique and stored as structure   111
+ Conf   441 E =    89.75 (  0.001) is unique and stored as structure   112
+ Conf   442 E =    89.73 (  0.001) replaces structure   112
+ Conf   443 E =    89.75 (  0.001) rejected by structure   112
+ Conf   444 E =    93.88 (  0.001) is unique and stored as structure   113
+ Conf   445 E =    93.74 (  0.001) is unique and stored as structure   114
+ Conf   446 E =    93.91 (  0.001) rejected by structure   114
+ Conf   447 E =    92.21 (  0.001) is unique and stored as structure   115
+ Conf   448 E =    93.91 (  0.001) rejected by structure   114
+ Conf   449 E =    92.20 (  0.001) replaces structure   115
+ Conf   450 E =    63.15 (  0.001) rejected by TORC     71    70    69    65
+ Conf   451 E =    95.74 (  0.001) replaces structure   111
+ Conf   452 E =    89.69 (  0.001) replaces structure   112
+ Conf   453 E =    93.78 (  0.001) rejected by structure   114
+ Conf   454 E =    92.17 (  0.001) replaces structure   115
+ Conf   455 E =    93.89 (  0.001) rejected by structure   113
+ Conf   456 E =    89.74 (  0.001) rejected by structure   112
+ Conf   457 E =    89.73 (  0.001) rejected by structure   112
+ Conf   458 E =    89.72 (  0.001) rejected by structure   112
+ Conf   459 E =    92.19 (  0.001) is unique and stored as structure   116
+ Conf   460 E =    92.20 (  0.001) rejected by structure   116
+ Conf   461 E =   128.18 (  0.001) rejected by energy
+ Conf   462 E =    92.19 (  0.001) rejected by structure   116
+ Conf   463 E =    92.04 (  0.001) replaces structure   116
+ Conf   464 E =    92.38 (  0.001) rejected by structure   107
+ Conf   465 E =    87.46 (  0.001) is unique and stored as structure   117
+ Conf   466 E =    87.45 (  0.001) replaces structure   117
+ Conf   467 E =    95.29 (  0.001) is unique and stored as structure   118
+ Conf   468 E =    83.93 (  0.001) is unique and stored as structure   119
+ Conf   469 E =    83.96 (  0.001) rejected by structure   119
+ Conf   470 E =    83.96 (  0.001) rejected by structure   119
+ Conf   471 E =    95.38 (  0.001) rejected by structure   118
+ Conf   472 E =   106.30 (  0.001) rejected by energy
+ Conf   473 E =    87.45 (  0.001) rejected by structure   117
+ Conf   474 E =    95.27 (  0.001) replaces structure   118
+ Conf   475 E =    83.93 (  0.001) rejected by structure   119
+ Conf   476 E =   103.11 (  0.001) is unique and stored as structure   120
+ Conf   477 E =    98.77 (  0.001) is unique and stored as structure   121
+ Conf   478 E =    98.77 (  0.001) rejected by structure   121
+ Conf   479 E =    91.98 (  0.001) rejected by structure    38
+ Conf   480 E =   103.09 (  0.001) replaces structure   120
+ Conf   481 E =    88.24 (  0.001) rejected by structure    22
+ Conf   482 E =    91.95 (  0.001) rejected by structure    38
+ Conf   483 E =    93.74 (  0.001) replaces structure   114
+ Conf   484 E =   102.06 (  0.001) replaces structure    89
+ Conf   485 E =    93.95 (  0.001) rejected by structure   113
+ Conf   486 E =    95.08 (  0.001) replaces structure   110
+ Conf   487 E =    95.27 (  0.001) rejected by structure   118
+ Conf   488 E =  8083.00 (  0.004) rejected by energy
+ Conf   489 E =    98.06 (  0.001) is unique and stored as structure   122
+ Conf   490 E =    98.06 (  0.001) rejected by structure   122
+ Conf   491 E =    98.06 (  0.001) rejected by structure   122
+ Conf   492 E =    97.49 (  0.001) is unique and stored as structure   123
+ Conf   493 E =    97.49 (  0.001) replaces structure   123
+ Conf   494 E =    97.49 (  0.001) replaces structure   123
+ Conf   495 E =    94.96 (  0.001) is unique and stored as structure   124
+ Conf   496 E =    94.96 (  0.001) replaces structure   124
+ Conf   497 E =    94.96 (  0.001) rejected by structure   124
+ Conf   498 E =    94.96 (  0.001) replaces structure   124
+ Conf   499 E =   102.19 (  0.001) is unique and stored as structure   125
+ Conf   500 E =   107.46 (  0.001) rejected by energy
+ 
+Interim report; processing .tmp file:
+  125 unique conformations found so far
+  125 minimized with good convergence
+Found     6 confs within  1.00 kcal/mol ( 4.18 kJ/mol) of glob. min.
+Found    10 confs within  2.00 kcal/mol ( 8.37 kJ/mol) of glob. min.
+Found    28 confs within  3.00 kcal/mol (12.55 kJ/mol) of glob. min.
+Found    84 confs within  5.00 kcal/mol (20.92 kJ/mol) of glob. min.
+Found   125 confs within 10.00 kcal/mol (41.84 kJ/mol) of glob. min.
+Global minimum E =     76.13 found   504 times.
+  500 steps performed so far, out of  1000
+ E of low-energy structures above global min [kJ/mol],  and no. times found:
+    E:  0.00  2.11  2.18  2.32  3.09  3.51  5.39  7.80  8.13  8.14  8.94  8.99
+  No.:   504   504   504   252   252   420   420   336   168   588   336   420
+ 
+ Conf   501 E =   105.04 (  0.001) rejected by structure   125
+ Conf   502 E =   105.04 (  0.001) replaces structure   125
+ Conf   503 E =    86.67 (  0.001) rejected by structure    17
+ Conf   504 E =    88.78 (  0.001) rejected by structure    29
+ Conf   505 E =    95.75 (  0.001) rejected by structure    78
+ Conf   506 E =    96.06 (  0.001) rejected by structure    81
+ Conf   507 E =    96.26 (  0.001) replaces structure    82
+ Conf   508 E =    93.69 (  0.001) is unique and stored as structure   126
+ Conf   509 E =    96.39 (  0.001) replaces structure    83
+ Conf   510 E =    93.69 (  0.001) rejected by structure   126
+ Conf   511 E =    93.69 (  0.001) rejected by structure   126
+ Conf   512 E =    93.69 (  0.001) replaces structure   126
+ Conf   513 E =    88.79 (  0.001) rejected by TORC     71    70    69    65
+ Conf   514 E =    90.49 (  0.001) rejected by structure    41
+ Conf   515 E =    94.78 (  0.001) is unique and stored as structure   127
+ Conf   516 E =    94.77 (  0.001) replaces structure   127
+ Conf   517 E =    94.37 (  0.001) is unique and stored as structure   128
+ Conf   518 E =    94.43 (  0.001) rejected by structure   128
+ Conf   519 E =   102.86 (  0.001) is unique and stored as structure   129
+ Conf   520 E =   102.85 (  0.001) replaces structure   129
+ Conf   521 E =   134.58 (  0.001) rejected by energy
+ Conf   522 E =    95.42 (  0.001) is unique and stored as structure   130
+ Conf   523 E =    84.29 (  0.001) rejected by structure    10
+ Conf   524 E =   102.09 (  0.001) is unique and stored as structure   131
+ Conf   525 E =   102.07 (  0.001) replaces structure   131
+ Conf   526 E =   102.07 (  0.001) rejected by structure   131
+ Conf   527 E =    94.78 (  0.001) rejected by structure   127
+ Conf   528 E =    92.27 (  0.001) is unique and stored as structure   132
+ Conf   529 E =    92.27 (  0.001) replaces structure   132
+ Conf   530 E =    84.29 (  0.001) rejected by structure    10
+ Conf   531 E =    92.27 (  0.001) rejected by structure   132
+ Conf   532 E =   102.09 (  0.001) rejected by structure   131
+ Conf   533 E =   110.44 (  0.001) rejected by energy
+ Conf   534 E =    92.27 (  0.001) rejected by structure   132
+ Conf   535 E =    94.43 (  0.001) rejected by structure   128
+ Conf   536 E =    86.53 (  0.001) is unique and stored as structure   133
+ Conf   537 E =    86.53 (  0.001) replaces structure   133
+ Conf   538 E =    85.64 (  0.001) replaces structure    15
+ Conf   539 E =    86.53 (  0.001) rejected by structure   133
+ Conf   540 E =    54.79 (  0.001) rejected by TORC     71    70    69    65
+ Conf   541 E =    95.42 (  0.001) replaces structure   130
+ Conf   542 E =    97.49 (  0.001) rejected by structure    87
+ Conf   543 E =    98.15 (  0.001) replaces structure    92
+ Conf   544 E =   137.21 (  0.001) rejected by energy
+ Conf   545 E =    98.95 (  0.001) rejected by structure    96
+ Conf   546 E =   119.40 (  0.001) rejected by energy
+ Conf   547 E =    99.11 (  0.001) rejected by structure    98
+ Conf   548 E =    98.49 (  0.001) replaces structure    93
+ Conf   549 E =    99.74 (  0.001) rejected by structure   102
+ Conf   550 E =    99.07 (  0.001) rejected by structure    98
+ Conf   551 E =    99.97 (  0.001) rejected by structure   106
+ Conf   552 E =   102.06 (  0.001) replaces structure   131
+ Conf   553 E =   106.03 (  0.001) is unique and stored as structure   134
+ Conf   554 E =    98.42 (  0.001) is unique and stored as structure   135
+ Conf   555 E =   100.61 (  0.001) is unique and stored as structure   136
+ Conf   556 E =   100.61 (  0.001) rejected by structure   136
+ Conf   557 E =   118.27 (  0.001) rejected by energy
+ Conf   558 E =   100.62 (  0.001) rejected by structure   136
+ Conf   559 E =    90.84 (  0.001) is unique and stored as structure   137
+ Conf   560 E =    90.80 (  0.001) replaces structure   137
+ Conf   561 E =    99.00 (  0.001) is unique and stored as structure   138
+ Conf   562 E =    96.01 (  0.001) is unique and stored as structure   139
+ Conf   563 E =    96.04 (  0.001) rejected by structure   139
+ Conf   564 E =   149.15 (  0.001) rejected by energy
+ Conf   565 E =    99.15 (  0.001) rejected by structure   138
+ Conf   566 E =    82.36 (  0.001) is unique and stored as structure   140
+ Conf   567 E =    80.27 (  0.001) rejected by TORC     71    70    69    65
+ Conf   568 E =   104.56 (  0.001) is unique and stored as structure   141
+ Conf   569 E =    87.01 (  0.001) is unique and stored as structure   142
+ Conf   570 E =    86.99 (  0.001) replaces structure   142
+ Conf   571 E =    87.01 (  0.001) rejected by structure   142
+ Conf   572 E =   105.39 (  0.001) is unique and stored as structure   143
+ Conf   573 E =    86.87 (  0.001) is unique and stored as structure   144
+ Conf   574 E =    82.40 (  0.001) rejected by structure   140
+ Conf   575 E =    86.98 (  0.001) replaces structure   142
+ Conf   576 E =    87.01 (  0.001) rejected by structure   142
+ Conf   577 E =    82.38 (  0.001) rejected by structure   140
+ Conf   578 E =   101.21 (  0.001) is unique and stored as structure   145
+ Conf   579 E =   108.78 (  0.001) rejected by energy
+ Conf   580 E =   101.21 (  0.001) rejected by structure   145
+ Conf   581 E =    86.98 (  0.001) replaces structure   142
+ Conf   582 E =    94.24 (  0.001) is unique and stored as structure   146
+ Conf   583 E =    94.23 (  0.001) replaces structure   146
+ Conf   584 E =    94.22 (  0.001) replaces structure   146
+ Conf   585 E =    94.24 (  0.001) rejected by structure   146
+ Conf   586 E =   103.08 (  0.001) is unique and stored as structure   147
+ Conf   587 E =   102.85 (  0.001) replaces structure   129
+ Conf   588 E =    86.54 (  0.001) rejected by structure   133
+ Conf   589 E =    88.20 (  0.001) rejected by structure    26
+ Conf   590 E =   100.61 (  0.001) replaces structure   136
+ Conf   591 E =   101.22 (  0.000) rejected by structure   145
+ Conf   592 E =   103.09 (  0.001) rejected by structure   147
+ Conf   593 E =   104.57 (  0.001) rejected by structure   141
+ Conf   594 E =   107.44 (  0.001) rejected by energy
+ Conf   595 E =    98.43 (  0.001) rejected by structure   135
+ Conf   596 E =    82.39 (  0.001) rejected by structure   140
+ Conf   597 E =   112.14 (  0.001) rejected by energy
+ Conf   598 E =    86.89 (  0.001) rejected by structure   144
+ Conf   599 E =    90.83 (  0.001) rejected by structure   137
+ Conf   600 E =    94.21 (  0.001) replaces structure   146
+ 
+Interim report; processing .tmp file:
+  147 unique conformations found so far
+  147 minimized with good convergence
+Found     6 confs within  1.00 kcal/mol ( 4.18 kJ/mol) of glob. min.
+Found    11 confs within  2.00 kcal/mol ( 8.37 kJ/mol) of glob. min.
+Found    32 confs within  3.00 kcal/mol (12.55 kJ/mol) of glob. min.
+Found    96 confs within  5.00 kcal/mol (20.92 kJ/mol) of glob. min.
+Found   147 confs within 10.00 kcal/mol (41.84 kJ/mol) of glob. min.
+Global minimum E =     76.13 found   504 times.
+  600 steps performed so far, out of  1000
+ E of low-energy structures above global min [kJ/mol],  and no. times found:
+    E:  0.00  2.11  2.18  2.32  3.09  3.51  5.39  6.23  7.80  8.13  8.14  8.94
+  No.:   504   504   504   252   252   420   420   336   336   168   756   336
+ 
+ Conf   601 E =   106.10 (  0.001) rejected by structure   147
+ Conf   602 E =    77.68 (  0.001) rejected by TORC     71    70    69    65
+ Conf   603 E =   100.36 (  0.001) rejected by structure   121
+ Conf   604 E =   100.41 (  0.001) rejected by structure   122
+ Conf   605 E =   100.60 (  0.001) replaces structure   123
+ Conf   606 E =   101.52 (  0.001) rejected by structure   125
+ Conf   607 E =    87.33 (  0.001) is unique and stored as structure   148
+ Conf   608 E =    87.30 (  0.001) replaces structure   148
+ Conf   609 E =    87.30 (  0.001) rejected by structure   148
+ Conf   610 E =    87.31 (  0.001) rejected by structure   148
+ Conf   611 E =    88.29 (  0.001) rejected by structure    31
+ Conf   612 E =   102.85 (  0.001) rejected by structure   135
+ Conf   613 E =   102.85 (  0.001) replaces structure   136
+ Conf   614 E =   102.85 (  0.001) rejected by structure   136
+ Conf   615 E =   103.75 (  0.001) rejected by structure   141
+ Conf   616 E =   104.19 (  0.001) replaces structure   143
+ Conf   617 E =    99.47 (  0.001) replaces structure   115
+ Conf   618 E =   106.01 (  0.001) replaces structure   147
+ Conf   619 E =    93.08 (  0.001) is unique and stored as structure   149
+ Conf   620 E =    93.33 (  0.001) rejected by structure    64
+ Conf   621 E =    88.85 (  0.001) replaces structure    36
+ Conf   622 E =    96.59 (  0.001) is unique and stored as structure   150
+ Conf   623 E =    96.50 (  0.001) replaces structure   150
+ Conf   624 E =    96.48 (  0.001) replaces structure   150
+ Conf   625 E =    93.06 (  0.001) replaces structure   149
+ Conf   626 E =    90.08 (  0.001) is unique and stored as structure   151
+ Conf   627 E =    97.08 (  0.001) is unique and stored as structure   152
+ Conf   628 E =    97.09 (  0.001) rejected by structure   152
+ Conf   629 E =    61.04 (  0.001) rejected by TORC     71    70    69    65
+ Conf   630 E =   105.16 (  0.001) is unique and stored as structure   153
+ Conf   631 E =    93.62 (  0.001) replaces structure    68
+ Conf   632 E =   105.17 (  0.001) rejected by structure   153
+ Conf   633 E =    88.84 (  0.001) replaces structure    36
+ Conf   634 E =    97.12 (  0.001) rejected by structure   152
+ Conf   635 E =   105.19 (  0.001) rejected by structure   153
+ Conf   636 E =    88.85 (  0.001) rejected by structure    36
+ Conf   637 E =    96.50 (  0.001) rejected by structure   150
+ Conf   638 E =    97.12 (  0.001) rejected by structure   152
+ Conf   639 E =   105.18 (  0.001) rejected by structure   153
+ Conf   640 E =    85.67 (  0.001) rejected by structure    16
+ Conf   641 E =   105.37 (  0.001) is unique and stored as structure   154
+ Conf   642 E =   105.37 (  0.001) replaces structure   154
+ Conf   643 E =   111.59 (  0.001) rejected by energy
+ Conf   644 E =   101.52 (  0.001) rejected by structure   125
+ Conf   645 E =   105.37 (  0.001) rejected by structure   154
+ Conf   646 E =    94.47 (  0.001) rejected by structure    79
+ Conf   647 E =    86.56 (  0.001) rejected by structure    19
+ Conf   648 E =    86.71 (  0.001) rejected by structure    20
+ Conf   649 E =    86.89 (  0.001) rejected by structure    21
+ Conf   650 E =   104.30 (  0.001) is unique and stored as structure   155
+ Conf   651 E =   104.30 (  0.001) replaces structure   155
+ Conf   652 E =   107.94 (  0.001) rejected by energy
+ Conf   653 E =   116.26 (  0.001) rejected by energy
+ Conf   654 E =    65.86 (  0.001) rejected by TORC     71    70    69    65
+ Conf   655 E =    86.23 (  0.001) is unique and stored as structure   156
+ Conf   656 E =    99.82 (  0.001) is unique and stored as structure   157
+ Conf   657 E =   119.26 (  0.001) rejected by energy
+ Conf   658 E =    86.90 (  0.001) rejected by structure    21
+ Conf   659 E =    87.78 (  0.001) is unique and stored as structure   158
+ Conf   660 E =    87.58 (  0.001) is unique and stored as structure   159
+ Conf   661 E =    87.81 (  0.001) rejected by structure   158
+ Conf   662 E =    87.56 (  0.001) replaces structure   159
+ Conf   663 E =    87.53 (  0.001) replaces structure   159
+ Conf   664 E =    86.30 (  0.001) rejected by structure   156
+ Conf   665 E =    87.52 (  0.001) replaces structure   159
+ Conf   666 E =    87.76 (  0.001) replaces structure   158
+ Conf   667 E =    86.29 (  0.001) rejected by structure   156
+ Conf   668 E =    98.97 (  0.001) replaces structure   110
+ Conf   669 E =    87.42 (  0.001) rejected by structure    25
+ Conf   670 E =    87.76 (  0.001) rejected by structure   158
+ Conf   671 E =    99.26 (  0.001) is unique and stored as structure   160
+ Conf   672 E =    99.19 (  0.001) replaces structure   160
+ Conf   673 E =    99.25 (  0.001) rejected by structure   160
+ Conf   674 E =    99.19 (  0.001) rejected by structure   160
+ Conf   675 E =    87.37 (  0.001) rejected by structure    25
+ Conf   676 E =    86.29 (  0.001) rejected by structure   156
+ Conf   677 E =    87.31 (  0.001) rejected by structure   148
+ Conf   678 E =    87.29 (  0.001) replaces structure    24
+ Conf   679 E =    79.58 (  0.001) is unique and stored as structure   161
+ Conf   680 E =    79.58 (  0.001) replaces structure   161
+ Conf   681 E =    79.59 (  0.001) rejected by structure   161
+ Conf   682 E =    79.60 (  0.001) rejected by structure   161
+ Conf   683 E =   108.33 (  0.001) rejected by energy
+ Conf   684 E =    79.58 (  0.001) rejected by structure   161
+ Conf   685 E =    87.57 (  0.001) rejected by structure   159
+ Conf   686 E =    87.53 (  0.001) replaces structure    27
+ Conf   687 E =    87.63 (  0.001) rejected by structure    28
+ Conf   688 E =    87.50 (  0.001) replaces structure   159
+ Conf   689 E =    82.12 (  0.001) is unique and stored as structure   162
+ Conf   690 E =    82.18 (  0.001) rejected by structure   162
+ Conf   691 E =    95.91 (  0.001) is unique and stored as structure   163
+ Conf   692 E =    95.90 (  0.001) replaces structure   163
+ Conf   693 E =    95.90 (  0.001) replaces structure   163
+ Conf   694 E =    82.18 (  0.001) rejected by structure   162
+ Conf   695 E =    95.90 (  0.001) rejected by structure   163
+ Conf   696 E =    82.18 (  0.001) rejected by structure   162
+ Conf   697 E =   104.13 (  0.001) is unique and stored as structure   164
+ Conf   698 E =    98.00 (  0.001) replaces structure   102
+ Conf   699 E =   104.97 (  0.001) is unique and stored as structure   165
+ Conf   700 E =   104.87 (  0.001) replaces structure   165
+ 
+Interim report; processing .tmp file:
+  165 unique conformations found so far
+  165 minimized with good convergence
+Found     7 confs within  1.00 kcal/mol ( 4.18 kJ/mol) of glob. min.
+Found    13 confs within  2.00 kcal/mol ( 8.37 kJ/mol) of glob. min.
+Found    38 confs within  3.00 kcal/mol (12.55 kJ/mol) of glob. min.
+Found   106 confs within  5.00 kcal/mol (20.92 kJ/mol) of glob. min.
+Found   165 confs within 10.00 kcal/mol (41.84 kJ/mol) of glob. min.
+Global minimum E =     76.13 found   504 times.
+  700 steps performed so far, out of  1000
+ E of low-energy structures above global min [kJ/mol],  and no. times found:
+    E:  0.00  2.11  2.18  2.32  3.09  3.45  3.51  5.39  5.99  6.23  7.80  8.13
+  No.:   504   504   504   252   252   420   420   420   336   336   336   168
+ 
+ Conf   701 E =   106.10 (  0.001) rejected by structure   165
+ Conf   702 E =    86.99 (  0.001) rejected by structure    26
+ Conf   703 E =   106.06 (  0.001) rejected by structure   165
+ Conf   704 E =    86.91 (  0.001) rejected by structure    24
+ Conf   705 E =   106.61 (  0.001) rejected by energy
+ Conf   706 E =    87.55 (  0.001) rejected by structure    32
+ Conf   707 E =    93.98 (  0.001) replaces structure    82
+ Conf   708 E =   105.04 (  0.001) is unique and stored as structure   166
+ Conf   709 E =   104.10 (  0.001) is unique and stored as structure   167
+ Conf   710 E =   113.71 (  0.001) rejected by energy
+ Conf   711 E =   105.13 (  0.001) is unique and stored as structure   168
+ Conf   712 E =   115.10 (  0.001) rejected by energy
+ Conf   713 E =   105.03 (  0.001) replaces structure   166
+ Conf   714 E =   105.13 (  0.001) replaces structure   168
+ Conf   715 E =    89.71 (  0.001) is unique and stored as structure   169
+ Conf   716 E =   134.11 (  0.001) rejected by energy
+ Conf   717 E =    89.71 (  0.001) rejected by structure   169
+ Conf   718 E =    89.72 (  0.001) rejected by structure   169
+ Conf   719 E =   103.85 (  0.001) is unique and stored as structure   170
+ Conf   720 E =   127.62 (  0.001) rejected by energy
+ Conf   721 E =   105.03 (  0.001) replaces structure   166
+ Conf   722 E =   103.84 (  0.001) replaces structure   170
+ Conf   723 E =   103.36 (  0.001) is unique and stored as structure   171
+ Conf   724 E =   103.29 (  0.001) replaces structure   171
+ Conf   725 E =   103.36 (  0.001) rejected by structure   171
+ Conf   726 E =   103.36 (  0.001) rejected by structure   171
+ Conf   727 E =    89.71 (  0.001) rejected by structure   169
+ Conf   728 E =   105.14 (  0.001) rejected by structure   168
+ Conf   729 E =   111.63 (  0.001) rejected by energy
+ Conf   730 E =   104.13 (  0.001) rejected by structure   167
+ Conf   731 E =   103.90 (  0.001) rejected by structure   170
+ Conf   732 E =   105.15 (  0.001) rejected by structure   168
+ Conf   733 E =    87.51 (  0.001) rejected by structure    31
+ Conf   734 E =    88.27 (  0.001) rejected by structure    37
+ Conf   735 E =    95.16 (  0.001) replaces structure    92
+ Conf   736 E =    88.85 (  0.001) rejected by structure    40
+ Conf   737 E =    88.87 (  0.001) rejected by structure    41
+ Conf   738 E =    88.88 (  0.001) rejected by structure    42
+ Conf   739 E =    98.49 (  0.001) replaces structure   117
+ Conf   740 E =    89.71 (  0.001) rejected by structure   169
+ Conf   741 E =    89.92 (  0.001) rejected by structure    47
+ Conf   742 E =    90.08 (  0.001) rejected by structure    49
+ Conf   743 E =    90.35 (  0.001) replaces structure    52
+ Conf   744 E =    82.18 (  0.001) rejected by structure     9
+ Conf   745 E =    95.31 (  0.001) is unique and stored as structure   172
+ Conf   746 E =    95.31 (  0.001) replaces structure   172
+ Conf   747 E =    95.30 (  0.001) replaces structure   172
+ Conf   748 E =    95.31 (  0.001) rejected by structure   172
+ Conf   749 E =    95.31 (  0.001) rejected by structure   172
+ Conf   750 E =    92.56 (  0.001) replaces structure    65
+ Conf   751 E =    91.42 (  0.001) replaces structure    56
+ Conf   752 E =    95.76 (  0.001) is unique and stored as structure   173
+ Conf   753 E =   136.56 (  0.001) rejected by energy
+ Conf   754 E =    93.27 (  0.001) is unique and stored as structure   174
+ Conf   755 E =    93.19 (  0.001) replaces structure   174
+ Conf   756 E =    93.25 (  0.001) rejected by structure   174
+ Conf   757 E =   104.23 (  0.001) is unique and stored as structure   175
+ Conf   758 E =   110.98 (  0.001) rejected by energy
+ Conf   759 E =   104.23 (  0.001) replaces structure   175
+ Conf   760 E =    91.69 (  0.001) is unique and stored as structure   176
+ Conf   761 E =   101.82 (  0.001) is unique and stored as structure   177
+ Conf   762 E =    88.68 (  0.001) rejected by structure    38
+ Conf   763 E =    91.85 (  0.001) rejected by structure   176
+ Conf   764 E =   101.82 (  0.001) replaces structure   177
+ Conf   765 E =    91.70 (  0.001) rejected by structure   176
+ Conf   766 E =   117.46 (  0.001) rejected by energy
+ Conf   767 E =   104.26 (  0.001) rejected by structure   175
+ Conf   768 E =    91.83 (  0.001) rejected by structure   176
+ Conf   769 E =    93.30 (  0.001) replaces structure    73
+ Conf   770 E =    97.60 (  0.001) is unique and stored as structure   178
+ Conf   771 E =    93.25 (  0.001) rejected by structure   174
+ Conf   772 E =    95.73 (  0.001) replaces structure   173
+ Conf   773 E =   108.99 (  0.001) rejected by energy
+ Conf   774 E =   139.41 (  0.001) rejected by energy
+ Conf   775 E =    85.08 (  0.001) is unique and stored as structure   179
+ Conf   776 E =    85.07 (  0.001) replaces structure   179
+ Conf   777 E =    85.64 (  0.001) is unique and stored as structure   180
+ Conf   778 E =    85.64 (  0.001) rejected by structure   180
+ Conf   779 E =    85.08 (  0.001) rejected by structure   179
+ Conf   780 E =    85.07 (  0.001) rejected by structure   179
+ Conf   781 E =    85.63 (  0.001) replaces structure   180
+ Conf   782 E =    85.08 (  0.001) rejected by structure   179
+ Conf   783 E =    85.64 (  0.001) rejected by structure   180
+ Conf   784 E =   104.18 (  0.001) replaces structure   175
+ Conf   785 E =    85.08 (  0.001) rejected by structure   179
+ Conf   786 E =    86.49 (  0.001) is unique and stored as structure   181
+ Conf   787 E =    85.03 (  0.001) replaces structure   179
+ Conf   788 E =    86.49 (  0.001) replaces structure   181
+ Conf   789 E =    86.49 (  0.001) replaces structure   181
+ Conf   790 E =    86.49 (  0.001) replaces structure   181
+ Conf   791 E =    86.52 (  0.001) rejected by structure   181
+ Conf   792 E =    88.87 (  0.001) rejected by structure    41
+ Conf   793 E =    93.66 (  0.001) is unique and stored as structure   182
+ Conf   794 E =    93.66 (  0.001) replaces structure   182
+ Conf   795 E =    93.66 (  0.001) rejected by structure   182
+ Conf   796 E =    93.68 (  0.001) rejected by structure   182
+ Conf   797 E =    40.98 (  0.001) rejected by TORC     71    70    69    65
+ Conf   798 E =    79.78 (  0.001) rejected by TORC     71    70    69    65
+ Conf   799 E =    85.99 (  0.001) rejected by structure    19
+ Conf   800 E =    91.71 (  0.001) is unique and stored as structure   183
+ 
+Interim report; processing .tmp file:
+  183 unique conformations found so far
+  183 minimized with good convergence
+Found     7 confs within  1.00 kcal/mol ( 4.18 kJ/mol) of glob. min.
+Found    13 confs within  2.00 kcal/mol ( 8.37 kJ/mol) of glob. min.
+Found    41 confs within  3.00 kcal/mol (12.55 kJ/mol) of glob. min.
+Found   116 confs within  5.00 kcal/mol (20.92 kJ/mol) of glob. min.
+Found   183 confs within 10.00 kcal/mol (41.84 kJ/mol) of glob. min.
+Global minimum E =     76.13 found   504 times.
+  800 steps performed so far, out of  1000
+ E of low-energy structures above global min [kJ/mol],  and no. times found:
+    E:  0.00  2.11  2.18  2.32  3.09  3.45  3.51  5.39  5.99  6.23  7.80  8.13
+  No.:   504   504   504   252   252   420   420   420   420   336   336   168
+ 
+ Conf   801 E =   106.10 (  0.001) rejected by structure   183
+ Conf   802 E =   106.08 (  0.001) rejected by structure   183
+ Conf   803 E =    92.80 (  0.001) is unique and stored as structure   184
+ Conf   804 E =    83.60 (  0.001) is unique and stored as structure   185
+ Conf   805 E =    83.56 (  0.001) replaces structure   185
+ Conf   806 E =    83.56 (  0.001) rejected by structure   185
+ Conf   807 E =    83.58 (  0.001) rejected by structure   185
+ Conf   808 E =    83.56 (  0.001) rejected by structure   185
+ Conf   809 E =    86.17 (  0.001) is unique and stored as structure   186
+ Conf   810 E =    92.48 (  0.001) is unique and stored as structure   187
+ Conf   811 E =    98.12 (  0.001) is unique and stored as structure   188
+ Conf   812 E =    95.34 (  0.001) is unique and stored as structure   189
+ Conf   813 E =    95.34 (  0.001) replaces structure   189
+ Conf   814 E =    83.60 (  0.001) rejected by structure   185
+ Conf   815 E =   104.47 (  0.001) is unique and stored as structure   190
+ Conf   816 E =   104.42 (  0.001) replaces structure   190
+ Conf   817 E =    94.87 (  0.001) is unique and stored as structure   191
+ Conf   818 E =   100.45 (  0.001) is unique and stored as structure   192
+ Conf   819 E =   100.49 (  0.001) rejected by structure   192
+ Conf   820 E =   104.43 (  0.001) is unique and stored as structure   193
+ Conf   821 E =   102.21 (  0.001) is unique and stored as structure   194
+ Conf   822 E =    90.26 (  0.001) is unique and stored as structure   195
+ Conf   823 E =    90.21 (  0.001) replaces structure   195
+ Conf   824 E =    90.21 (  0.001) rejected by structure   195
+ Conf   825 E =    95.33 (  0.001) replaces structure   189
+ Conf   826 E =    99.38 (  0.001) is unique and stored as structure   196
+ Conf   827 E =    73.57 (  0.001) rejected by TORC     71    70    69    65
+ Conf   828 E =    98.93 (  0.001) is unique and stored as structure   197
+ Conf   829 E =    81.79 (  0.001) is unique and stored as structure   198
+ Conf   830 E =    79.37 (  0.001) is unique and stored as structure   199
+ Conf   831 E =    79.38 (  0.001) rejected by structure   199
+ Conf   832 E =    79.37 (  0.001) replaces structure   199
+ Conf   833 E =    81.12 (  0.001) is unique and stored as structure   200
+ Conf   834 E =    80.88 (  0.001) replaces structure   200
+ Conf   835 E =    80.85 (  0.001) replaces structure   200
+ Conf   836 E =    98.94 (  0.001) rejected by structure   197
+ Conf   837 E =    90.21 (  0.001) rejected by structure   195
+ Conf   838 E =   117.86 (  0.001) rejected by energy
+ Conf   839 E =    92.46 (  0.001) is unique and stored as structure   201
+ Conf   840 E =    91.34 (  0.001) is unique and stored as structure   202
+ Conf   841 E =    91.33 (  0.001) replaces structure   202
+ Conf   842 E =    91.33 (  0.001) rejected by structure   202
+ Conf   843 E =    82.50 (  0.001) is unique and stored as structure   203
+ Conf   844 E =    82.49 (  0.001) replaces structure   203
+ Conf   845 E =    82.48 (  0.001) replaces structure   203
+ Conf   846 E =    79.37 (  0.001) rejected by structure   199
+ Conf   847 E =   100.99 (  0.001) is unique and stored as structure   204
+ Conf   848 E =   100.97 (  0.001) replaces structure   204
+ Conf   849 E =   100.02 (  0.001) is unique and stored as structure   205
+ Conf   850 E =    88.29 (  0.001) rejected by structure    40
+ Conf   851 E =    70.11 (  0.001) rejected by TORC     71    70    69    65
+          Step   852 New global minimum.  E (kJ/mol) =       76.07
+ Conf   852 E =    76.07 (  0.001) is unique and stored as structure   206
+          Step   853 New global minimum.  E (kJ/mol) =       76.07
+ Conf   853 E =    76.07 (  0.001) replaces structure   206
+ Conf   854 E =    76.07 (  0.001) rejected by structure   206
+ Conf   855 E =    76.07 (  0.001) rejected by structure   206
+ Conf   856 E =    82.47 (  0.001) replaces structure   203
+ Conf   857 E =    86.17 (  0.001) replaces structure   186
+ Conf   858 E =   134.52 (  0.001) rejected by energy
+ Conf   859 E =    80.97 (  0.001) is unique and stored as structure   207
+ Conf   860 E =    80.97 (  0.001) replaces structure   207
+ Conf   861 E =    80.97 (  0.001) rejected by structure   207
+ Conf   862 E =    82.48 (  0.001) rejected by structure   203
+ Conf   863 E =    92.47 (  0.001) rejected by structure   201
+ Conf   864 E =    83.61 (  0.001) rejected by structure   185
+ Conf   865 E =    94.87 (  0.001) replaces structure   191
+ Conf   866 E =   102.42 (  0.001) is unique and stored as structure   208
+ Conf   867 E =    95.34 (  0.001) rejected by structure   189
+ Conf   868 E =   101.93 (  0.001) is unique and stored as structure   209
+ Conf   869 E =    94.01 (  0.001) is unique and stored as structure   210
+ Conf   870 E =    78.32 (  0.001) rejected by structure     3
+ Conf   871 E =    99.17 (  0.001) is unique and stored as structure   211
+ Conf   872 E =   100.20 (  0.001) is unique and stored as structure   212
+ Conf   873 E =    96.08 (  0.001) is unique and stored as structure   213
+ Conf   874 E =   105.80 (  0.001) is unique and stored as structure   214
+ Conf   875 E =    96.08 (  0.001) rejected by structure   213
+ Conf   876 E =    96.08 (  0.001) replaces structure   213
+ Conf   877 E =    92.40 (  0.001) is unique and stored as structure   215
+ Conf   878 E =    91.40 (  0.001) is unique and stored as structure   216
+ Conf   879 E =    91.45 (  0.001) rejected by structure   216
+ Conf   880 E =    91.40 (  0.001) rejected by structure   216
+ Conf   881 E =    86.43 (  0.001) is unique and stored as structure   217
+ Conf   882 E =    86.43 (  0.001) rejected by structure   217
+ Conf   883 E =    79.93 (  0.001) is unique and stored as structure   218
+ Conf   884 E =    79.93 (  0.001) rejected by structure   218
+ Conf   885 E =    79.94 (  0.001) rejected by structure   218
+ Conf   886 E =    95.29 (  0.001) is unique and stored as structure   219
+ Conf   887 E =    94.01 (  0.001) rejected by structure   210
+ Conf   888 E =   104.25 (  0.001) is unique and stored as structure   220
+ Conf   889 E =   135.60 (  0.001) rejected by energy
+ Conf   890 E =   101.93 (  0.001) rejected by structure   209
+ Conf   891 E =   104.21 (  0.001) replaces structure   220
+ Conf   892 E =   105.82 (  0.001) rejected by structure   214
+ Conf   893 E =    88.54 (  0.001) is unique and stored as structure   221
+ Conf   894 E =    88.52 (  0.001) replaces structure   221
+ Conf   895 E =    94.74 (  0.001) is unique and stored as structure   222
+ Conf   896 E =    91.59 (  0.001) is unique and stored as structure   223
+ Conf   897 E =    91.58 (  0.001) replaces structure   223
+ Conf   898 E =   102.95 (  0.001) is unique and stored as structure   224
+ Conf   899 E =   102.95 (  0.001) rejected by structure   224
+ Conf   900 E =   112.93 (  0.001) rejected by energy
+ 
+Interim report; processing .tmp file:
+  224 unique conformations found so far
+  224 minimized with good convergence
+Found    10 confs within  1.00 kcal/mol ( 4.18 kJ/mol) of glob. min.
+Found    21 confs within  2.00 kcal/mol ( 8.37 kJ/mol) of glob. min.
+Found    51 confs within  3.00 kcal/mol (12.55 kJ/mol) of glob. min.
+Found   141 confs within  5.00 kcal/mol (20.92 kJ/mol) of glob. min.
+Found   224 confs within 10.00 kcal/mol (41.84 kJ/mol) of glob. min.
+Global minimum E =     76.07 found   336 times.
+  900 steps performed so far, out of  1000
+ E of low-energy structures above global min [kJ/mol],  and no. times found:
+    E:  0.00  0.06  2.17  2.24  2.38  3.15  3.30  3.51  3.58  3.86  4.78  4.90
+  No.:   336   504   504   588   252   252   336   420   420   252   252   252
+ 
+ Conf   901 E =   106.10 (  0.001) rejected by energy
+ Conf   902 E =    66.68 (  0.001) rejected by TORC     71    70    69    65
+ Conf   903 E =   102.20 (  0.001) rejected by structure   190
+ Conf   904 E =    62.43 (  0.001) rejected by TORC     71    70    69    65
+ Conf   905 E =    95.34 (  0.001) rejected by structure   126
+ Conf   906 E =    97.41 (  0.001) is unique and stored as structure   225
+ Conf   907 E =    91.83 (  0.001) is unique and stored as structure   226
+ Conf   908 E =   101.75 (  0.001) is unique and stored as structure   227
+ Conf   909 E =   101.74 (  0.001) replaces structure   227
+ Conf   910 E =    62.26 (  0.001) rejected by TORC     71    70    69    65
+ Conf   911 E =    97.42 (  0.001) rejected by structure   225
+ Conf   912 E =   111.11 (  0.001) rejected by energy
+ Conf   913 E =    91.83 (  0.001) replaces structure   226
+ Conf   914 E =    97.42 (  0.001) rejected by structure   225
+ Conf   915 E =   104.30 (  0.001) is unique and stored as structure   228
+ Conf   916 E =   101.74 (  0.001) replaces structure   227
+ Conf   917 E =   104.43 (  0.001) rejected by structure   228
+ Conf   918 E =    91.45 (  0.001) rejected by structure    73
+ Conf   919 E =   102.89 (  0.001) rejected by structure   197
+ Conf   920 E =    97.26 (  0.001) is unique and stored as structure   229
+ Conf   921 E =    97.26 (  0.001) replaces structure   229
+ Conf   922 E =    97.28 (  0.001) rejected by structure   229
+ Conf   923 E =   106.16 (  0.001) rejected by energy
+ Conf   924 E =   103.81 (  0.001) replaces structure   205
+ Conf   925 E =   104.13 (  0.001) rejected by structure   208
+ Conf   926 E =   104.18 (  0.001) replaces structure   209
+ Conf   927 E =   104.20 (  0.001) rejected by structure   210
+ Conf   928 E =    88.01 (  0.001) is unique and stored as structure   230
+ Conf   929 E =   122.60 (  0.001) rejected by energy
+ Conf   930 E =    95.11 (  0.001) is unique and stored as structure   231
+ Conf   931 E =    95.10 (  0.001) replaces structure   231
+ Conf   932 E =   118.37 (  0.001) rejected by energy
+ Conf   933 E =    87.99 (  0.001) replaces structure   230
+ Conf   934 E =    95.10 (  0.001) replaces structure   231
+ Conf   935 E =   104.30 (  0.001) rejected by structure   212
+ Conf   936 E =   101.74 (  0.001) replaces structure   227
+ Conf   937 E =   103.09 (  0.001) is unique and stored as structure   232
+ Conf   938 E =   103.08 (  0.001) replaces structure   232
+ Conf   939 E =   105.42 (  0.001) is unique and stored as structure   233
+ Conf   940 E =   105.42 (  0.001) replaces structure   233
+ Conf   941 E =   105.14 (  0.001) is unique and stored as structure   234
+ Conf   942 E =   105.10 (  0.001) replaces structure   234
+ Conf   943 E =   105.42 (  0.001) replaces structure   233
+ Conf   944 E =   103.09 (  0.001) rejected by structure   232
+ Conf   945 E =   104.40 (  0.001) replaces structure   214
+ Conf   946 E =    86.86 (  0.001) replaces structure    37
+ Conf   947 E =   104.88 (  0.001) rejected by structure   216
+ Conf   948 E =   110.54 (  0.001) rejected by energy
+ Conf   949 E =   105.16 (  0.001) rejected by structure   234
+ Conf   950 E =   105.12 (  0.001) replaces structure   219
+ Conf   951 E =   105.19 (  0.001) rejected by structure   220
+ Conf   952 E =   118.72 (  0.001) rejected by energy
+ Conf   953 E =   105.39 (  0.001) rejected by structure   222
+ Conf   954 E =   105.41 (  0.001) replaces structure   233
+ Conf   955 E =   105.81 (  0.001) rejected by structure   223
+ Conf   956 E =   106.10 (  0.001) rejected by energy
+ Conf   957 E =    88.00 (  0.001) rejected by structure   230
+ Conf   958 E =   103.88 (  0.001) is unique and stored as structure   235
+ Conf   959 E =   103.86 (  0.001) replaces structure   235
+ Conf   960 E =   103.86 (  0.001) replaces structure   235
+ Conf   961 E =    85.62 (  0.001) replaces structure    27
+ Conf   962 E =    95.11 (  0.001) rejected by structure   231
+ Conf   963 E =    97.40 (  0.001) is unique and stored as structure   236
+ Conf   964 E =    97.33 (  0.001) replaces structure   236
+ Conf   965 E =    95.11 (  0.001) is unique and stored as structure   237
+ Conf   966 E =    95.13 (  0.001) rejected by structure   237
+ Conf   967 E =    97.35 (  0.001) rejected by structure   236
+          Step   968 New global minimum.  E (kJ/mol) =       68.99
+ Conf   968 E =    68.99 (  0.001) is unique and stored as structure   238
+ Conf   969 E =    68.99 (  0.001) rejected by structure   238
+          Step   970 New global minimum.  E (kJ/mol) =       68.99
+ Conf   970 E =    68.99 (  0.001) replaces structure   238
+ Conf   971 E =    68.99 (  0.001) rejected by structure   238
+ Conf   972 E =    95.10 (  0.001) replaces structure   237
+ Conf   973 E =    68.99 (  0.001) rejected by structure   238
+ Conf   974 E =    97.22 (  0.001) replaces structure   229
+ Conf   975 E =    95.12 (  0.001) rejected by structure   237
+ Conf   976 E =    97.41 (  0.001) rejected by structure   225
+          Step   977 New global minimum.  E (kJ/mol) =       65.86
+ Conf   977 E =    65.86 (  0.001) is unique and stored as structure   239
+ Conf   978 E =    79.64 (  0.001) replaces structure     9
+          Step   979 New global minimum.  E (kJ/mol) =       65.85
+ Conf   979 E =    65.85 (  0.001) replaces structure   239
+ Conf   980 E =    65.85 (  0.001) rejected by structure   239
+ Conf   981 E =    65.85 (  0.001) rejected by structure   239
+          Step   982 New global minimum.  E (kJ/mol) =       65.83
+ Conf   982 E =    65.83 (  0.001) replaces structure   239
+ Conf   983 E =    88.01 (  0.001) rejected by structure   230
+ Conf   984 E =    97.02 (  0.001) rejected by energy
+ Conf   985 E =    89.97 (  0.001) rejected by structure    63
+ Conf   986 E =    90.37 (  0.001) replaces structure    69
+ Conf   987 E =   103.71 (  0.001) rejected by energy
+ Conf   988 E =    90.24 (  0.001) rejected by structure    66
+ Conf   989 E =    90.32 (  0.001) rejected by structure    67
+ Conf   990 E =    90.52 (  0.001) rejected by structure    68
+ Conf   991 E =    90.36 (  0.001) replaces structure    69
+ Conf   992 E =    89.26 (  0.001) rejected by structure    59
+ Conf   993 E =   102.45 (  0.001) rejected by energy
+ Conf   994 E =   105.09 (  0.001) rejected by energy
+ Conf   995 E =    95.54 (  0.001) is unique and stored as structure   240
+ Conf   996 E =    95.54 (  0.001) replaces structure   240
+ Conf   997 E =   112.89 (  0.001) rejected by energy
+ Conf   998 E =    95.46 (  0.001) replaces structure   240
+ Conf   999 E =    95.51 (  0.001) rejected by structure   240
+ Conf  1000 E =    92.39 (  0.001) replaces structure    84
+ 
+Final report; processing .tmp file:
+  139 unique conformations found so far
+  139 minimized with good convergence
+Found     2 confs within  1.00 kcal/mol ( 4.18 kJ/mol) of glob. min.
+Found     6 confs within  3.00 kcal/mol (12.55 kJ/mol) of glob. min.
+Found    38 confs within  5.00 kcal/mol (20.92 kJ/mol) of glob. min.
+Found   139 confs within 10.00 kcal/mol (41.84 kJ/mol) of glob. min.
+Global minimum E =     65.83 found   420 times.
+ 1000 steps performed so far, out of  1000
+ E of low-energy structures above global min [kJ/mol],  and no. times found:
+    E:  0.00  3.16 10.24 10.30 12.41 12.47 12.61 13.39 13.53 13.75 13.81 14.10
+  No.:   420   420   336   504   504   588   252   252   336   420   504   252
+ 
+Input structure with title on the next line is given SerNo:        1
+Type-I
+Auto summary for input structure      1:
+ Total number of structures processed =        1000
+ Conformations with poor convergence marked with a *
+ Conformation       1 (    65.83262     kJ/mol) was found   420 times
+ Conformation       2 (    68.99148     kJ/mol) was found   420 times
+ Conformation       3 (    76.06976     kJ/mol) was found   336 times
+ Conformation       4 (    76.13039     kJ/mol) was found   504 times
+ Conformation       5 (    78.24092     kJ/mol) was found   504 times
+ Conformation       6 (    78.30745     kJ/mol) was found   588 times
+ Conformation       7 (    78.44759     kJ/mol) was found   252 times
+ Conformation       8 (    79.22055     kJ/mol) was found   252 times
+ Conformation       9 (    79.36590     kJ/mol) was found   336 times
+ Conformation      10 (    79.58018     kJ/mol) was found   420 times
+ Conformation      11 (    79.64113     kJ/mol) was found   504 times
+ Conformation      12 (    79.93291     kJ/mol) was found   252 times
+ Conformation      13 (    80.84545     kJ/mol) was found   252 times
+ Conformation      14 (    80.96663     kJ/mol) was found   252 times
+ Conformation      15 (    81.51576     kJ/mol) was found   420 times
+ Conformation      16 (    81.78970     kJ/mol) was found    84 times
+ Conformation      17 (    82.11581     kJ/mol) was found   420 times
+ Conformation      18 (    82.35963     kJ/mol) was found   336 times
+ Conformation      19 (    82.47175     kJ/mol) was found   420 times
+ Conformation      20 (    83.55659     kJ/mol) was found   588 times
+ Conformation      21 (    83.92592     kJ/mol) was found   336 times
+ Conformation      22 (    84.26297     kJ/mol) was found   168 times
+ Conformation      23 (    84.27508     kJ/mol) was found   756 times
+ Conformation      24 (    85.02680     kJ/mol) was found   588 times
+ Conformation      25 (    85.06764     kJ/mol) was found   336 times
+ Conformation      26 (    85.11967     kJ/mol) was found   420 times
+ Conformation      27 (    85.51237     kJ/mol) was found   504 times
+ Conformation      28 (    85.52750     kJ/mol) was found   168 times
+ Conformation      29 (    85.61596     kJ/mol) was found   420 times
+ Conformation      30 (    85.64422     kJ/mol) was found   588 times
+ Conformation      31 (    85.97807     kJ/mol) was found   252 times
+ Conformation      32 (    86.16573     kJ/mol) was found   168 times
+ Conformation      33 (    86.23436     kJ/mol) was found   336 times
+ Conformation      34 (    86.42846     kJ/mol) was found   168 times
+ Conformation      35 (    86.48624     kJ/mol) was found   420 times
+ Conformation      36 (    86.52930     kJ/mol) was found   336 times
+ Conformation      37 (    86.55301     kJ/mol) was found   924 times
+ Conformation      38 (    86.70605     kJ/mol) was found   588 times
+ Conformation      39 (    86.86438     kJ/mol) was found   504 times
+ Conformation      40 (    86.94846     kJ/mol) was found   504 times
+ Conformation      41 (    86.97871     kJ/mol) was found   588 times
+ Conformation      42 (    87.28835     kJ/mol) was found   252 times
+ Conformation      43 (    87.30241     kJ/mol) was found   420 times
+ Conformation      44 (    87.35081     kJ/mol) was found   756 times
+ Conformation      45 (    87.44946     kJ/mol) was found   252 times
+ Conformation      46 (    87.49519     kJ/mol) was found   588 times
+ Conformation      47 (    87.52867     kJ/mol) was found   420 times
+ Conformation      48 (    87.62514     kJ/mol) was found   420 times
+ Conformation      49 (    87.76247     kJ/mol) was found   336 times
+ Conformation      50 (    87.87247     kJ/mol) was found   336 times
+ Conformation      51 (    87.98581     kJ/mol) was found   336 times
+ Conformation      52 (    88.11510     kJ/mol) was found   588 times
+ Conformation      53 (    88.26355     kJ/mol) was found   756 times
+ Conformation      54 (    88.51911     kJ/mol) was found   168 times
+ Conformation      55 (    88.66620     kJ/mol) was found   336 times
+ Conformation      56 (    88.73283     kJ/mol) was found   252 times
+ Conformation      57 (    88.81561     kJ/mol) was found   504 times
+ Conformation      58 (    88.83853     kJ/mol) was found   588 times
+ Conformation      59 (    88.85479     kJ/mol) was found   924 times
+ Conformation      60 (    88.89301     kJ/mol) was found   252 times
+ Conformation      61 (    89.05727     kJ/mol) was found   420 times
+ Conformation      62 (    89.22077     kJ/mol) was found   252 times
+ Conformation      63 (    89.69041     kJ/mol) was found   588 times
+ Conformation      64 (    89.71226     kJ/mol) was found   420 times
+ Conformation      65 (    89.90965     kJ/mol) was found   588 times
+ Conformation      66 (    89.96482     kJ/mol) was found   420 times
+ Conformation      67 (    90.08148     kJ/mol) was found   168 times
+ Conformation      68 (    90.18797     kJ/mol) was found    84 times
+ Conformation      69 (    90.20517     kJ/mol) was found   420 times
+ Conformation      70 (    90.31223     kJ/mol) was found   252 times
+ Conformation      71 (    90.34500     kJ/mol) was found   672 times
+ Conformation      72 (    90.36341     kJ/mol) was found   588 times
+ Conformation      73 (    90.79914     kJ/mol) was found   252 times
+ Conformation      74 (    90.81117     kJ/mol) was found   168 times
+ Conformation      75 (    91.32992     kJ/mol) was found   252 times
+ Conformation      76 (    91.40409     kJ/mol) was found   336 times
+ Conformation      77 (    91.42244     kJ/mol) was found   504 times
+ Conformation      78 (    91.58216     kJ/mol) was found   168 times
+ Conformation      79 (    91.68835     kJ/mol) was found   336 times
+ Conformation      80 (    91.70731     kJ/mol) was found    84 times
+ Conformation      81 (    91.82619     kJ/mol) was found   168 times
+ Conformation      82 (    91.94534     kJ/mol) was found   420 times
+ Conformation      83 (    92.04104     kJ/mol) was found   336 times
+ Conformation      84 (    92.16923     kJ/mol) was found   252 times
+ Conformation      85 (    92.26870     kJ/mol) was found   336 times
+ Conformation      86 (    92.37311     kJ/mol) was found   252 times
+ Conformation      87 (    92.38580     kJ/mol) was found   420 times
+ Conformation      88 (    92.40299     kJ/mol) was found    84 times
+ Conformation      89 (    92.41984     kJ/mol) was found   252 times
+ Conformation      90 (    92.44267     kJ/mol) was found    84 times
+ Conformation      91 (    92.46223     kJ/mol) was found   168 times
+ Conformation      92 (    92.47868     kJ/mol) was found    84 times
+ Conformation      93 (    92.56303     kJ/mol) was found   336 times
+ Conformation      94 (    92.72317     kJ/mol) was found   336 times
+ Conformation      95 (    92.79893     kJ/mol) was found    84 times
+ Conformation      96 (    92.93553     kJ/mol) was found   336 times
+ Conformation      97 (    93.01331     kJ/mol) was found   336 times
+ Conformation      98 (    93.05334     kJ/mol) was found   168 times
+ Conformation      99 (    93.05800     kJ/mol) was found   168 times
+ Conformation     100 (    93.14594     kJ/mol) was found    84 times
+ Conformation     101 (    93.19009     kJ/mol) was found   336 times
+ Conformation     102 (    93.29286     kJ/mol) was found   336 times
+ Conformation     103 (    93.29516     kJ/mol) was found   336 times
+ Conformation     104 (    93.43826     kJ/mol) was found   168 times
+ Conformation     105 (    93.61771     kJ/mol) was found   420 times
+ Conformation     106 (    93.63258     kJ/mol) was found   252 times
+ Conformation     107 (    93.65943     kJ/mol) was found   336 times
+ Conformation     108 (    93.73891     kJ/mol) was found   420 times
+ Conformation     109 (    93.75054     kJ/mol) was found   252 times
+ Conformation     110 (    93.80531     kJ/mol) was found    84 times
+ Conformation     111 (    93.85686     kJ/mol) was found   168 times
+ Conformation     112 (    93.87682     kJ/mol) was found   252 times
+ Conformation     113 (    93.97816     kJ/mol) was found   420 times
+ Conformation     114 (    94.00689     kJ/mol) was found   168 times
+ Conformation     115 (    94.01530     kJ/mol) was found   252 times
+ Conformation     116 (    94.21384     kJ/mol) was found   420 times
+ Conformation     117 (    94.26266     kJ/mol) was found   252 times
+ Conformation     118 (    94.37016     kJ/mol) was found   252 times
+ Conformation     119 (    94.37749     kJ/mol) was found   168 times
+ Conformation     120 (    94.73834     kJ/mol) was found    84 times
+ Conformation     121 (    94.76968     kJ/mol) was found   252 times
+ Conformation     122 (    94.86586     kJ/mol) was found   168 times
+ Conformation     123 (    94.95576     kJ/mol) was found   336 times
+ Conformation     124 (    95.07634     kJ/mol) was found   168 times
+ Conformation     125 (    95.09705     kJ/mol) was found   336 times
+ Conformation     126 (    95.09715     kJ/mol) was found   336 times
+ Conformation     127 (    95.12242     kJ/mol) was found   168 times
+ Conformation     128 (    95.16119     kJ/mol) was found   420 times
+ Conformation     129 (    95.27076     kJ/mol) was found   336 times
+ Conformation     130 (    95.29389     kJ/mol) was found    84 times
+ Conformation     131 (    95.29944     kJ/mol) was found   420 times
+ Conformation     132 (    95.32586     kJ/mol) was found   420 times
+ Conformation     133 (    95.36958     kJ/mol) was found   252 times
+ Conformation     134 (    95.41778     kJ/mol) was found   168 times
+ Conformation     135 (    95.46262     kJ/mol) was found   336 times
+ Conformation     136 (    95.46693     kJ/mol) was found    84 times
+ Conformation     137 (    95.73153     kJ/mol) was found   168 times
+ Conformation     138 (    95.74186     kJ/mol) was found   252 times
+ Conformation     139 (    95.80120     kJ/mol) was found    84 times
+           *** MC Statistics ***
+ Percent of minimized structures within energetic window:   4695.600    
+ Average number of duplicates:     337.8130    
+ Duplication standard deviation:   172.3469    
+        1470  structures generated
+         133  rejected by ring closure
+         338  rejected by van der Waals
+         652  duplicate minimised structures
+ 
+BatchMin: normal termination                           15-Nov-2016 13:16:54
+4002.02user 22.42system 1:07:21elapsed 99%CPU (0avgtext+0avgdata 97116maxresident)k
+0inputs+25312outputs (0major+10711minor)pagefaults 0swaps
+
+   -------------------------------------   
+...........................................
+
+
+   -------------------------------------   
+...........................................
+End of Log files for subjobs.              
+
+-------------------------------------------
+
+All structure file output placed in one output structure file: Toru-SiPh3-NTf-Z-conformations-boundedtophosphoryl-out.maegz.
+Number of structures placed in Toru-SiPh3-NTf-Z-conformations-boundedtophosphoryl-out.maegz: 139.
+###########################################
+Tue, 15 Nov 2016 13:16:56.646653
+Job Complete
+2.36user 0.41system 1:07:26elapsed 0%CPU (0avgtext+0avgdata 87200maxresident)k
+0inputs+1944outputs (2major+48460minor)pagefaults 0swaps

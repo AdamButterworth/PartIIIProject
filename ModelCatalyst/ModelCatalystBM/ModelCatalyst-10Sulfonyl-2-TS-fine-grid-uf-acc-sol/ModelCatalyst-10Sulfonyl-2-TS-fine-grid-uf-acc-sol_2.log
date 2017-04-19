@@ -1,0 +1,97 @@
+[running at reduced cpu priority]
+Job ModelCatalyst-10Sulfonyl-2-TS-fine-grid-uf-acc-sol_2 started on tethys at Mon Jan 30 16:05:46 2017
+jobid: tethys-0-588f6459 
+Jaguar version 8.4, release  16
+Molecular Point Group: C1      
+Point Group used: C1
+pre (input checking) done.
+onee (1-electron integrals) done.
+hfig (HF initial guess) done.
+probe (project orbitals) done.
+grid (grid generation) done.
+rwr (Q operators) done.
+scf type: DFT=M06-2X
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -2987.76672771746           4.7E-03  1.5E-01
+etot    2  N  Y  1  U   -2990.80102016024  3.0E+00  4.7E-03  1.2E-01
+etot    3  N  Y  1  U   -2991.29395537245  4.9E-01  3.7E-03  1.2E-01
+etot    4  N  Y  1  U   -2993.95328756796  2.7E+00  9.1E-04  3.1E-02
+etot    5  N  Y  1  U   -2994.05624295976  1.0E-01  4.2E-04  1.2E-02
+etot    6  N  Y  1  U   -2994.09874484753  4.3E-02  1.3E-04  4.6E-03
+etot    7  N  Y  1  U   -2994.10273024034  4.0E-03  4.3E-05  1.6E-03
+etot    8  N  Y  1  U   -2994.10327537304  5.5E-04  1.4E-05  4.7E-04
+etot    9  N  N  1  U   -2994.10330730004  3.2E-05  0.0E+00  0.0E+00
+scf (DFT) done.
+--------gas phase calculation complete----------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -2994.13570786412           1.4E-04  1.8E-03
+etot    2  N  Y  1  U   -2994.13646161893  7.5E-04  5.0E-05  1.6E-03
+etot    3  N  Y  1  U   -2994.13694809144  4.9E-04  1.4E-05  6.1E-04
+etot    4  N  Y  1  U   -2994.13700245509  5.4E-05  5.3E-06  1.8E-04
+etot    5  N  N  1  U   -2994.13700730410  4.8E-06  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  1 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -2994.14010853493           1.9E-05  2.8E-04
+etot    2  N  N  1  U   -2994.14011591368  7.4E-06  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  2 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -2994.14062795664           1.5E-05  2.1E-04
+etot    2  N  N  1  U   -2994.14060841905 -2.0E-05  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  3 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -2994.14042276054           2.3E-05  3.4E-04
+etot    2  N  Y  1  U   -2994.14036636562 -5.6E-05  1.5E-05  5.8E-04
+etot    3  N  Y  1  U   -2994.14045097703  8.5E-05  4.6E-07  1.6E-05
+etot    4  N  N  1  U   -2994.14045102102  4.4E-08  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----final solvation iteration  4 complete------------------
+post (output conversion) done.
+Job ModelCatalyst-10Sulfonyl-2-TS-fine-grid-uf-acc-sol_2 completed on tethys at Mon Jan 30 18:47:43 2017

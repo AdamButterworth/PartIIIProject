@@ -1,0 +1,21 @@
+Command:    jaguar run jexec.py -jobname Toru-SiPh3-Type-I-E-8-chkp-scan-unrestrained-208-SPE_2 -nsubjobs 1 Toru-SiPh3-Type-I-E-8-chkp-scan-unrestrained-208-SPE_2.in
+[running at reduced cpu priority]
+Release:    2017-1
+Exec:       /usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64
+Host:       tethys
+JobId:      tethys-0-58c19599
+JobDir:     /scratch/ab2144/Toru-SiPh3-Type-I-E-8-chkp-scan-unrestrained-208-SPE_2
+Date:       Thu Mar  9 17:49:18 2017
+
+Contents of /scratch/ab2144/Toru-SiPh3-Type-I-E-8-chkp-scan-unrestrained-208-SPE_2:
+/scratch/ab2144/Toru-SiPh3-Type-I-E-8-chkp-scan-unrestrained-208-SPE_2/Toru-SiPh3-Type-I-E-8-chkp-scan-unrestrained-208-SPE_2.log
+/scratch/ab2144/Toru-SiPh3-Type-I-E-8-chkp-scan-unrestrained-208-SPE_2/tethys-0-58c19599.recover
+/scratch/ab2144/Toru-SiPh3-Type-I-E-8-chkp-scan-unrestrained-208-SPE_2/tethys-0-58c19599
+/scratch/ab2144/Toru-SiPh3-Type-I-E-8-chkp-scan-unrestrained-208-SPE_2/Toru-SiPh3-Type-I-E-8-chkp-scan-unrestrained-208-SPE_2.recover
+/scratch/ab2144/Toru-SiPh3-Type-I-E-8-chkp-scan-unrestrained-208-SPE_2/Toru-SiPh3-Type-I-E-8-chkp-scan-unrestrained-208-SPE_2.in
+/scratch/ab2144/Toru-SiPh3-Type-I-E-8-chkp-scan-unrestrained-208-SPE_2/tethys-0-58c19599.nodes
+/scratch/ab2144/Toru-SiPh3-Type-I-E-8-chkp-scan-unrestrained-208-SPE_2/Toru-SiPh3-Type-I-E-8-chkp-scan-unrestrained-208-SPE_2.mae
+
+Executing subprocess:
+/usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64/jexec Toru-SiPh3-Type-I-E-8-chkp-scan-unrestrained-208-SPE_2.in -cwd -out /scratch/ab2144/Toru-SiPh3-Type-I-E-8-chkp-scan-unrestrained-208-SPE_2
+

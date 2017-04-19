@@ -1,0 +1,1216 @@
+Job ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_canonical1 started on tethys at Mon Jan 30 10:28:15 2017
+jobid: tethys-0-588f153e
+
+  +--------------------------------------------------------------------+
+  |  Jaguar version 8.4, release  16                                   |
+  |                                                                    |
+  |  Copyright Schrodinger, Inc.                                       |
+  |  All Rights Reserved.                                              |
+  |                                                                    |
+  |  The following have contributed to Jaguar (listed alphabetically): |
+  |  Mike Beachy, Art Bochevarov, Dale Braden, Yixiang Cao,            |
+  |  Chris Cortis, Rich Friesner, Bill Goddard, Hod Greeley,           |
+  |  Tom Hughes, Jean-Marc Langlois, Daniel Mainz, Rob Murphy,         |
+  |  Dean Philipp, Tom Pollard, Murco Ringnalda.                       |
+  |                                                                    |
+  |  Use of this program should be acknowledged in publications as:    |
+  |                                                                    |
+  |  Jaguar, version 8.4, Schrodinger, Inc., New York, NY, 2013.       |
+  |                                                                    |
+  |  A. D. Bochevarov, E. Harder, T. F. Hughes, J. R. Greenwood,       |
+  |  D. A. Braden, D. M. Philipp, D. Rinaldo, M. D. Halls,             |
+  |  J. Zhang, R. A. Friesner, "Jaguar: A High-Performance Quantum     |
+  |  Chemistry Software Program with Strengths in Life and Materials   |
+  |  Sciences", Int. J. Quantum Chem., 2013, 113(18), 2110-2142.       |
+  +--------------------------------------------------------------------+
+  
+  start of program pre
+  
+  Job name: ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_canonical1
+  Executables used: /usr/local/shared/schrodinger/current/jaguar-v84016/bin/Linux-x86_64
+  Temporary files : /home/ab2144/.schrodinger/tmp/ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_canonical1
+  Maestro file (input):  ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_canonical1.mae
+  Maestro file (output): ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_canonical1.01.mae
+  
+  
+  basis set:             6-31g**         
+  net molecular charge:    0
+  multiplicity:            1
+  
+  keygrid settings 
+    wispc.....   7.500E-01
+    ldens.....   0
+    denspc....   7.500E-01
+  
+   grid     daf set  nls  grid set  Q type
+  ------    -------  ---  --------  ------
+  coarse       1      1       1        1
+  medium       2      2       2        1
+  fine         3      2       3        0
+  ultrafine    4      2       4        1
+  charge       0      1      -1        1
+  gradient     5      2       4        1
+  density      0      1       0        0
+  DFT-fine     0      1     -13        0
+  DFT-med.     0      1     -13        0
+  DFT-grad     0      1     -13        0
+  DFT-der2     0      1       0        0
+  DFT-cphf     0      1       0        0
+  LMP2-enrg    4      2       4        1
+  LMP2-grad    5      2       2        1
+  DFT-cphf2    0      1       0        0
+  PBF-dens     0      1       0        0
+  plotting     0      1       0        0
+  
+  idftgrdm  100
+  ndftgrdm   50    0    0
+  idftgrdf  111
+  ndftgrdf   85    0    0
+  idftgrdg  111
+  ndftgrdg   80    3    0
+  idftgrdu  433
+  ndftgrdu  105    0    0
+  idftgrdd  433
+  ndftgrdd  105    0    0
+  idftgrdc  433
+  ndftgrdc   26    0    0
+  idftgrdp  433
+  ndftgrdp   18    0    0
+  
+  number of basis functions....          682
+  
+ Input geometry:
+                                   angstroms
+  atom               x                 y                 z
+  C1            3.8715000000     -2.5116000000      1.2103000000 
+  C2            5.0942000000     -1.9658000000      1.0545000000 
+  C3            5.0878000000     -0.9079000000      0.0344000000 
+  C4            4.5637000000     -1.3553000000     -1.1166000000 
+  H5            5.8861000000     -2.2181000000      1.7535000000 
+  H6            3.6322000000     -3.2391000000      1.9806000000 
+  H7            4.7232000000     -2.3702000000     -1.4752000000 
+  H8            4.9303000000      0.1209000000      0.3465000000 
+  O9            2.7170000000     -2.2163000000      0.4991000000 
+  P10           2.1497000000     -1.2718000000     -0.7427000000 
+  O11           3.4229000000     -0.7522000000     -1.6639000000 
+  O12           1.2502000000     -2.1418000000     -1.5620000000 
+  N13           1.3384000000     -0.0058000000     -0.1215000000 
+  S14           1.8078000000      1.1079000000      0.9396000000 
+  O15           0.5964000000      1.7352000000      1.4839000000 
+  O16           2.8788000000      0.6802000000      1.8502000000 
+  C17           2.5894000000      2.4651000000     -0.0901000000 
+  F18           2.8915000000      3.4937000000      0.7120000000 
+  F19           3.7129000000      2.0349000000     -0.6786000000 
+  F20           1.7487000000      2.8946000000     -1.0388000000 
+  H21          -0.5077000000      0.0592000000     -0.3671000000 
+  C22          -2.4685000000     -0.8028000000     -0.2847000000 
+  N23          -1.5244000000      0.1426000000     -0.5875000000 
+  S24          -1.9296000000      1.4872000000     -1.5580000000 
+  O25          -0.7155000000      1.8858000000     -2.2593000000 
+  O26          -3.1545000000      1.1124000000     -2.2695000000 
+  C27          -3.0036000000      4.5817000000      1.5325000000 
+  C28          -3.7844000000      3.4549000000      1.2612000000 
+  N29          -3.4519000000      2.5449000000      0.3401000000 
+  C30          -2.3227000000      2.7567000000     -0.3247000000 
+  C31          -1.4514000000      3.8250000000     -0.1395000000 
+  C32          -1.8182000000      4.7656000000      0.8241000000 
+  H33          -3.3189000000      5.2903000000      2.2911000000 
+  H34          -4.7088000000      3.2740000000      1.8043000000 
+  H35          -0.5306000000      3.8963000000     -0.7033000000 
+  H36          -1.1807000000      5.6214000000      1.0212000000 
+  C37          -2.2624000000     -3.0778000000      3.3367000000 
+  C38          -1.0930000000     -2.5290000000      2.8082000000 
+  C39          -1.1281000000     -1.8030000000      1.6193000000 
+  C40          -2.3452000000     -1.6154000000      0.9438000000 
+  C41          -3.5153000000     -2.1814000000      1.4791000000 
+  C42          -3.4767000000     -2.9010000000      2.6694000000 
+  H43          -2.2295000000     -3.6371000000      4.2670000000 
+  H44          -0.1473000000     -2.6540000000      3.3258000000 
+  H45          -0.2140000000     -1.3612000000      1.2410000000 
+  H46          -4.4613000000     -2.0413000000      0.9640000000 
+  H47          -4.3919000000     -3.3183000000      3.0779000000 
+  H48          -3.4735000000     -0.4601000000     -0.5087000000 
+  C49          -1.6538000000     -4.1054000000     -1.2231000000 
+  C50          -3.0638000000     -4.2320000000     -1.2770000000 
+  C51          -3.5505000000     -3.0173000000     -1.7205000000 
+  C52          -2.4461000000     -2.1177000000     -1.8583000000 
+  H53          -0.9115000000     -4.8251000000     -0.9050000000 
+  H54          -3.6252000000     -5.1160000000     -1.0114000000 
+  H55          -4.5841000000     -2.7487000000     -1.8935000000 
+  H56          -2.4036000000     -1.3203000000     -2.5887000000 
+  N57          -1.2978000000     -2.8884000000     -1.6254000000 
+  H58          -0.3078000000     -2.5390000000     -1.6392000000 
+   
+  principal moments of inertia:
+        amu*angstrom^2:     4731.45663     5614.86342     7899.65532
+                g*cm^2: 7.85676760E-37 9.32369890E-37 1.31176846E-36
+   
+  rotational constants:
+               cm^(-1):      0.00356288      0.00300232      0.00213397
+                   GHz:      0.10681256      0.09000736      0.06397482
+   
+  Molecular weight:     592.05 amu
+   
+  Stoichiometry: C21PN4H20S2O7F3
+  Molecular Point Group: C1      
+  Point Group used: C1
+  
+  nuclear repulsion energy.......    5612.857199678 hartrees
+ 
+ Non-default options chosen:
+   SCF calculation type: DFT(m06-2x)                 
+   DFT=M06-2X
+   Solvation energy will be computed using PBF
+     -solute cavity energy will not be included
+     -surface area terms will not be included
+   Highest accuracy cutoffs used in SCF
+   Solvent: other                                                           
+   Internal dielectric constant:    1.000
+   Continuum dielectric constant:   2.380
+   Solvent probe molecule radius:   2.760
+  
+ Temporary integer options set:
+     73=  2
+  
+  atom       vdw   vdw2    cov     mass  grid  daf  charge   basis
+  C1        1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C2        1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C3        1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C4        1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  H5        1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H6        1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H7        1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H8        1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  O9        1.702  1.600  0.730   15.995    Y    Y      Y    6-31g**
+  P10       2.147  2.074  1.060   30.974    Y    Y      Y    6-31g**
+  O11       1.702  1.600  0.730   15.995    Y    Y      Y    6-31g**
+  O12       1.702  1.600  0.730   15.995    Y    Y      Y    6-31g**
+  N13       1.831  1.600  0.750   14.003    Y    Y      Y    6-31g**
+  S14       2.070  1.900  1.020   31.972    Y    Y      Y    6-31g**
+  O15       1.702  1.600  0.730   15.995    Y    Y      Y    6-31g**
+  O16       1.702  1.600  0.730   15.995    Y    Y      Y    6-31g**
+  C17       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  F18       1.736  1.682  0.720   18.998    Y    Y      Y    6-31g**
+  F19       1.736  1.682  0.720   18.998    Y    Y      Y    6-31g**
+  F20       1.736  1.682  0.720   18.998    Y    Y      Y    6-31g**
+  H21       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  C22       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  N23       1.831  1.600  0.750   14.003    Y    Y      Y    6-31g**
+  S24       2.070  1.900  1.020   31.972    Y    Y      Y    6-31g**
+  O25       1.702  1.600  0.730   15.995    Y    Y      Y    6-31g**
+  O26       1.702  1.600  0.730   15.995    Y    Y      Y    6-31g**
+  C27       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C28       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  N29       1.831  1.600  0.750   14.003    Y    Y      Y    6-31g**
+  C30       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C31       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C32       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  H33       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H34       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H35       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H36       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  C37       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C38       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C39       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C40       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C41       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C42       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  H43       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H44       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H45       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H46       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H47       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H48       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  C49       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C50       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C51       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  C52       1.949  1.900  0.770   12.000    Y    Y      Y    6-31g**
+  H53       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H54       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H55       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  H56       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  N57       1.831  1.600  0.750   14.003    Y    Y      Y    6-31g**
+  H58       1.597  1.150  0.320    1.008    Y    Y      Y    6-31g**
+  
+  Peak memory usage:    514 Mb
+  
+  end of program pre
+   
+ Time(pre)  user:        0.0  user+sys:        0.0  wallclock:        0.2
+  
+  start of program onee
+  
+  smallest eigenvalue of S:    4.296E-04
+  number of canonical orbitals.....          681
+  Peak memory usage:    658 Mb
+  
+  end of program onee
+   
+ Time(onee)  user:        1.0  user+sys:        1.0  wallclock:        1.9
+  
+  start of program hfig
+  
+  initial wavefunction generated automatically from atomic wavefunctions
+ 
+  Irreducible     Total no   No of occupied orbitals 
+  representation  orbitals   Shell_1  Shell_2    ...
+  No Symm          681        152
+  ------------------------
+  Orbital occupation/shell    1.000
+ 
+  Peak memory usage:    599 Mb
+  
+  end of program hfig
+   
+ Time(hfig)  user:        1.0  user+sys:        1.0  wallclock:        1.8
+  
+  start of program probe
+  
+  Peak memory usage:    599 Mb
+  
+  end of program probe
+   
+ Time(probe)  user:        1.0  user+sys:        1.0  wallclock:        1.4
+  
+  start of program grid
+  
+  
+   grid     grid set  grid #  grid sym
+  ------    --------  ------  --------
+  coarse        0        0        1
+  medium        2        1        1
+  fine          0        0        1
+  ultrafine     4        2        1
+  charge       -1        3        1
+  gradient      4        2        1
+  density       0        0        1
+  DFT-fine    -13        4        1
+  DFT-med.    -13        4        1
+  DFT-grad    -13        4        1
+  DFT-der2      0        0        1
+  DFT-cphf      0        0        1
+  LMP2-enrg     4        2        1
+  LMP2-grad     2        1        1
+  DFT-cphf2     0        0        1
+  PBF-dens      0        0        1
+  plotting      0        0        1
+  
+   
+  number of gridpoints: 
+     atom        C1       C2       C3       C4       H5       H6       H7
+  grid # 1       92       94       95       94      118      117      115
+  grid # 2      327      336      340      333      455      452      444
+  grid # 3       16       13       44       38      456      408      376
+  grid # 4    48350    48350    48350    48350    48788    48788    48788
+   
+  number of gridpoints: 
+     atom        H8       O9      P10      O11      O12      N13      S14
+  grid # 1      110      110      448      114      119      108      440
+  grid # 2      432      442      448      459      460      394      440
+  grid # 3      221       73        6      143      151       19       10
+  grid # 4    48788    47970    38334    47970    47970    48272    48562
+   
+  number of gridpoints: 
+     atom       O15      O16      C17      F18      F19      F20      H21
+  grid # 1      121      121       90      537      520      519       99
+  grid # 2      492      495      321      537      520      519      398
+  grid # 3      197      206        7      307      187      151       46
+  grid # 4    47970    47970    48350    47470    47470    47470    48788
+   
+  number of gridpoints: 
+     atom       C22      N23      S24      O25      O26      C27      C28
+  grid # 1       90       98      442      121      121       97       97
+  grid # 2      322      351      442      490      496      332      340
+  grid # 3        6       12       16      221      245       45       46
+  grid # 4    48350    48272    48562    47970    47970    48350    48350
+   
+  number of gridpoints: 
+     atom       N29      C30      C31      C32      H33      H34      H35
+  grid # 1      113       98       96       96      118      118      111
+  grid # 2      421      359      329      333      452      454      429
+  grid # 3      107       37       35       40      427      450      206
+  grid # 4    48272    48350    48350    48350    48788    48788    48788
+   
+  number of gridpoints: 
+     atom       H36      C37      C38      C39      C40      C41      C42
+  grid # 1      118       97       96       96      100       96       96
+  grid # 2      452      333      334      331      360      335      332
+  grid # 3      412       46       43       30       26       31       44
+  grid # 4    48788    48350    48350    48350    48350    48350    48350
+   
+  number of gridpoints: 
+     atom       H43      H44      H45      H46      H47      H48      C49
+  grid # 1      118      117      105      113      118      104       95
+  grid # 2      451      445      408      435      450      413      331
+  grid # 3      420      350      103      254      411      127       33
+  grid # 4    48788    48788    48788    48788    48788    48788    48350
+   
+  number of gridpoints: 
+     atom       C50      C51      C52      H53      H54      H55      H56
+  grid # 1       94       94       92      117      117      116      109
+  grid # 2      330      330      324      453      460      450      431
+  grid # 3       30       29        7      415      444      378      242
+  grid # 4    48350    48350    48350    48788    48788    48788    48788
+   
+  number of gridpoints: 
+     atom       N57      H58    total
+  grid # 1       97      103     8405
+  grid # 2      344      405    23531
+  grid # 3       32      128     9003
+  grid # 4    48272    48788  2797856
+   
+  Peak memory usage:    632 Mb
+  
+  end of program grid
+   
+ Time(grid)  user:      108.0  user+sys:      110.0  wallclock:      132.3
+  
+  start of program rwr
+  
+  dpptrf failed in rinv with info = 182
+  switching to SVD for RwR matrix  29 for grid  2
+  Peak memory usage:    533 Mb
+  
+  end of program rwr
+   
+ Time(rwr)  user:       12.0  user+sys:       13.0  wallclock:       20.3
+  
+  start of program scf
+  
+ number of electrons..........        304
+ number of alpha electrons....        152
+ number of beta electrons.....        152
+ number of orbitals, total....        681
+ number of doubly-occ'd orbs..        152
+ number of open shell orbs....          0
+ number of occupied orbitals..        152
+ number of virtual orbitals...        529
+ number of hamiltonians.......          1
+ number of shells.............          1
+ SCF type: DFT=M06-2X
+  
+       i  u  d  i  g                   
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -2987.76541130927           4.9E-03  1.4E-01
+etot    2  N  Y  1  U   -2990.57206864469  2.8E+00  4.5E-03  1.1E-01
+etot    3  N  Y  1  U   -2991.50847747758  9.4E-01  3.2E-03  1.3E-01
+etot    4  N  Y  1  U   -2993.94022186373  2.4E+00  9.1E-04  2.9E-02
+etot    5  N  Y  1  U   -2994.03997136052  1.0E-01  4.5E-04  1.6E-02
+etot    6  N  Y  1  U   -2994.09747619571  5.8E-02  1.4E-04  4.6E-03
+etot    7  N  Y  1  U   -2994.10171693900  4.2E-03  4.7E-05  1.8E-03
+etot    8  N  Y  1  U   -2994.10236734982  6.5E-04  1.6E-05  4.1E-04
+etot    9  N  Y  1  U   -2994.10242011284  5.3E-05  6.5E-06  2.8E-04
+etot   10  N  N  1  U   -2994.10243321707  1.3E-05  0.0E+00  0.0E+00
+  
+  
+ Energy components, in hartrees:
+   (A)  Nuclear repulsion............    5612.85719967768
+   (E)  Total one-electron terms.....  -15295.70039540603
+   (F)    Electron-nuclear...........  -18270.14106189135
+   (H)    Kinetic....................    2974.44066648532
+   (I)  Total two-electron terms.....    6688.74076251127
+   (J)    Coulomb....................    7003.32558935754
+   (K)    Exchange+Correlation.......    -314.58482684626
+   (L)  Electronic energy............   -8606.95963289476  (E+I)
+   (M)  -V/T.........................       2.00661024002  (-(A+F+I)/H)
+   (N)  Total energy.................   -2994.10243321707  (A+L)
+  
+ SCFE: SCF energy: DFT(m06-2x)     -2994.10243321707 hartrees   iterations:  10
+  
+ 
+ HOMO energy:    -0.28012
+ LUMO energy:    -0.07507
+ 
+  Orbital energies (hartrees): 
+   -90.17366   -90.15062   -78.21698   -25.28936   -25.28820   -25.28698
+   -19.68354   -19.67802   -19.65407   -19.65304   -19.62601   -19.62293
+   -19.60834   -14.83201   -14.81997   -14.79256   -14.74973   -10.80381
+   -10.66921   -10.63228   -10.62859   -10.62560   -10.61079   -10.61023
+   -10.60543   -10.59140   -10.58973   -10.58765   -10.58667   -10.58449
+   -10.58086   -10.57818   -10.57516   -10.57392   -10.57319   -10.56978
+   -10.55607   -10.54395    -8.48391    -8.45948    -6.99492    -6.40628
+    -6.40524    -6.40421    -6.38138    -6.38087    -6.38080    -5.11365
+    -5.11249    -5.11067    -1.45462    -1.36401    -1.36303    -1.24852
+    -1.21881    -1.20528    -1.16215    -1.13658    -1.12245    -1.10388
+    -1.09194    -1.08437    -1.06889    -0.98243    -0.98030    -0.92625
+    -0.91319    -0.90837    -0.89977    -0.88529    -0.86188    -0.85245
+    -0.82760    -0.81643    -0.80684    -0.76726    -0.76476    -0.74018
+    -0.72491    -0.71832    -0.70125    -0.70016    -0.69210    -0.68125
+    -0.68123    -0.67911    -0.67177    -0.66010    -0.65868    -0.64644
+    -0.62635    -0.61763    -0.60868    -0.58981    -0.58288    -0.57670
+    -0.57514    -0.57288    -0.56884    -0.55869    -0.55359    -0.55130
+    -0.54578    -0.54269    -0.54061    -0.53400    -0.52807    -0.52599
+    -0.52222    -0.52052    -0.51890    -0.51585    -0.51474    -0.50707
+    -0.50454    -0.49886    -0.49832    -0.49679    -0.49411    -0.49119
+    -0.48453    -0.48283    -0.46439    -0.46201    -0.45690    -0.45377
+    -0.44130    -0.43286    -0.42654    -0.42019    -0.41900    -0.41306
+    -0.40781    -0.40401    -0.39681    -0.39449    -0.38792    -0.38402
+    -0.37801    -0.37080    -0.36338    -0.35524    -0.35063    -0.34747
+    -0.34350    -0.33727    -0.33231    -0.32437    -0.31991    -0.30310
+    -0.29744    -0.28012    -0.07507    -0.01901    -0.00181     0.00803
+     0.01418     0.01543     0.06871     0.06969     0.08520     0.10103
+ 
+  Peak memory usage:    748 Mb
+  
+  end of program scf
+   
+ Time(scf)  user:     4408.0  user+sys:     4441.0  wallclock:     7627.6
+  
+  start of program ch
+  
+  gridpoints used for charge fit         8051
+    out of a possible maximum of         9003
+  
+   Electrostatic potential fitting constrained to reproduce
+     total charge:                yes
+     dipole moment:               no 
+     traceless quadrupole moment: no 
+     traceless octapole moment:   no 
+  
+  Atomic charges from electrostatic potential: 
+   
+ Atom       C1           C2           C3           C4           H5      
+ Charge    0.04851     -0.24720     -0.18537      0.01993      0.16852
+   
+ Atom       H6           H7           H8           O9           P10     
+ Charge    0.13064      0.14907      0.18658     -0.31134      0.93703
+   
+ Atom       O11          O12          N13          S14          O15     
+ Charge   -0.29340     -0.62194     -0.53175      0.69874     -0.46476
+   
+ Atom       O16          C17          F18          F19          F20     
+ Charge   -0.42184      0.32494     -0.12065     -0.11509     -0.08029
+   
+ Atom       H21          C22          N23          S24          O25     
+ Charge    0.13537     -0.43464     -0.04880      0.74032     -0.44142
+   
+ Atom       O26          C27          C28          N29          C30     
+ Charge   -0.44346     -0.42181      0.40485     -0.58003      0.43554
+   
+ Atom       C31          C32          H33          H34          H35     
+ Charge   -0.33606      0.16476      0.18393      0.04490      0.16248
+   
+ Atom       H36          C37          C38          C39          C40     
+ Charge    0.10727     -0.11449     -0.08971     -0.35035      0.47189
+   
+ Atom       C41          C42          H43          H44          H45     
+ Charge   -0.24778     -0.12712      0.12972      0.14659      0.25376
+   
+ Atom       H46          H47          H48          C49          C50     
+ Charge    0.15508      0.13928      0.20848     -0.00620     -0.16516
+   
+ Atom       C51          C52          H53          H54          H55     
+ Charge   -0.24957      0.12288      0.16627      0.15846      0.19473
+   
+ Atom       H56          N57          H58     
+ Charge    0.13274     -0.19747      0.32442
+  
+  sum of atomic charges:     0.000000
+   
+ RMS Error   1.21E-03 hartrees
+ 
+  Peak memory usage:    551 Mb
+  
+  end of program ch
+   
+ Time(ch)  user:        3.0  user+sys:        3.0  wallclock:        7.3
+  
+  start of program post
+  
+  Writing input files for PBF
+  Peak memory usage:    524 Mb
+  
+  end of program post
+   
+ Time(post)  user:        0.0  user+sys:        0.0  wallclock:        0.4
+
+  start of program pbf
+
+Pbf Version 4.00
+
+Molecular surface area:      420.65399   [A2]
+Reaction field energy:       -17.56826   [kT]
+  Peak memory usage: 513 Mb
+
+  end of program pbf
+
+ Time(pbf)  user:        1.8  user+sys:        1.9  wallclock:        4.3
+  
+  start of program solv
+  
+   number of surface charges from PBF    6048
+   sum of surface charges     -0.00021
+   
+  nuclear repulsion energy.......    5612.857199678 hartrees
+  Peak memory usage:    652 Mb
+  
+  end of program solv
+   
+ Time(solv)  user:        5.0  user+sys:        5.0  wallclock:       12.4
+  
+  start of program scf
+  
+  
+       i  u  d  i  g                   
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -2994.13778141571           1.3E-04  1.5E-03
+etot    2  N  Y  1  U   -2994.13872343304  9.4E-04  4.3E-05  1.4E-03
+etot    3  N  Y  1  U   -2994.13896425030  2.4E-04  1.4E-05  6.7E-04
+etot    4  N  Y  1  U   -2994.13902780649  6.4E-05  6.1E-06  1.8E-04
+etot    5  N  N  1  U   -2994.13903417915  6.4E-06  0.0E+00  0.0E+00
+  
+  
+ Energy components, in hartrees:
+   (A)  Total zero-electron terms....    5614.80534466099
+   (B)    Nuclear-nuclear............    5612.85719967768
+   (C)    Nuclear-solvent............       1.94814498331
+   (E)  Total one-electron terms.....  -15298.62372706926
+   (F)    Electron-nuclear...........  -18271.10072658975
+   (G)    Electron-solvent...........      -1.98598967664
+   (H)    Kinetic....................    2974.46298919713
+   (I)  Total two-electron terms.....    6689.67934822912
+   (J)    Coulomb....................    7004.27921808631
+   (K)    Exchange+Correlation.......    -314.59986985719
+   (L)  Electronic energy............   -8608.94437884014  (E+I)
+   (N)  Total quantum mech. energy...   -2994.13903417915  (A+L)
+   (O)  Gas phase energy.............   -2994.10243321707
+   (P)  Solution phase energy........   -2994.12011183248  (Q+R+S)
+   (Q)    Total solute energy........   -2994.10118948582  (N-C-G)
+   (R)    Total solvent energy.......      -0.01892234667  (C/2+G/2)
+   (S)    Solute cavity energy.......       0.00000000000
+   (U)  Reorganization energy........       0.00124373125  (Q-O)
+   (V)  Solvation energy.............      -0.01767861541  (P-O)
+  
+ SCFE:  Solution phase energy: DFT(m06-2x)      -2994.12011183248 hartrees
+        SCF iterations:   5
+  
+ 
+ HOMO energy:    -0.28599
+ LUMO energy:    -0.07167
+ 
+  Orbital energies (hartrees): 
+   -90.17945   -90.16293   -78.22580   -25.29985   -25.29813   -25.29770
+   -19.68969   -19.68662   -19.65989   -19.65870   -19.63861   -19.63577
+   -19.61766   -14.82839   -14.82161   -14.79267   -14.75971   -10.81462
+   -10.66678   -10.63332   -10.62866   -10.62326   -10.61072   -10.60813
+   -10.60656   -10.58835   -10.58656   -10.58585   -10.58171   -10.58050
+   -10.57560   -10.57146   -10.57089   -10.56932   -10.56732   -10.56501
+   -10.55922   -10.54962    -8.48958    -8.47174    -7.00371    -6.41190
+    -6.41102    -6.40983    -6.39364    -6.39315    -6.39305    -5.12242
+    -5.12131    -5.11950    -1.46495    -1.37446    -1.37324    -1.25454
+    -1.23109    -1.21347    -1.16926    -1.14325    -1.11926    -1.11693
+    -1.10059    -1.08437    -1.06997    -0.99253    -0.97648    -0.92432
+    -0.91805    -0.90382    -0.89865    -0.88238    -0.85750    -0.84752
+    -0.83809    -0.82158    -0.80615    -0.77336    -0.76612    -0.73825
+    -0.73325    -0.71687    -0.69787    -0.69654    -0.69161    -0.68983
+    -0.68930    -0.68002    -0.67512    -0.66634    -0.65513    -0.64551
+    -0.62630    -0.62222    -0.61117    -0.59693    -0.58457    -0.58276
+    -0.57441    -0.57385    -0.57098    -0.56805    -0.56369    -0.54954
+    -0.54466    -0.54444    -0.54019    -0.53726    -0.53628    -0.53448
+    -0.53029    -0.52571    -0.52285    -0.51860    -0.51545    -0.51138
+    -0.50797    -0.50217    -0.50105    -0.49740    -0.49125    -0.48849
+    -0.48082    -0.47814    -0.46794    -0.46230    -0.46015    -0.45010
+    -0.44394    -0.43590    -0.42872    -0.42379    -0.41950    -0.41557
+    -0.41397    -0.41140    -0.40673    -0.39991    -0.39372    -0.39325
+    -0.38933    -0.38125    -0.36704    -0.36255    -0.35156    -0.35086
+    -0.34369    -0.34165    -0.33932    -0.32204    -0.31584    -0.30897
+    -0.29404    -0.28599    -0.07167    -0.01851    -0.00036     0.00205
+     0.01816     0.01950     0.06426     0.07423     0.08485     0.09437
+ 
+  Peak memory usage:    747 Mb
+  
+  end of program scf
+   
+ Time(scf)  user:     1789.0  user+sys:     1800.0  wallclock:     3798.0
+  
+  start of program sole
+  
+    SCRF                   solvation energy
+  iteration          Hartrees            kcal/mol
+     0               0.0000000            0.0000
+     1              -0.0176786          -11.0935
+  
+  solvation energy not yet converged... 
+  
+  Peak memory usage:    623 Mb
+  
+  end of program sole
+   
+ Time(sole)  user:        0.0  user+sys:        0.0  wallclock:        1.0
+  
+  start of program ch
+  
+  gridpoints used for charge fit         8051
+    out of a possible maximum of         8051
+  
+   Electrostatic potential fitting constrained to reproduce
+     total charge:                yes
+     dipole moment:               no 
+     traceless quadrupole moment: no 
+     traceless octapole moment:   no 
+  
+  Atomic charges from electrostatic potential: 
+   
+ Atom       C1           C2           C3           C4           H5      
+ Charge    0.04093     -0.24571     -0.19833      0.02153      0.17716
+   
+ Atom       H6           H7           H8           O9           P10     
+ Charge    0.14399      0.15847      0.18982     -0.30705      0.94698
+   
+ Atom       O11          O12          N13          S14          O15     
+ Charge   -0.31064     -0.64057     -0.52944      0.70398     -0.47733
+   
+ Atom       O16          C17          F18          F19          F20     
+ Charge   -0.44063      0.32778     -0.12118     -0.11417     -0.07868
+   
+ Atom       H21          C22          N23          S24          O25     
+ Charge    0.14479     -0.42787     -0.06415      0.75877     -0.46524
+   
+ Atom       O26          C27          C28          N29          C30     
+ Charge   -0.46319     -0.42219      0.41336     -0.60383      0.43948
+   
+ Atom       C31          C32          H33          H34          H35     
+ Charge   -0.33552      0.16178      0.19389      0.05322      0.16239
+   
+ Atom       H36          C37          C38          C39          C40     
+ Charge    0.11699     -0.11444     -0.09548     -0.35819      0.46453
+   
+ Atom       C41          C42          H43          H44          H45     
+ Charge   -0.24711     -0.13406      0.13683      0.15102      0.25294
+   
+ Atom       H46          H47          H48          C49          C50     
+ Charge    0.16382      0.14781      0.21074      0.00880     -0.16789
+   
+ Atom       C51          C52          H53          H54          H55     
+ Charge   -0.25896      0.14009      0.17415      0.16732      0.20625
+   
+ Atom       H56          N57          H58     
+ Charge    0.13132     -0.22368      0.33458
+  
+  sum of atomic charges:     0.000000
+   
+ RMS Error   1.21E-03 hartrees
+ 
+  Peak memory usage:    551 Mb
+  
+  end of program ch
+   
+ Time(ch)  user:        3.0  user+sys:        3.0  wallclock:        8.2
+  
+  start of program post
+  
+  Writing input files for PBF
+  Peak memory usage:    524 Mb
+  
+  end of program post
+   
+ Time(post)  user:        0.0  user+sys:        0.0  wallclock:        0.4
+
+  start of program pbf
+
+Pbf Version 4.00
+
+Molecular surface area:      420.65399   [A2]
+Reaction field energy:       -20.47078   [kT]
+  Peak memory usage: 513 Mb
+
+  end of program pbf
+
+ Time(pbf)  user:        1.9  user+sys:        2.0  wallclock:        4.0
+  
+  start of program solv
+  
+   number of surface charges from PBF    6048
+   sum of surface charges     -0.00024
+   
+  nuclear repulsion energy.......    5612.857199678 hartrees
+  Peak memory usage:    652 Mb
+  
+  end of program solv
+   
+ Time(solv)  user:        5.0  user+sys:        5.0  wallclock:       11.7
+  
+  start of program scf
+  
+  
+       i  u  d  i  g                   
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -2994.14204940454           1.7E-05  2.2E-04
+etot    2  N  N  1  U   -2994.14205675994  7.4E-06  0.0E+00  0.0E+00
+  
+  
+ Energy components, in hartrees:
+   (A)  Total zero-electron terms....    5615.03363933592
+   (B)    Nuclear-nuclear............    5612.85719967768
+   (C)    Nuclear-solvent............       2.17643965824
+   (E)  Total one-electron terms.....  -15299.09344670722
+   (F)    Electron-nuclear...........  -18271.34360424502
+   (G)    Electron-solvent...........      -2.21769889805
+   (H)    Kinetic....................    2974.46785643584
+   (I)  Total two-electron terms.....    6689.91775061136
+   (J)    Coulomb....................    7004.51871882678
+   (K)    Exchange+Correlation.......    -314.60096821542
+   (L)  Electronic energy............   -8609.17569609587  (E+I)
+   (N)  Total quantum mech. energy...   -2994.14205675994  (A+L)
+   (O)  Gas phase energy.............   -2994.10243321707
+   (P)  Solution phase energy........   -2994.12142714004  (Q+R+S)
+   (Q)    Total solute energy........   -2994.10079752013  (N-C-G)
+   (R)    Total solvent energy.......      -0.02062961990  (C/2+G/2)
+   (S)    Solute cavity energy.......       0.00000000000
+   (U)  Reorganization energy........       0.00163569694  (Q-O)
+   (V)  Solvation energy.............      -0.01899392297  (P-O)
+  
+ SCFE:  Solution phase energy: DFT(m06-2x)      -2994.12142714004 hartrees
+        SCF iterations:   2
+  
+ 
+ HOMO energy:    -0.31246
+ LUMO energy:    -0.07081
+ 
+  Orbital energies (hartrees): 
+   -75.01361   -73.26331   -71.94727   -36.91736   -34.65842   -30.44283
+   -26.55670   -18.71955   -18.40607   -18.39345   -16.20094   -15.35446
+   -15.05804   -15.00453   -14.88796   -14.32878   -13.27130   -12.75685
+   -12.47908   -12.08262   -11.64965   -11.40612   -11.26446   -11.22183
+   -10.69317   -10.64808   -10.63369   -10.61612   -10.58049   -10.57386
+   -10.54683   -10.54360   -10.51746   -10.51357   -10.48994   -10.35326
+   -10.32867   -10.29274   -10.28535   -10.24273    -9.93158    -9.06225
+    -8.21837    -7.74359    -7.39413    -6.76566    -6.69529    -5.47833
+    -5.19192    -5.03525    -1.52574    -1.45738    -1.37348    -1.29726
+    -1.14822    -1.12612    -1.11837    -1.10245    -1.01993    -1.00584
+    -1.00107    -0.97642    -0.94165    -0.90427    -0.90069    -0.89091
+    -0.85316    -0.85246    -0.84674    -0.83236    -0.81878    -0.80692
+    -0.76124    -0.76041    -0.73135    -0.72798    -0.72626    -0.72403
+    -0.72011    -0.71842    -0.71281    -0.70300    -0.70205    -0.69633
+    -0.69095    -0.68847    -0.68335    -0.68172    -0.67824    -0.65082
+    -0.64140    -0.64136    -0.62718    -0.62226    -0.62025    -0.60972
+    -0.60664    -0.59528    -0.59405    -0.58196    -0.57569    -0.57564
+    -0.57034    -0.56843    -0.56827    -0.55939    -0.55427    -0.54156
+    -0.54019    -0.53976    -0.53696    -0.53580    -0.53110    -0.52904
+    -0.52618    -0.52025    -0.52018    -0.51842    -0.51486    -0.51422
+    -0.51419    -0.51314    -0.51239    -0.51085    -0.50922    -0.50835
+    -0.50227    -0.49802    -0.49752    -0.48889    -0.48153    -0.48140
+    -0.48113    -0.47407    -0.47300    -0.46413    -0.46225    -0.46091
+    -0.46011    -0.45938    -0.43474    -0.43114    -0.42094    -0.41549
+    -0.40253    -0.37615    -0.36188    -0.35105    -0.33980    -0.32446
+    -0.32279    -0.31246    -0.07081    -0.01811    -0.00010     0.00169
+     0.01859     0.02010     0.06403     0.07459     0.08534     0.09435
+ 
+  Peak memory usage:    747 Mb
+  
+  end of program scf
+   
+ Time(scf)  user:      446.0  user+sys:      449.0  wallclock:      952.9
+  
+  start of program sole
+  
+    SCRF                   solvation energy
+  iteration          Hartrees            kcal/mol
+     0               0.0000000            0.0000
+     1              -0.0176786          -11.0935
+     2              -0.0189939          -11.9189
+  
+  solvation energy not yet converged... 
+  
+  Peak memory usage:    623 Mb
+  
+  end of program sole
+   
+ Time(sole)  user:        0.0  user+sys:        0.0  wallclock:        0.4
+  
+  start of program ch
+  
+  gridpoints used for charge fit         8051
+    out of a possible maximum of         8051
+  
+   Electrostatic potential fitting constrained to reproduce
+     total charge:                yes
+     dipole moment:               no 
+     traceless quadrupole moment: no 
+     traceless octapole moment:   no 
+  
+  Atomic charges from electrostatic potential: 
+   
+ Atom       C1           C2           C3           C4           H5      
+ Charge    0.04013     -0.24406     -0.19895      0.02071      0.17781
+   
+ Atom       H6           H7           H8           O9           P10     
+ Charge    0.14551      0.15961      0.18925     -0.30564      0.94710
+   
+ Atom       O11          O12          N13          S14          O15     
+ Charge   -0.31270     -0.64147     -0.52983      0.70307     -0.47758
+   
+ Atom       O16          C17          F18          F19          F20     
+ Charge   -0.44119      0.32831     -0.12105     -0.11405     -0.07883
+   
+ Atom       H21          C22          N23          S24          O25     
+ Charge    0.14434     -0.42918     -0.06428      0.75384     -0.46562
+   
+ Atom       O26          C27          C28          N29          C30     
+ Charge   -0.46252     -0.41881      0.41403     -0.60603      0.43754
+   
+ Atom       C31          C32          H33          H34          H35     
+ Charge   -0.33618      0.16180      0.19483      0.05430      0.16217
+   
+ Atom       H36          C37          C38          C39          C40     
+ Charge    0.11790     -0.11269     -0.09554     -0.36006      0.46120
+   
+ Atom       C41          C42          H43          H44          H45     
+ Charge   -0.24629     -0.13250      0.13717      0.15073      0.25297
+   
+ Atom       H46          H47          H48          C49          C50     
+ Charge    0.16456      0.14843      0.21101      0.01465     -0.16565
+   
+ Atom       C51          C52          H53          H54          H55     
+ Charge   -0.25739      0.13982      0.17418      0.16807      0.20678
+   
+ Atom       H56          N57          H58     
+ Charge    0.13027     -0.22845      0.33447
+  
+  sum of atomic charges:     0.000000
+   
+ RMS Error   1.21E-03 hartrees
+ 
+  Peak memory usage:    551 Mb
+  
+  end of program ch
+   
+ Time(ch)  user:        3.0  user+sys:        3.0  wallclock:        8.4
+  
+  start of program post
+  
+  Writing input files for PBF
+  Peak memory usage:    524 Mb
+  
+  end of program post
+   
+ Time(post)  user:        0.0  user+sys:        0.0  wallclock:        0.4
+
+  start of program pbf
+
+Pbf Version 4.00
+
+Molecular surface area:      420.65399   [A2]
+Reaction field energy:       -20.90460   [kT]
+  Peak memory usage: 513 Mb
+
+  end of program pbf
+
+ Time(pbf)  user:        1.9  user+sys:        2.0  wallclock:        4.3
+  
+  start of program solv
+  
+   number of surface charges from PBF    6048
+   sum of surface charges     -0.00025
+   
+  nuclear repulsion energy.......    5612.857199678 hartrees
+  Peak memory usage:    652 Mb
+  
+  end of program solv
+   
+ Time(solv)  user:        5.0  user+sys:        5.0  wallclock:       12.4
+  
+  start of program scf
+  
+  
+       i  u  d  i  g                   
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -2994.14248455257           1.5E-05  2.3E-04
+etot    2  N  N  1  U   -2994.14246590301 -1.9E-05  0.0E+00  0.0E+00
+  
+  
+ Energy components, in hartrees:
+   (A)  Total zero-electron terms....    5615.07935089740
+   (B)    Nuclear-nuclear............    5612.85719967768
+   (C)    Nuclear-solvent............       2.22215121972
+   (E)  Total one-electron terms.....  -15298.92415741210
+   (F)    Electron-nuclear...........  -18271.11795117462
+   (G)    Electron-solvent...........      -2.26370871101
+   (H)    Kinetic....................    2974.45750247353
+   (I)  Total two-electron terms.....    6689.70234061170
+   (J)    Coulomb....................    7004.30294587509
+   (K)    Exchange+Correlation.......    -314.60060526339
+   (L)  Electronic energy............   -8609.22181680041  (E+I)
+   (N)  Total quantum mech. energy...   -2994.14246590301  (A+L)
+   (O)  Gas phase energy.............   -2994.10243321707
+   (P)  Solution phase energy........   -2994.12168715736  (Q+R+S)
+   (Q)    Total solute energy........   -2994.10090841172  (N-C-G)
+   (R)    Total solvent energy.......      -0.02077874565  (C/2+G/2)
+   (S)    Solute cavity energy.......       0.00000000000
+   (U)  Reorganization energy........       0.00152480535  (Q-O)
+   (V)  Solvation energy.............      -0.01925394029  (P-O)
+  
+ SCFE:  Solution phase energy: DFT(m06-2x)      -2994.12168715736 hartrees
+        SCF iterations:   2
+  
+ 
+ HOMO energy:    -0.28661
+ LUMO energy:    -0.07198
+ 
+  Orbital energies (hartrees): 
+   -90.18212   -90.16466   -78.22719   -25.30120   -25.29983   -25.29880
+   -19.69001   -19.68851   -19.66058   -19.66029   -19.63952   -19.63774
+   -19.61921   -14.82999   -14.82542   -14.79453   -14.76192   -10.81609
+   -10.66932   -10.63605   -10.62835   -10.62117   -10.61170   -10.60755
+   -10.60736   -10.58793   -10.58766   -10.58708   -10.58029   -10.57877
+   -10.57462   -10.57195   -10.56879   -10.56786   -10.56541   -10.56472
+   -10.55901   -10.55021    -8.49217    -8.47346    -7.00510    -6.41449
+    -6.41363    -6.41242    -6.39536    -6.39488    -6.39478    -5.12380
+    -5.12270    -5.12088    -1.46639    -1.37582    -1.37475    -1.25657
+    -1.23268    -1.21462    -1.17013    -1.14508    -1.11955    -1.11851
+    -1.10188    -1.08550    -1.07231    -0.99427    -0.97636    -0.92442
+    -0.91843    -0.90326    -0.89926    -0.88268    -0.85714    -0.84719
+    -0.83956    -0.82205    -0.80706    -0.77452    -0.76704    -0.73864
+    -0.73444    -0.71748    -0.69796    -0.69642    -0.69285    -0.69089
+    -0.69037    -0.68113    -0.67440    -0.66729    -0.65525    -0.64627
+    -0.62712    -0.62289    -0.61247    -0.59793    -0.58547    -0.58341
+    -0.57496    -0.57430    -0.57146    -0.56905    -0.56501    -0.55008
+    -0.54567    -0.54486    -0.54069    -0.53849    -0.53762    -0.53509
+    -0.53156    -0.52698    -0.52391    -0.51862    -0.51565    -0.51213
+    -0.50909    -0.50267    -0.50095    -0.49792    -0.49132    -0.48877
+    -0.48061    -0.47719    -0.46830    -0.46285    -0.46013    -0.45002
+    -0.44524    -0.43705    -0.42892    -0.42495    -0.42033    -0.41570
+    -0.41536    -0.41237    -0.40809    -0.40152    -0.39525    -0.39458
+    -0.39086    -0.38277    -0.36863    -0.36287    -0.35270    -0.35212
+    -0.34417    -0.34255    -0.33977    -0.32237    -0.31538    -0.30948
+    -0.29427    -0.28661    -0.07198    -0.01921    -0.00070     0.00133
+     0.01850     0.01963     0.06402     0.07467     0.08389     0.09314
+ 
+  Peak memory usage:    747 Mb
+  
+  end of program scf
+   
+ Time(scf)  user:      449.0  user+sys:      452.0  wallclock:      980.3
+  
+  start of program sole
+  
+    SCRF                   solvation energy
+  iteration          Hartrees            kcal/mol
+     0               0.0000000            0.0000
+     1              -0.0176786          -11.0935
+     2              -0.0189939          -11.9189
+     3              -0.0192539          -12.0820
+  
+  solvation energy not yet converged... 
+  
+  Peak memory usage:    623 Mb
+  
+  end of program sole
+   
+ Time(sole)  user:        0.0  user+sys:        0.0  wallclock:        0.4
+  
+  start of program ch
+  
+  gridpoints used for charge fit         8051
+    out of a possible maximum of         8051
+  
+   Electrostatic potential fitting constrained to reproduce
+     total charge:                yes
+     dipole moment:               no 
+     traceless quadrupole moment: no 
+     traceless octapole moment:   no 
+  
+  Atomic charges from electrostatic potential: 
+   
+ Atom       C1           C2           C3           C4           H5      
+ Charge    0.04018     -0.24495     -0.20019      0.02196      0.17813
+   
+ Atom       H6           H7           H8           O9           P10     
+ Charge    0.14555      0.15920      0.18966     -0.30637      0.94718
+   
+ Atom       O11          O12          N13          S14          O15     
+ Charge   -0.31256     -0.64203     -0.52707      0.70255     -0.47715
+   
+ Atom       O16          C17          F18          F19          F20     
+ Charge   -0.44248      0.32831     -0.12140     -0.11431     -0.07863
+   
+ Atom       H21          C22          N23          S24          O25     
+ Charge    0.14305     -0.42719     -0.05804      0.75860     -0.46849
+   
+ Atom       O26          C27          C28          N29          C30     
+ Charge   -0.46633     -0.42296      0.41339     -0.60550      0.44139
+   
+ Atom       C31          C32          H33          H34          H35     
+ Charge   -0.33590      0.16075      0.19558      0.05431      0.16187
+   
+ Atom       H36          C37          C38          C39          C40     
+ Charge    0.11807     -0.11507     -0.09636     -0.35765      0.46488
+   
+ Atom       C41          C42          H43          H44          H45     
+ Charge   -0.24688     -0.13571      0.13770      0.15079      0.25264
+   
+ Atom       H46          H47          H48          C49          C50     
+ Charge    0.16433      0.14909      0.21056      0.00865     -0.16978
+   
+ Atom       C51          C52          H53          H54          H55     
+ Charge   -0.25862      0.14007      0.17528      0.16912      0.20732
+   
+ Atom       H56          N57          H58     
+ Charge    0.13062     -0.22429      0.33513
+  
+  sum of atomic charges:     0.000000
+   
+ RMS Error   1.21E-03 hartrees
+ 
+  Peak memory usage:    551 Mb
+  
+  end of program ch
+   
+ Time(ch)  user:        3.0  user+sys:        3.0  wallclock:        8.0
+  
+  start of program post
+  
+  Writing input files for PBF
+  Peak memory usage:    524 Mb
+  
+  end of program post
+   
+ Time(post)  user:        0.0  user+sys:        0.0  wallclock:        0.4
+
+  start of program pbf
+
+Pbf Version 4.00
+
+Molecular surface area:      420.65399   [A2]
+Reaction field energy:       -20.77963   [kT]
+  Peak memory usage: 513 Mb
+
+  end of program pbf
+
+ Time(pbf)  user:        2.0  user+sys:        2.0  wallclock:        4.5
+  
+  start of program solv
+  
+   number of surface charges from PBF    6048
+   sum of surface charges     -0.00024
+   
+  nuclear repulsion energy.......    5612.857199678 hartrees
+  Peak memory usage:    652 Mb
+  
+  end of program solv
+   
+ Time(solv)  user:        5.0  user+sys:        5.0  wallclock:       11.4
+  
+  start of program scf
+  
+  
+       i  u  d  i  g                   
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -2994.14235441193           2.2E-05  3.7E-04
+etot    2  N  Y  1  U   -2994.14229763853 -5.7E-05  1.4E-05  6.3E-04
+etot    3  N  Y  1  U   -2994.14238147968  8.4E-05  4.6E-07  1.4E-05
+etot    4  N  N  1  U   -2994.14238142653 -5.3E-08  0.0E+00  0.0E+00
+  
+  
+ Energy components, in hartrees:
+   (A)  Total zero-electron terms....    5615.05497511979
+   (B)    Nuclear-nuclear............    5612.85719967768
+   (C)    Nuclear-solvent............       2.19777544211
+   (E)  Total one-electron terms.....  -15299.02371332645
+   (F)    Electron-nuclear...........  -18271.24550384355
+   (G)    Electron-solvent...........      -2.23930091576
+   (H)    Kinetic....................    2974.46109143286
+   (I)  Total two-electron terms.....    6689.82635678013
+   (J)    Coulomb....................    7004.42696880091
+   (K)    Exchange+Correlation.......    -314.60061202078
+   (L)  Electronic energy............   -8609.19735654632  (E+I)
+   (N)  Total quantum mech. energy...   -2994.14238142653  (A+L)
+   (O)  Gas phase energy.............   -2994.10243321707
+   (P)  Solution phase energy........   -2994.12161868970  (Q+R+S)
+   (Q)    Total solute energy........   -2994.10085595288  (N-C-G)
+   (R)    Total solvent energy.......      -0.02076273683  (C/2+G/2)
+   (S)    Solute cavity energy.......       0.00000000000
+   (U)  Reorganization energy........       0.00157726419  (Q-O)
+   (V)  Solvation energy.............      -0.01918547263  (P-O)
+  
+ SCFE:  Solution phase energy: DFT(m06-2x)      -2994.12161868970 hartrees
+        SCF iterations:   4
+  
+ 
+ HOMO energy:    -0.28647
+ LUMO energy:    -0.07125
+ 
+  Orbital energies (hartrees): 
+   -90.17988   -90.16399   -78.22656   -25.30101   -25.29919   -25.29878
+   -19.69002   -19.68781   -19.66163   -19.66059   -19.64030   -19.63670
+   -19.61850   -14.82791   -14.82110   -14.79266   -14.76038   -10.81574
+   -10.66599   -10.63346   -10.62850   -10.62304   -10.61126   -10.60777
+   -10.60622   -10.58819   -10.58614   -10.58579   -10.58114   -10.58005
+   -10.57487   -10.57089   -10.57062   -10.56897   -10.56679   -10.56480
+   -10.55924   -10.55029    -8.49007    -8.47281    -7.00447    -6.41238
+    -6.41153    -6.41031    -6.39471    -6.39423    -6.39412    -5.12317
+    -5.12207    -5.12026    -1.46608    -1.37560    -1.37434    -1.25559
+    -1.23223    -1.21422    -1.16985    -1.14453    -1.11905    -1.11811
+    -1.10127    -1.08439    -1.06980    -0.99337    -0.97601    -0.92424
+    -0.91839    -0.90340    -0.89857    -0.88202    -0.85704    -0.84712
+    -0.83916    -0.82192    -0.80608    -0.77409    -0.76601    -0.73816
+    -0.73407    -0.71669    -0.69755    -0.69617    -0.69254    -0.69053
+    -0.68958    -0.68073    -0.67457    -0.66699    -0.65488    -0.64545
+    -0.62671    -0.62229    -0.61163    -0.59765    -0.58520    -0.58290
+    -0.57479    -0.57387    -0.57106    -0.56873    -0.56472    -0.54954
+    -0.54527    -0.54464    -0.54010    -0.53806    -0.53716    -0.53472
+    -0.53129    -0.52662    -0.52362    -0.51829    -0.51521    -0.51184
+    -0.50884    -0.50246    -0.50069    -0.49731    -0.49100    -0.48821
+    -0.48070    -0.47758    -0.46809    -0.46273    -0.46005    -0.44973
+    -0.44455    -0.43663    -0.42869    -0.42415    -0.42000    -0.41541
+    -0.41492    -0.41188    -0.40766    -0.40094    -0.39463    -0.39407
+    -0.39031    -0.38218    -0.36810    -0.36254    -0.35209    -0.35122
+    -0.34379    -0.34202    -0.33937    -0.32171    -0.31539    -0.30936
+    -0.29364    -0.28647    -0.07125    -0.01854    -0.00032     0.00151
+     0.01860     0.01994     0.06406     0.07467     0.08472     0.09385
+ 
+  Peak memory usage:    747 Mb
+  
+  end of program scf
+   
+ Time(scf)  user:     1360.0  user+sys:     1370.0  wallclock:     3116.7
+  
+  start of program sole
+  
+    SCRF                   solvation energy
+  iteration          Hartrees            kcal/mol
+     0               0.0000000            0.0000
+     1              -0.0176786          -11.0935
+     2              -0.0189939          -11.9189
+     3              -0.0192539          -12.0820
+     4              -0.0191855          -12.0391
+  
+  stopping: solvation energy converged
+  
+  iterations:   4    sfinal:    -12.0391 kcal/mol
+  
+  Peak memory usage:    623 Mb
+  
+  end of program sole
+   
+ Time(sole)  user:        0.0  user+sys:        0.0  wallclock:        0.4
+  
+  start of program post
+  
+  Writing input files for PBF
+  Peak memory usage:    524 Mb
+  
+  end of program post
+   
+ Time(post)  user:        0.0  user+sys:        0.0  wallclock:        0.5
+
+ Total cpu seconds     user:    8607.000   user+sys:    8669.000
+  
+ Total elapsed time:    16751 seconds
+
+Job ModelCatalyst-8BindtoN-5-TS-fine-grid-uf-acc-sol_canonical1 completed on tethys at Mon Jan 30 15:07:26 2017

@@ -1,0 +1,101 @@
+[running at reduced cpu priority]
+Job M06-2X-SPE-Toru-SiPh3-Type-I-Z-1-chkp-unrestrained.out started on tethys at Wed Nov 23 14:04:48 2016
+jobid: tethys-0-5835a1ff 
+Jaguar version 8.4, release  16
+Molecular Point Group: C1      
+Point Group used: C1
+pre (input checking) done.
+onee (1-electron integrals) done.
+hfig (HF initial guess) done.
+probe (project orbitals) done.
+grid (grid generation) done.
+rwr (Q operators) done.
+scf type: DFT=M06-2X
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5562.67256751099           4.2E-03  1.1E-01
+etot    2  N  Y  1  U   -5522.37727354276 -4.0E+01  1.6E-02  1.4E-01
+etot    3  N  Y  1  U   -5304.84903976656 -2.2E+02  1.5E-02  4.7E-01
+etot    4  N  Y  1  U   -5570.80672036499  2.7E+02  2.4E-03  8.4E-02
+etot    5  N  Y  1  U   -5573.15062661196  2.3E+00  1.5E-03  4.0E-02
+etot    6  N  Y  1  U   -5572.97942202710 -1.7E-01  9.8E-04  4.0E-02
+etot    7  N  Y  1  U   -5575.46948720330  2.5E+00  2.2E-04  8.0E-03
+etot    8  N  Y  1  U   -5575.54327550542  7.4E-02  7.8E-05  3.1E-03
+etot    9  N  Y  1  U   -5575.54951167421  6.2E-03  3.3E-05  1.4E-03
+etot   10  N  Y  1  U   -5575.55135762663  1.8E-03  1.2E-05  4.2E-04
+etot   11  N  Y  1  U   -5575.55157604582  2.2E-04  6.6E-06  2.6E-04
+etot   12  N  Y  1  U   -5575.55164802208  7.2E-05  3.9E-06  1.2E-04
+etot   13  N  N  1  U   -5575.55166469860  1.7E-05  0.0E+00  0.0E+00
+scf (DFT) done.
+--------gas phase calculation complete----------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.58881911122           5.2E-05  8.5E-04
+etot    2  N  Y  1  U   -5575.58961884391  8.0E-04  1.7E-05  6.5E-04
+etot    3  N  Y  1  U   -5575.58985336677  2.3E-04  5.5E-06  2.9E-04
+etot    4  N  Y  1  U   -5575.58990398250  5.1E-05  2.5E-06  7.9E-05
+etot    5  N  N  1  U   -5575.58991105070  7.1E-06  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  1 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.59258509524           6.1E-06  1.0E-04
+etot    2  N  N  1  U   -5575.59258767998  2.6E-06  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  2 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.59292395585           5.5E-06  1.0E-04
+etot    2  N  N  1  U   -5575.59290867247 -1.5E-05  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  3 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.59279619266           8.7E-06  1.5E-04
+etot    2  N  Y  1  U   -5575.59274096505 -5.5E-05  5.7E-06  2.6E-04
+etot    3  N  Y  1  U   -5575.59281878436  7.8E-05  2.1E-07  1.1E-05
+etot    4  N  N  1  U   -5575.59281917295  3.9E-07  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----final solvation iteration  4 complete------------------
+post (output conversion) done.
+Job M06-2X-SPE-Toru-SiPh3-Type-I-Z-1-chkp-unrestrained.out completed on tethys at Thu Nov 24 14:55:36 2016

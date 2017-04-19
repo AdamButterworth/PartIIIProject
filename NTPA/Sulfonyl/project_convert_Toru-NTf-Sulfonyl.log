@@ -1,0 +1,14 @@
+Project converter started: Fri Mar  3 14:29:21 2017 GMT
+Input project name: /home/ab2144/Toru-NTf-Sulfonyl.prj
+Output project name:/home/ab2144/Toru-NTf-Sulfonyl_new.prj
+
+Started the copy conversion...
+Unlocked the source project
+Started Strucutures table conversion.
+Completed Strucutures table conversion.
+Started converting RowInfo and GroupInfo tables.
+Completed converting RowInfo and GroupInfo tables
+Deleted old RowInfo and GroupInfo tables
+Completed upgrading RowInfo and GroupInfo tables
+Unlocked the project '/home/ab2144/Toru-NTf-Sulfonyl_new.prj'
+Converted the project successfully...

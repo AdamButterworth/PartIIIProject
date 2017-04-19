@@ -1,0 +1,1 @@
+"jaguar" "run" "-jobname=Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE_3" "Toru-SiPh3-NTf-Type-II-E-Sulfonyl-1-chkp-scan-207-unrestrained-IRC-min-disp-2-SPE_3.in" "-HOST" "localhost:1" "-TMPLAUNCHDIR" "-ATTACHED"

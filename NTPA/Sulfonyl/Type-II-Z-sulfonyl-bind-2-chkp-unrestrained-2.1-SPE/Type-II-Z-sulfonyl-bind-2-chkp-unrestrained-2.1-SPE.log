@@ -1,0 +1,126 @@
+Command:    jaguar run jexec.py -jobname Type-II-Z-sulfonyl-bind-2-chkp-unrestrained-2.1-SPE -nsubjobs 1 Type-II-Z-sulfonyl-bind-2-chkp-unrestrained-2.1-SPE.in
+[running at reduced cpu priority]
+Release:    2017-1
+Exec:       /usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64
+Host:       tethys
+JobId:      tethys-0-58c142ce
+JobDir:     /scratch/ab2144/Type-II-Z-sulfonyl-bind-2-chkp-unrestrained-2.1-SPE
+Date:       Thu Mar  9 11:56:00 2017
+
+Contents of /scratch/ab2144/Type-II-Z-sulfonyl-bind-2-chkp-unrestrained-2.1-SPE:
+/scratch/ab2144/Type-II-Z-sulfonyl-bind-2-chkp-unrestrained-2.1-SPE/Type-II-Z-sulfonyl-bind-2-chkp-unrestrained-2.1-SPE.mae
+/scratch/ab2144/Type-II-Z-sulfonyl-bind-2-chkp-unrestrained-2.1-SPE/tethys-0-58c142ce
+/scratch/ab2144/Type-II-Z-sulfonyl-bind-2-chkp-unrestrained-2.1-SPE/Type-II-Z-sulfonyl-bind-2-chkp-unrestrained-2.1-SPE.in
+/scratch/ab2144/Type-II-Z-sulfonyl-bind-2-chkp-unrestrained-2.1-SPE/tethys-0-58c142ce.nodes
+/scratch/ab2144/Type-II-Z-sulfonyl-bind-2-chkp-unrestrained-2.1-SPE/tethys-0-58c142ce.recover
+/scratch/ab2144/Type-II-Z-sulfonyl-bind-2-chkp-unrestrained-2.1-SPE/Type-II-Z-sulfonyl-bind-2-chkp-unrestrained-2.1-SPE.recover
+/scratch/ab2144/Type-II-Z-sulfonyl-bind-2-chkp-unrestrained-2.1-SPE/Type-II-Z-sulfonyl-bind-2-chkp-unrestrained-2.1-SPE.log
+
+Executing subprocess:
+/usr/local/shared/schrodinger/current/jaguar-v9.5/bin/Linux-x86_64/jexec Type-II-Z-sulfonyl-bind-2-chkp-unrestrained-2.1-SPE.in -cwd -out /scratch/ab2144/Type-II-Z-sulfonyl-bind-2-chkp-unrestrained-2.1-SPE
+
+[running at reduced cpu priority]
+[running at reduced cpu priority]
+Job Type-II-Z-sulfonyl-bind-2-chkp-unrestrained-2.1-SPE started on tethys at Thu Mar  9 11:56:00 2017
+jobid: tethys-0-58c142ce 
+Jaguar version 9.5, release  11
+Molecular Point Group: C1      
+Point Group used: C1
+pre (input checking) done.
+onee (1-electron integrals) done.
+hfig (HF initial guess) done.
+probe (project orbitals) done.
+grid (grid generation) done.
+rwr (Q operators) done.
+scf type: DFT=M06-2X
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5562.77201248332           3.5E-03  1.1E-01
+etot    2  N  Y  1  U   -5541.99195555178 -2.1E+01  1.5E-02  1.0E-01
+etot    3  N  Y  1  U   -5360.16018256909 -1.8E+02  1.4E-02  3.0E-01
+etot    4  N  Y  1  U   -5561.50004276880  2.0E+02  3.1E-03  9.2E-02
+etot    5  N  Y  1  U   -5573.47044047820  1.2E+01  1.8E-03  3.7E-02
+etot    6  N  Y  1  U   -5568.63987722181 -4.8E+00  1.5E-03  8.3E-02
+etot    7  N  Y  1  U   -5573.99647701066  5.4E+00  8.2E-04  3.0E-02
+etot    8  N  Y  1  U   -5575.51694321583  1.5E+00  1.7E-04  7.8E-03
+etot    9  N  Y  1  U   -5575.52707594146  1.0E-02  8.8E-05  6.2E-03
+etot   10  N  Y  1  U   -5575.54121721745  1.4E-02  3.3E-05  1.2E-03
+etot   11  N  Y  1  U   -5575.54247777022  1.3E-03  1.9E-05  7.8E-04
+etot   12  N  Y  1  U   -5575.54305746731  5.8E-04  8.1E-06  2.4E-04
+etot   13  N  Y  1  U   -5575.54312646205  6.9E-05  3.0E-06  2.0E-04
+etot   14  N  N  1  U   -5575.54314184079  1.5E-05  0.0E+00  0.0E+00
+scf (DFT) done.
+--------gas phase calculation complete----------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.58016043584           5.1E-05  1.1E-03
+etot    2  N  Y  1  U   -5575.58094203136  7.8E-04  1.7E-05  8.8E-04
+etot    3  N  Y  1  U   -5575.58119341322  2.5E-04  5.6E-06  4.5E-04
+etot    4  N  Y  1  U   -5575.58124434196  5.1E-05  2.5E-06  1.1E-04
+etot    5  N  N  1  U   -5575.58125157179  7.2E-06  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  1 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.58393906857           6.0E-06  1.6E-04
+etot    2  N  N  1  U   -5575.58394104640  2.0E-06  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  2 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.58426902644           5.6E-06  1.3E-04
+etot    2  N  N  1  U   -5575.58425274067 -1.6E-05  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----------solvation iteration  3 complete------------------
+ch (properties) done.
+post (output conversion) done.
+pbf (Poisson-Boltzmann solver) done.
+solv (solvation checking) done.
+  
+       i  u  d  i  g
+       t  p  i  c  r                                 RMS    maximum
+       e  d  i  u  i                       energy  density   DIIS  
+       r  t  s  t  d       total energy    change  change    error 
+  
+etot    1  N  N  1  U   -5575.58415006468           8.8E-06  2.2E-04
+etot    2  N  Y  1  U   -5575.58409484739 -5.5E-05  5.7E-06  3.9E-04
+etot    3  N  Y  1  U   -5575.58417361156  7.9E-05  2.0E-07  1.1E-05
+etot    4  N  N  1  U   -5575.58417365654  4.5E-08  0.0E+00  0.0E+00
+scf (DFT) done.
+sole (solvation energy) done.
+----final solvation iteration  4 complete------------------
+post (output conversion) done.
+Job Type-II-Z-sulfonyl-bind-2-chkp-unrestrained-2.1-SPE completed on tethys at Fri Mar 10 12:07:02 2017
+Timer (jaguar_backend.py) : 87062.96 secs (1 day, 0 hrs, 11 mins, 02 secs)
+Finished:   Fri Mar 10 12:07:03 2017

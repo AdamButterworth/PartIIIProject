@@ -1,0 +1,9 @@
+Name: Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-min-disp-SPE
+JobId: tethys-0-58cfc4e8
+Commandline: /usr/local/shared/schrodinger/current/jaguar run -jobname=Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-min-disp-SPE Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-min-disp-SPE.in -HOST localhost:1 -PROJ "/home/ab2144/Toru Files/Toru-Catalyst-Conformation_new.prj" -DISP append -VIEWNAME jaguar_gui_dir.single_point_energy.SinglePointEnergy -TMPLAUNCHDIR -ATTACHED
+Outfiles:
+- Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-min-disp-SPE.log
+- Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-min-disp-SPE.01.mae
+- Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-min-disp-SPE.out
+- Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-min-disp-SPE.01.in
+- Toru-SiPh3-NTf-Type-I-E-3-chkp-unrestrained-IRC-min-disp-SPE.recover

@@ -1,0 +1,48 @@
+bmin_driver. Copyright (c) Schrodinger, LLC.
+
+[running at reduced cpu priority]
+Job id: tethys-0-5829a590
+Launch directory: /home/ab2144
+Job directory: /home/ab2144/.schrodinger/tmp/Toru-SiPh3-Z
+Running locally: False
+======================================
+Running bmin_driver
+Mon, 14 Nov 2016 11:52:49.617851
+Version: 104016
+Command: /usr/local/shared/schrodinger/current/macromodel-v104016/bin/Linux-x86_64/bmin_driver.py -imae Toru-SiPh3-Z.mae -omae Toru-SiPh3-Z-out.maegz -NJOBS 2
+.....................................
+
+All output structures will be stored in one file called 'Toru-SiPh3-Z-out.maegz'
+Number of structures to process                     : 1
+More jobs requested (2) than number of structures to process (1).
+Number of jobs set to 1.
+Generated 1 jobs
+Preparing subjobs...
+ subjobinfo subjobname Toru-SiPh3-Z-out_subjob_1
+ subjobinfo input      Toru-SiPh3-Z_subjob_1.mae
+ subjobinfo output     Toru-SiPh3-Z-out_subjob_1.maegz
+ subjobinfo log        Toru-SiPh3-Z-out_subjob_1.log
+Copied data file Toru-SiPh3-Z-out_subjob_1.com
+Running subjobs...
+
+Running subjobs on hosts:
+  localhost (Max: 2)
+Number of jobs:       1
+Max retries per job:  2
+Max allowed failures: unlimited
+Run with -LOCAL:      False
+Verbosity:            verbose
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 0 | launched  tethys-0-5829a596 Toru-SiPh3-Z-out_subjob_1 localhost [tethys]
+Subjob 'Toru-SiPh3-Z-out_subjob_1' has died, action='killed'
+0 0 1 | killed    tethys-0-5829a596 Toru-SiPh3-Z-out_subjob_1 localhost [tethys]
